@@ -1,0 +1,68 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			"**/Thumbs.db": true,
+			"**/.pytest_cache": true,
+			"**/.vscode": true,
+			"**/__pycache__": true,
+			"**/node_modules": true,
+			"*.sublime-*": true,
+			"env*": true,
+			"venv": true,
+			"ShaderCache.cooked": true,
+			"Errors": true,
+			"Logs": true,
+			"Screenshots": true
+		},
+		"vscodeGitCommit.template": [
+			"{feat}: {message}"
+		  ],
+		  "vscodeGitCommit.variables": {
+			"feat": [
+			  {
+				"label": "new",
+				"detail": "Added a new mod"
+			  },
+			  {
+				"label": "update",
+				"detail": "Updated an existing mod"
+			  },
+			  {
+				"label": "remove",
+				"detail": "Removed a mod that was installed"
+			  }
+			  {
+				"label": "config",
+				"detail": "Custom configurations for myself"
+			  },
+			  {
+				"label": "tweaks",
+				"detail": "Minor tweaks or files edited/written by the game"
+			  },
+			  {
+				"label": "fix",
+				"detail": "Something broke, and this should fix it"
+			  },
+			  {
+				"label": "docs",
+				"detail": "Updates to documentation, readme, notes, etc."
+			  },
+			  {
+				"label": "meta",
+				"detail": "Meta stuff pertaining to the repository itself"
+			  }
+			]
+		  },
+		"explorerExclude.backup": null
+	}
+}
