@@ -47,21 +47,21 @@ local function OnAddOnLoaded( eventCode, addonName )
 	if (not LibMultiAccountSetsData) then LibMultiAccountSetsData = { } end
 	Internal.data = LibMultiAccountSetsData
 	if (not Internal.data[Internal.server]) then Internal.data[Internal.server] = { } end
-	Internal.serverData = Internal.data[Internal.server]
+	local currentServerData = Internal.data[Internal.server]
 
 	-- Remove accounts that should not be saved
-	for account in pairs(Internal.serverData) do
+	for account in pairs(currentServerData) do
 		if (not Internal.CanSave(account)) then
-			Internal.serverData[account] = nil
+			currentServerData[account] = nil
 		end
 	end
 
 	-- Prepare the data store for the current account
 	if (Internal.CanSave()) then
-		if (not Internal.serverData[Internal.account]) then
-			Internal.serverData[Internal.account] = { }
+		if (not currentServerData[Internal.account]) then
+			currentServerData[Internal.account] = { }
 		end
-		Internal.currentSlots = Internal.serverData[Internal.account]
+		Internal.currentSlots = currentServerData[Internal.account]
 	end
 
 	LCCC.RunAfterInitialLoadscreen(function( )

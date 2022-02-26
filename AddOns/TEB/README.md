@@ -69,6 +69,12 @@ The Elder Bar Reloaded is an addon for Elder Scrolls Online. This addon adds an 
 40. Writ Vouchers
 
 ## Change Log
+Changes in version 11.4.6 (2022-02-22)
+	- updated for API 101033 (Ascending Tide)
+
+Changes in version 11.4.5 (2022-01-21)
+	- changed behaviour of Mount gadget
+	
 Changes in version 11.4.4 (2021-11-01)
 	- updated for API 101032 (Deadlands)
 	- minor fixes

@@ -19,15 +19,15 @@ Public.EVENT_COLLECTION_UPDATED = 2
 
 
 --------------------------------------------------------------------------------
--- Base-Game Analogues
+-- Base-Game Analogues (plus IsItemSetCollectionItemLinkUnlocked)
 --------------------------------------------------------------------------------
 
-function Public.GetNumItemSetCollectionSlotsUnlockedForAccount( account, itemSetId )
-	if (account == nil or account == Internal.account) then
+function Public.GetNumItemSetCollectionSlotsUnlockedForAccountEx( server, account, itemSetId )
+	if (server == Internal.server and (account == nil or account == Internal.account)) then
 		return GetNumItemSetCollectionSlotsUnlocked(itemSetId)
-	elseif (Internal.serverData[account] and Internal.serverData[account][itemSetId]) then
+	elseif (Internal.data[server] and Internal.data[server][account] and Internal.data[server][account][itemSetId]) then
 		local found = 0
-		local slotId = Internal.serverData[account][itemSetId]
+		local slotId = Internal.data[server][account][itemSetId]
 
 		while (slotId > 0) do
 			if (slotId % 2 == 1) then
@@ -42,30 +42,30 @@ function Public.GetNumItemSetCollectionSlotsUnlockedForAccount( account, itemSet
 	end
 end
 
-function Public.IsItemSetCollectionSlotUnlockedForAccount( account, itemSetId, slot )
-	if (account == nil or account == Internal.account) then
+function Public.IsItemSetCollectionSlotUnlockedForAccountEx( server, account, itemSetId, slot )
+	if (server == Internal.server and (account == nil or account == Internal.account)) then
 		return IsItemSetCollectionSlotUnlocked(itemSetId, slot)
-	elseif (Internal.serverData[account]) then
-		return Internal.CheckSlot(Internal.serverData[account][itemSetId], Id64ToString(slot) + 0)
+	elseif (Internal.data[server] and Internal.data[server][account]) then
+		return Internal.CheckSlot(Internal.data[server][account][itemSetId], Id64ToString(slot) + 0)
 	else
 		return false
 	end
 end
 
-function Public.IsItemSetCollectionPieceUnlockedForAccount( account, pieceId )
-	if (account == nil or account == Internal.account) then
+function Public.IsItemSetCollectionPieceUnlockedForAccountEx( server, account, pieceId )
+	if (server == Internal.server and (account == nil or account == Internal.account)) then
 		return IsItemSetCollectionPieceUnlocked(pieceId)
 	else
-		return Public.IsItemSetCollectionItemLinkUnlockedForAccount(account, GetItemSetCollectionPieceItemLink(pieceId, LINK_STYLE_DEFAULT, ITEM_TRAIT_TYPE_NONE))
+		return Public.IsItemSetCollectionItemLinkUnlockedForAccountEx(server, account, GetItemSetCollectionPieceItemLink(pieceId, LINK_STYLE_DEFAULT, ITEM_TRAIT_TYPE_NONE))
 	end
 end
 
-function Public.GetItemReconstructionCurrencyOptionCostForAccount( account, itemSetId, currencyType )
-	if (account == nil or account == Internal.account) then
+function Public.GetItemReconstructionCurrencyOptionCostForAccountEx( server, account, itemSetId, currencyType )
+	if (server == Internal.server and (account == nil or account == Internal.account)) then
 		return GetItemReconstructionCurrencyOptionCost(itemSetId, currencyType)
 	elseif (currencyType == CURT_CHAOTIC_CREATIA) then
 		local setSize = GetNumItemSetCollectionPieces(itemSetId)
-		local collected = Public.GetNumItemSetCollectionSlotsUnlockedForAccount(account, itemSetId)
+		local collected = Public.GetNumItemSetCollectionSlotsUnlockedForAccountEx(server, account, itemSetId)
 		if (setSize > 0 and collected > 0) then
 			local completion = (setSize == 1) and 1 or (collected - 1) / (setSize - 1)
 			return zo_floor(75 - 50 * completion)
@@ -74,28 +74,41 @@ function Public.GetItemReconstructionCurrencyOptionCostForAccount( account, item
 	return nil
 end
 
+function Public.IsItemSetCollectionItemLinkUnlockedForAccountEx( server, account, itemLink )
+	if (server == Internal.server and (account == nil or account == Internal.account)) then
+		return IsItemSetCollectionPieceUnlocked(GetItemLinkItemId(itemLink))
+	else
+		return Public.IsItemSetCollectionSlotUnlockedForAccountEx(server, account, select(6, GetItemLinkSetInfo(itemLink)), GetItemLinkItemSetCollectionSlot(itemLink))
+	end
+end
+
 
 --------------------------------------------------------------------------------
 -- Other Functions
 --------------------------------------------------------------------------------
 
-function Public.GetAccountList( excludeCurrentAccount )
+function Public.GetAccountListEx( server, excludeCurrentAccount )
 	local accounts = { }
-	for account in pairs(Internal.serverData) do
-		if (not (excludeCurrentAccount and account == Internal.account)) then
-			table.insert(accounts, account)
+	if (Internal.data[server]) then
+		for account in pairs(Internal.data[server]) do
+			if (not (excludeCurrentAccount and server == Internal.server and account == Internal.account)) then
+				table.insert(accounts, account)
+			end
 		end
+		table.sort(accounts)
 	end
-	table.sort(accounts)
 	return accounts
 end
 
-function Public.IsItemSetCollectionItemLinkUnlockedForAccount( account, itemLink )
-	if (account == nil or account == Internal.account) then
-		return IsItemSetCollectionPieceUnlocked(GetItemLinkItemId(itemLink))
-	else
-		return Public.IsItemSetCollectionSlotUnlockedForAccount(account, select(6, GetItemLinkSetInfo(itemLink)), GetItemLinkItemSetCollectionSlot(itemLink))
+function Public.GetServerAndAccountList( )
+	local results = { }
+	for _, server in ipairs(Internal.GetSortedKeys(Internal.data, Internal.server)) do
+		local accounts = Internal.GetSortedKeys(Internal.data[server], Internal.account)
+		if (#accounts > 0) then
+			table.insert(results, { server = server, accounts = accounts })
+		end
 	end
+	return results
 end
 
 function Public.GetItemCollectionAndTradabilityStatus( accounts, itemLink, itemSource )
@@ -151,12 +164,12 @@ function Public.GetItemCollectionAndTradabilityStatus( accounts, itemLink, itemS
 	end
 end
 
-function Public.GetLastScanTime( account )
+function Public.GetLastScanTimeEx( server, account )
 	local timestamp
-	if (account == nil or account == Internal.account) then
+	if (server == Internal.server and (account == nil or account == Internal.account)) then
 		timestamp = Internal.currentSlots.timestamp
-	elseif (Internal.serverData[account]) then
-		timestamp = Internal.serverData[account].timestamp
+	elseif (Internal.data[server] and Internal.data[server][account]) then
+		timestamp = Internal.data[server][account].timestamp
 	end
 	return timestamp or 0
 end
@@ -166,18 +179,18 @@ end
 -- Raw Data Access
 --------------------------------------------------------------------------------
 
-function Public.GetRawData( account, itemSetId )
+function Public.GetRawDataEx( server, account, itemSetId )
 	if (type(account) == "string" and type(itemSetId) == "number") then
-		return Internal.serverData[account] and Internal.serverData[account][itemSetId]
+		return Internal.data[server] and Internal.data[server][account] and Internal.data[server][account][itemSetId]
 	else
 		return nil
 	end
 end
 
-function Public.SetRawData( account, itemSetId, slots )
+function Public.SetRawDataEx( server, account, itemSetId, slots )
 	if (type(account) == "string" and type(itemSetId) == "number" and type(slots) == "number" and slots >= 0 and slots < 0x1000000000 and zo_floor(slots) == slots) then
-		if (account ~= Internal.account and Internal.serverData[account] and Internal.currentSlots[itemSetId]) then
-			Internal.serverData[account][itemSetId] = slots
+		if (account ~= Internal.account and Internal.data[server] and Internal.data[server][account] and Internal.currentSlots[itemSetId]) then
+			Internal.data[server][account][itemSetId] = slots
 			return true
 		end
 	end
@@ -213,6 +226,39 @@ end
 function Internal.FireCallbacks( eventCode, ... )
 	for _, callback in pairs(Internal.callbacks[eventCode]) do
 		callback(eventCode, ...)
+	end
+end
+
+
+--------------------------------------------------------------------------------
+-- Server-Aware API
+--------------------------------------------------------------------------------
+
+local SERVERLESS_FUNCTION_NAMES = {
+	"GetNumItemSetCollectionSlotsUnlockedForAccount",
+	"IsItemSetCollectionSlotUnlockedForAccount",
+	"IsItemSetCollectionPieceUnlockedForAccount",
+	"GetItemReconstructionCurrencyOptionCostForAccount",
+	"IsItemSetCollectionItemLinkUnlockedForAccount",
+	"GetAccountList",
+	"GetLastScanTime",
+	"GetRawData",
+	"SetRawData",
+}
+
+for _, name in ipairs(SERVERLESS_FUNCTION_NAMES) do
+	local nameEx = name .. "Ex"
+
+	-- Standardize the server parameter input check as common code across all functions
+	local fn = Public[nameEx]
+	Public[nameEx] = function( server, ... )
+		if (not server or server == "") then server = Internal.server end
+		return fn(server, ...)
+	end
+
+	-- Re-create the severless functions for backwards compatibility
+	Public[name] = function( ... )
+		return Public[nameEx](nil, ...)
 	end
 end
 

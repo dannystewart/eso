@@ -3,7 +3,7 @@ TEB = {
     displayName = "The Elder Bar |cD6660CReloaded|r",
     author = "SimonIllyan",
     website = "",
-    version = "11.4.3",
+    version = "11.4.6",
     debug = { },
 }
 
@@ -477,7 +477,7 @@ local conditionsTable = {
     food            = function() return G.food.TimerRunning or not settings.food.Dynamic or settings.food.PulseAfter and G.foodBuffWasActive end,
     ft              = function() return G.ft.TimerRunning or not settings.ft.Dynamic end,
     mail            = function() return G.mail.Unread or not settings.mail.Dynamic end,
-    mount           = function() return settings.mount.Dynamic == "always" or settings.mount.Dynamic == "free" and not G.mount.TimerRunning or settings.mount.Dynamic == "running" and G.mount.TimerRunning end,
+    mount           = function() local D = settings.mount.Dynamic; return D == "always" or D == "maxed" and not G.mount.TimerMaxed or D == "free" and not G.mount.TimerRunning or D == "running" and G.mount.TimerRunning end,
     vampirism       = function() return G.isVampire or not settings.vampirism.Dynamic end,
 }
 
@@ -2601,9 +2601,10 @@ local function OnUpdate(force)
     local name, gadget, func, k, v
     if not G.addonInitialized or not settings then return end
 
-    G.refreshTimer = (G.refreshTimer + 1) % 20
-    -- once every 20 ticks, or on demand
-    if G.refreshTimer == 0 or force then
+    G.refreshTimer = G.refreshTimer + 1
+    -- once every 60 ticks, or on demand
+    if G.refreshTimer == 60 or force then
+        G.refreshTimer = 0
         -- rebuild data for every gadget
         local _, func
         for _, func in ipairs(TEBfunctions) do
@@ -2622,23 +2623,25 @@ local function OnUpdate(force)
         UpdateControlsPosition()
     end
 
-    G.pulseTimer = (G.pulseTimer + 1) % 60
     if settings.bar.pulseType == "none" then
         pulseAlpha = 1
-    elseif settings.bar.pulseType == "fade in" then
-        pulseAlpha = G.pulseTimer / 60
-    elseif settings.bar.pulseType == "fade out" then
-        pulseAlpha =  1 - G.pulseTimer / 60
-    elseif settings.bar.pulseType == "fade in/out" then
-        pulseAlpha = math.abs(30 - G.pulseTimer) / 30
-    elseif settings.bar.pulseType == "slow toggle" then
-        pulseAlpha = G.pulseTimer < 30 and 2 or 3
-    elseif settings.bar.pulseType == "slow blink" then
-        pulseAlpha = G.pulseTimer < 30 and 1 or 0
-    elseif settings.bar.pulseType == "fast blink" then
-        pulseAlpha =  math.floor(G.pulseTimer / 15) % 2 == 1 and 1 or 0
+    else
+        G.pulseTimer = (G.pulseTimer + 1) % 60
+        if settings.bar.pulseType == "fade in" then
+            pulseAlpha = G.pulseTimer / 60
+        elseif settings.bar.pulseType == "fade out" then
+            pulseAlpha =  1 - G.pulseTimer / 60
+        elseif settings.bar.pulseType == "fade in/out" then
+            pulseAlpha = math.abs(30 - G.pulseTimer) / 30
+        elseif settings.bar.pulseType == "slow toggle" then
+            pulseAlpha = G.pulseTimer < 30 and 2 or 3
+        elseif settings.bar.pulseType == "slow blink" then
+            pulseAlpha = G.pulseTimer < 30 and 1 or 0
+        elseif settings.bar.pulseType == "fast blink" then
+            pulseAlpha =  math.floor(G.pulseTimer / 15) % 2 == 1 and 1 or 0
+        end
     end
-
+    
     for i = 1, #G.pulseList do
         if pulseAlpha < 2 then
             local g = gadgetReference[G.pulseList[i]]
@@ -4149,8 +4152,8 @@ local function CreateSettingsWindow()
                 {
                     type = "dropdown",
                     name = "Show this gadget",
-                    choices = { "always", "only when training", "only when not training" },
-                    choicesValues = { "always", "running", "free" },
+                    choices = { "always", "only when training", "only when not training", "only when not maxed" },
+                    choicesValues = { "always", "running", "free", "maxed" },
                     default = "always",
                     tooltip = "When to show the icon and timer.",
                     getFunc = function() return settings.mount.Dynamic end,

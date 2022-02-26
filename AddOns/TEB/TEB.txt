@@ -1,9 +1,9 @@
 ## Title: The Elder Bar |cD6660CReloaded|r
 ## Description: The Elder Bar adds a configurable information bar anywhere on the screen.
 ## Author: SimonIllyan (original The Elder Bar: Eldrni)
-## Version: 11.4.4
-## AddOnVersion: 11.4.4
-## APIVersion: 101032
+## Version: 11.4.6
+## AddOnVersion: 11.4.6
+## APIVersion: 101033
 ## SavedVariables: TEBSavedVariables
 ## DependsOn: LibAddonMenu-2.0>=32 LibFoodDrinkBuff>=17 LibSavedVars>=60004
 ## OptionalDependsOn: LibClockTST-1.0

@@ -8,9 +8,9 @@
 ## Description: Library for tracking Item Set Collection progress across multiple accounts
 ## Author: @code65536
 ## IsLibrary: true
-## Version: 2.0.5
-## AddOnVersion: 11
-## APIVersion: 100034 100035
+## Version: 3.0.0
+## AddOnVersion: 12
+## APIVersion: 101032 101033
 ## SavedVariables: LibMultiAccountSetsSavedVariables LibMultiAccountSetsData
 ## OptionalDependsOn: LibAddonMenu-2.0
 
@@ -25,6 +25,14 @@ Public.lua
 Settings.lua
 
 ; Changelog:
+;
+; Version 3.0.0 (2022/02/23)
+; * For addon developers: It is now possible to query item set collection data
+;   for accounts on another server using new extended variants of the current
+;   functions; see the documentation for more details
+;
+; Version 2.0.6 (2021/09/28)
+; * API version bump for Update 32 (The Deadlands)
 ;
 ; Version 2.0.5 (2021/05/24)
 ; * When exporting data for multiple accounts using the data sharing feature,
