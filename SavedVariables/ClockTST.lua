@@ -8,15 +8,20 @@ ClockTST_Settings =
             {
                 ["attributes"] = 
                 {
+                    ["core"] = 
+                    {
+                        ["scaleFactor"] = 1,
+                    },
+                    ["version"] = 1,
                     ["moon"] = 
                     {
+                        ["dimension"] = 
+                        {
+                            ["height"] = 331,
+                            ["width"] = 336,
+                        },
                         ["secunda"] = 
                         {
-                            ["dimension"] = 
-                            {
-                                ["height"] = 160,
-                                ["width"] = 160,
-                            },
                             ["anchor"] = 
                             {
                                 ["relativeTo"] = "Clock_TST_Moon",
@@ -25,8 +30,12 @@ ClockTST_Settings =
                                 ["offsetX"] = 0,
                                 ["offsetY"] = 0,
                             },
+                            ["dimension"] = 
+                            {
+                                ["height"] = 160,
+                                ["width"] = 160,
+                            },
                         },
-                        ["scale"] = 0.3800000000,
                         ["anchor"] = 
                         {
                             ["offsetX"] = 1863.6740373883,
@@ -34,18 +43,8 @@ ClockTST_Settings =
                             ["point"] = 3,
                             ["offsetY"] = 221.5000000000,
                         },
-                        ["dimension"] = 
-                        {
-                            ["height"] = 331,
-                            ["width"] = 336,
-                        },
                         ["masser"] = 
                         {
-                            ["dimension"] = 
-                            {
-                                ["height"] = 256,
-                                ["width"] = 256,
-                            },
                             ["anchor"] = 
                             {
                                 ["relativeTo"] = "Clock_TST_Moon",
@@ -54,15 +53,16 @@ ClockTST_Settings =
                                 ["offsetX"] = 0,
                                 ["offsetY"] = 0,
                             },
+                            ["dimension"] = 
+                            {
+                                ["height"] = 256,
+                                ["width"] = 256,
+                            },
                         },
+                        ["scale"] = 0.3800000000,
                     },
                     ["time"] = 
                     {
-                        ["dimension"] = 
-                        {
-                            ["height"] = 15,
-                            ["width"] = 45,
-                        },
                         ["anchor"] = 
                         {
                             ["offsetX"] = 1867.2500348772,
@@ -70,21 +70,140 @@ ClockTST_Settings =
                             ["point"] = 3,
                             ["offsetY"] = 237,
                         },
+                        ["dimension"] = 
+                        {
+                            ["height"] = 15,
+                            ["width"] = 45,
+                        },
                     },
+                },
+                ["styles"] = 
+                {
                     ["version"] = 1,
+                    ["moon"] = 
+                    {
+                        ["background"] = "Solid",
+                        ["secunda"] = "Ghost",
+                        ["backgroundColour"] = 
+                        {
+                            ["b"] = 0.0823529412,
+                            ["a"] = 0.7500000000,
+                            ["g"] = 0,
+                            ["r"] = 0,
+                        },
+                        ["alpha"] = 1,
+                        ["backgroundHoverColour"] = 
+                        {
+                            ["b"] = 0.7176470588,
+                            ["a"] = 0.6600000000,
+                            ["g"] = 0.6470588235,
+                            ["r"] = 0.3450980392,
+                        },
+                        ["masser"] = "Pale",
+                    },
+                    ["time"] = 
+                    {
+                        ["backgroundOffset"] = 
+                        {
+                            ["y"] = -20,
+                            ["x"] = 0,
+                        },
+                        ["font"] = "Univers 57",
+                        ["style"] = "soft-shadow-thick",
+                        ["background"] = "Splash",
+                        ["size"] = 14,
+                        ["lineCount"] = 1,
+                        ["backgroundColour"] = 
+                        {
+                            ["b"] = 0.0823529412,
+                            ["a"] = 0.5000000000,
+                            ["g"] = 0.0823529412,
+                            ["r"] = 0.0823529412,
+                        },
+                        ["format"] = "%H:%M%p",
+                        ["backgroundHoverColour"] = 
+                        {
+                            ["b"] = 0.7176470588,
+                            ["a"] = 0.6600000000,
+                            ["g"] = 0.6470588235,
+                            ["r"] = 0.3450980392,
+                        },
+                        ["colour"] = 
+                        {
+                            ["b"] = 1,
+                            ["a"] = 1,
+                            ["g"] = 1,
+                            ["r"] = 1,
+                        },
+                    },
+                },
+                ["booleans"] = 
+                {
                     ["core"] = 
                     {
-                        ["scaleFactor"] = 1,
+                        ["hideInFight"] = false,
+                        ["hideInGroup"] = false,
+                        ["timeAndMoonAreLinked"] = true,
+                        ["onlyShowOnMap"] = false,
                     },
+                    ["version"] = 1,
+                    ["moon"] = 
+                    {
+                        ["hasBackground"] = true,
+                        ["hasTooltip"] = true,
+                        ["isMouseEnabled"] = true,
+                        ["scaleWhenHover"] = false,
+                        ["highlightWhenHover"] = true,
+                        ["isMovable"] = false,
+                        ["isVisible"] = false,
+                    },
+                    ["time"] = 
+                    {
+                        ["hasUSFormat"] = true,
+                        ["addZeroHour"] = false,
+                        ["isMouseEnabled"] = true,
+                        ["addZeroSec"] = true,
+                        ["hasLoreDate"] = false,
+                        ["addZeroMin"] = false,
+                        ["hasBackground"] = false,
+                        ["hasFakeLoreDate"] = true,
+                        ["hasJapFormat"] = false,
+                        ["isMovable"] = true,
+                        ["scaleWhenHover"] = false,
+                        ["highlightWhenHover"] = true,
+                        ["addZeroMonth"] = false,
+                        ["hasTooltip"] = true,
+                        ["isVisible"] = true,
+                        ["minAMPM"] = true,
+                        ["addZero"] = true,
+                        ["addZeroDay"] = false,
+                        ["hasRealDate"] = true,
+                    },
+                },
+                ["account"] = 
+                {
+                    ["version"] = 1,
+                    ["lastVersion"] = 
+                    {
+                        ["patch"] = 5,
+                        ["minor"] = 2,
+                        ["major"] = 2,
+                    },
+                    ["saveAccountWide"] = true,
                 },
                 ["presets"] = 
                 {
+                    ["current"] = "DS",
                     ["saved"] = 
                     {
                         ["DS"] = 
                         {
                             ["attributes"] = 
                             {
+                                ["core"] = 
+                                {
+                                    ["scaleFactor"] = 1,
+                                },
                                 ["moon"] = 
                                 {
                                     ["anchor"] = 
@@ -100,42 +219,38 @@ ClockTST_Settings =
                                 },
                                 ["time"] = 
                                 {
-                                    ["dimension"] = 
-                                    {
-                                        ["height"] = 55,
-                                        ["width"] = 157.5000000000,
-                                    },
                                     ["anchor"] = 
                                     {
                                         ["offsetX"] = 1721.7501220703,
                                         ["offsetY"] = 242.5000000000,
                                     },
-                                },
-                                ["core"] = 
-                                {
-                                    ["scaleFactor"] = 1,
+                                    ["dimension"] = 
+                                    {
+                                        ["height"] = 55,
+                                        ["width"] = 157.5000000000,
+                                    },
                                 },
                             },
                             ["booleans"] = 
                             {
-                                ["moon"] = 
-                                {
-                                    ["highlightWhenHover"] = true,
-                                    ["isMovable"] = false,
-                                    ["scaleWhenHover"] = false,
-                                    ["isVisible"] = false,
-                                },
-                                ["time"] = 
-                                {
-                                    ["addZero"] = true,
-                                    ["highlightWhenHover"] = false,
-                                    ["hasFakeLoreDate"] = true,
-                                    ["minAMPM"] = true,
-                                    ["hasBackground"] = false,
-                                },
                                 ["core"] = 
                                 {
                                     ["hideInFight"] = false,
+                                },
+                                ["moon"] = 
+                                {
+                                    ["isVisible"] = false,
+                                    ["scaleWhenHover"] = false,
+                                    ["isMovable"] = false,
+                                    ["highlightWhenHover"] = true,
+                                },
+                                ["time"] = 
+                                {
+                                    ["minAMPM"] = true,
+                                    ["hasBackground"] = false,
+                                    ["highlightWhenHover"] = false,
+                                    ["addZero"] = true,
+                                    ["hasFakeLoreDate"] = true,
                                 },
                             },
                             ["styles"] = 
@@ -146,17 +261,17 @@ ClockTST_Settings =
                                     {
                                         ["y"] = 20,
                                     },
+                                    ["lineCount"] = 1,
                                     ["size"] = 14,
+                                    ["format"] = "%X (#X)",
+                                    ["font"] = "Univers 57",
+                                    ["style"] = "normal",
                                     ["colour"] = 
                                     {
-                                        ["b"] = 1,
                                         ["g"] = 1,
+                                        ["b"] = 1,
                                         ["r"] = 1,
                                     },
-                                    ["format"] = "%X (#X)",
-                                    ["lineCount"] = 1,
-                                    ["style"] = "normal",
-                                    ["font"] = "Univers 57",
                                 },
                                 ["moon"] = 
                                 {
@@ -173,15 +288,15 @@ ClockTST_Settings =
                             {
                                 ["time"] = 
                                 {
-                                    ["dimension"] = 
-                                    {
-                                        ["height"] = 80,
-                                        ["width"] = 102.8571428571,
-                                    },
                                     ["anchor"] = 
                                     {
                                         ["offsetX"] = 1776.2143554688,
                                         ["offsetY"] = 17,
+                                    },
+                                    ["dimension"] = 
+                                    {
+                                        ["height"] = 80,
+                                        ["width"] = 102.8571428571,
                                     },
                                 },
                                 ["moon"] = 
@@ -200,24 +315,24 @@ ClockTST_Settings =
                             },
                             ["booleans"] = 
                             {
-                                ["moon"] = 
-                                {
-                                    ["highlightWhenHover"] = true,
-                                    ["scaleWhenHover"] = false,
-                                    ["isMovable"] = false,
-                                },
-                                ["time"] = 
-                                {
-                                    ["addZero"] = true,
-                                    ["isMovable"] = false,
-                                    ["highlightWhenHover"] = false,
-                                    ["hasUSFormat"] = false,
-                                    ["hasFakeLoreDate"] = true,
-                                    ["hasBackground"] = false,
-                                },
                                 ["core"] = 
                                 {
                                     ["hideInGroup"] = true,
+                                },
+                                ["moon"] = 
+                                {
+                                    ["scaleWhenHover"] = false,
+                                    ["isMovable"] = false,
+                                    ["highlightWhenHover"] = true,
+                                },
+                                ["time"] = 
+                                {
+                                    ["hasUSFormat"] = false,
+                                    ["hasBackground"] = false,
+                                    ["highlightWhenHover"] = false,
+                                    ["addZero"] = true,
+                                    ["isMovable"] = false,
+                                    ["hasFakeLoreDate"] = true,
                                 },
                             },
                             ["styles"] = 
@@ -228,17 +343,17 @@ ClockTST_Settings =
                                     {
                                         ["y"] = 20,
                                     },
+                                    ["lineCount"] = 1,
+                                    ["format"] = "%H:%M:%S\n#H:#M:#S",
+                                    ["font"] = "Futura Condensed",
                                     ["size"] = 24,
                                     ["colour"] = 
                                     {
-                                        ["g"] = 1,
-                                        ["a"] = 0.8823529482,
                                         ["b"] = 0.9647058845,
+                                        ["a"] = 0.8823529482,
+                                        ["g"] = 1,
                                         ["r"] = 0,
                                     },
-                                    ["format"] = "%H:%M:%S\n#H:#M:#S",
-                                    ["lineCount"] = 1,
-                                    ["font"] = "Futura Condensed",
                                 },
                                 ["moon"] = 
                                 {
@@ -255,44 +370,44 @@ ClockTST_Settings =
                             {
                                 ["time"] = 
                                 {
-                                    ["dimension"] = 
-                                    {
-                                        ["height"] = 40,
-                                        ["width"] = 360,
-                                    },
                                     ["anchor"] = 
                                     {
                                         ["offsetX"] = 506.4999869211,
                                         ["offsetY"] = 949,
                                     },
+                                    ["dimension"] = 
+                                    {
+                                        ["height"] = 40,
+                                        ["width"] = 360,
+                                    },
                                 },
                                 ["moon"] = 
                                 {
+                                    ["scale"] = 0.3400000000,
                                     ["anchor"] = 
                                     {
                                         ["offsetX"] = 469,
                                         ["offsetY"] = 910,
                                     },
-                                    ["scale"] = 0.3400000000,
                                 },
                             },
                             ["booleans"] = 
                             {
+                                ["core"] = 
+                                {
+                                    ["hideInFight"] = false,
+                                    ["onlyShowOnMap"] = true,
+                                },
                                 ["moon"] = 
                                 {
-                                    ["highlightWhenHover"] = true,
                                     ["scaleWhenHover"] = false,
                                     ["isMovable"] = false,
+                                    ["highlightWhenHover"] = true,
                                 },
                                 ["time"] = 
                                 {
                                     ["isMovable"] = false,
                                     ["hasFakeLoreDate"] = true,
-                                },
-                                ["core"] = 
-                                {
-                                    ["hideInFight"] = false,
-                                    ["onlyShowOnMap"] = true,
                                 },
                             },
                             ["styles"] = 
@@ -317,6 +432,10 @@ ClockTST_Settings =
                         {
                             ["attributes"] = 
                             {
+                                ["core"] = 
+                                {
+                                    ["scaleFactor"] = 1,
+                                },
                                 ["moon"] = 
                                 {
                                     ["anchor"] = 
@@ -332,64 +451,60 @@ ClockTST_Settings =
                                 },
                                 ["time"] = 
                                 {
-                                    ["dimension"] = 
-                                    {
-                                        ["height"] = 80,
-                                        ["width"] = 64.2857142857,
-                                    },
                                     ["anchor"] = 
                                     {
                                         ["offsetX"] = 1780.0715332031,
                                         ["offsetY"] = 17,
                                     },
-                                },
-                                ["core"] = 
-                                {
-                                    ["scaleFactor"] = 1,
+                                    ["dimension"] = 
+                                    {
+                                        ["height"] = 80,
+                                        ["width"] = 64.2857142857,
+                                    },
                                 },
                             },
                             ["booleans"] = 
                             {
-                                ["moon"] = 
-                                {
-                                    ["highlightWhenHover"] = true,
-                                    ["isMovable"] = false,
-                                    ["scaleWhenHover"] = false,
-                                    ["isVisible"] = false,
-                                },
-                                ["time"] = 
-                                {
-                                    ["hasLoreDate"] = false,
-                                    ["isMovable"] = false,
-                                    ["highlightWhenHover"] = false,
-                                    ["hasFakeLoreDate"] = true,
-                                    ["hasTooltip"] = false,
-                                    ["hasBackground"] = false,
-                                },
                                 ["core"] = 
                                 {
                                     ["hideInGroup"] = true,
+                                },
+                                ["moon"] = 
+                                {
+                                    ["isVisible"] = false,
+                                    ["scaleWhenHover"] = false,
+                                    ["isMovable"] = false,
+                                    ["highlightWhenHover"] = true,
+                                },
+                                ["time"] = 
+                                {
+                                    ["hasTooltip"] = false,
+                                    ["highlightWhenHover"] = false,
+                                    ["hasBackground"] = false,
+                                    ["hasLoreDate"] = false,
+                                    ["isMovable"] = false,
+                                    ["hasFakeLoreDate"] = true,
                                 },
                             },
                             ["styles"] = 
                             {
                                 ["time"] = 
                                 {
+                                    ["background"] = "EsoUI-Item",
                                     ["backgroundOffset"] = 
                                     {
                                         ["y"] = 20,
                                     },
-                                    ["size"] = 24,
-                                    ["background"] = "EsoUI-Item",
-                                    ["colour"] = 
-                                    {
-                                        ["b"] = 1,
-                                        ["g"] = 1,
-                                        ["r"] = 1,
-                                    },
+                                    ["lineCount"] = 1,
                                     ["format"] = "%H:%M",
                                     ["font"] = "Futura Condensed",
-                                    ["lineCount"] = 1,
+                                    ["size"] = 24,
+                                    ["colour"] = 
+                                    {
+                                        ["g"] = 1,
+                                        ["b"] = 1,
+                                        ["r"] = 1,
+                                    },
                                 },
                                 ["moon"] = 
                                 {
@@ -402,121 +517,6 @@ ClockTST_Settings =
                         },
                     },
                     ["version"] = 1,
-                    ["current"] = "DS",
-                },
-                ["styles"] = 
-                {
-                    ["moon"] = 
-                    {
-                        ["alpha"] = 1,
-                        ["backgroundColour"] = 
-                        {
-                            ["g"] = 0,
-                            ["a"] = 0.7500000000,
-                            ["b"] = 0.0823529412,
-                            ["r"] = 0,
-                        },
-                        ["background"] = "Solid",
-                        ["secunda"] = "Ghost",
-                        ["backgroundHoverColour"] = 
-                        {
-                            ["g"] = 0.6470588235,
-                            ["a"] = 0.6600000000,
-                            ["b"] = 0.7176470588,
-                            ["r"] = 0.3450980392,
-                        },
-                        ["masser"] = "Pale",
-                    },
-                    ["version"] = 1,
-                    ["time"] = 
-                    {
-                        ["backgroundOffset"] = 
-                        {
-                            ["y"] = -20,
-                            ["x"] = 0,
-                        },
-                        ["backgroundColour"] = 
-                        {
-                            ["g"] = 0.0823529412,
-                            ["a"] = 0.5000000000,
-                            ["b"] = 0.0823529412,
-                            ["r"] = 0.0823529412,
-                        },
-                        ["background"] = "Splash",
-                        ["font"] = "Univers 57",
-                        ["size"] = 14,
-                        ["backgroundHoverColour"] = 
-                        {
-                            ["g"] = 0.6470588235,
-                            ["a"] = 0.6600000000,
-                            ["b"] = 0.7176470588,
-                            ["r"] = 0.3450980392,
-                        },
-                        ["colour"] = 
-                        {
-                            ["g"] = 1,
-                            ["a"] = 1,
-                            ["b"] = 1,
-                            ["r"] = 1,
-                        },
-                        ["format"] = "%H:%M%p",
-                        ["lineCount"] = 1,
-                        ["style"] = "soft-shadow-thick",
-                    },
-                },
-                ["account"] = 
-                {
-                    ["saveAccountWide"] = true,
-                    ["version"] = 1,
-                    ["lastVersion"] = 
-                    {
-                        ["major"] = 2,
-                        ["minor"] = 2,
-                        ["patch"] = 5,
-                    },
-                },
-                ["booleans"] = 
-                {
-                    ["moon"] = 
-                    {
-                        ["isMouseEnabled"] = true,
-                        ["isMovable"] = false,
-                        ["isVisible"] = false,
-                        ["highlightWhenHover"] = true,
-                        ["hasTooltip"] = true,
-                        ["scaleWhenHover"] = false,
-                        ["hasBackground"] = true,
-                    },
-                    ["time"] = 
-                    {
-                        ["hasLoreDate"] = false,
-                        ["scaleWhenHover"] = false,
-                        ["addZeroMonth"] = false,
-                        ["addZeroHour"] = false,
-                        ["isMouseEnabled"] = true,
-                        ["addZeroSec"] = true,
-                        ["hasTooltip"] = true,
-                        ["hasUSFormat"] = true,
-                        ["isVisible"] = true,
-                        ["addZeroDay"] = false,
-                        ["minAMPM"] = true,
-                        ["hasBackground"] = false,
-                        ["addZeroMin"] = false,
-                        ["addZero"] = true,
-                        ["isMovable"] = true,
-                        ["hasRealDate"] = true,
-                        ["hasFakeLoreDate"] = true,
-                        ["hasJapFormat"] = false,
-                        ["highlightWhenHover"] = true,
-                    },
-                    ["version"] = 1,
-                    ["core"] = 
-                    {
-                        ["onlyShowOnMap"] = false,
-                        ["timeAndMoonAreLinked"] = true,
-                        ["hideInFight"] = false,
-                        ["hideInGroup"] = false,
-                    },
                 },
             },
         },

@@ -8,100 +8,100 @@ PersonalAssistantRepair_SavedVariables =
             {
                 [1] = 
                 {
-                    ["RepairEquipped"] = 
-                    {
-                        ["repairWithCrownRepairKitThreshold"] = 10,
-                        ["repairWithRepairKit"] = true,
-                        ["lowRepairKitWarning"] = true,
-                        ["defaultRepairKit"] = 0,
-                        ["repairWithGold"] = true,
-                        ["lowRepairKitThreshold"] = 10,
-                        ["repairWithRepairKitThreshold"] = 10,
-                        ["repairWithCrownRepairKit"] = false,
-                        ["repairWithGoldDurabilityThreshold"] = 99,
-                    },
-                    ["name"] = "Crafter",
-                    ["autoRepairInventoryEnabled"] = true,
-                    ["RechargeWeapons"] = 
-                    {
-                        ["lowSoulGemWarning"] = true,
-                        ["lowSoulGemThreshold"] = 10,
-                        ["useSoulGems"] = true,
-                        ["defaultSoulGem"] = 1,
-                    },
                     ["silentMode"] = false,
+                    ["name"] = "Crafter",
+                    ["autoRepairEnabled"] = true,
                     ["RepairInventory"] = 
                     {
                         ["repairWithGold"] = true,
                         ["repairWithGoldDurabilityThreshold"] = 99,
                     },
-                    ["autoRepairEnabled"] = true,
+                    ["RechargeWeapons"] = 
+                    {
+                        ["useSoulGems"] = true,
+                        ["defaultSoulGem"] = 1,
+                        ["lowSoulGemThreshold"] = 10,
+                        ["lowSoulGemWarning"] = true,
+                    },
+                    ["autoRepairInventoryEnabled"] = true,
+                    ["RepairEquipped"] = 
+                    {
+                        ["repairWithCrownRepairKitThreshold"] = 10,
+                        ["lowRepairKitThreshold"] = 10,
+                        ["repairWithGold"] = true,
+                        ["defaultRepairKit"] = 0,
+                        ["lowRepairKitWarning"] = true,
+                        ["repairWithCrownRepairKit"] = false,
+                        ["repairWithGoldDurabilityThreshold"] = 99,
+                        ["repairWithRepairKitThreshold"] = 10,
+                        ["repairWithRepairKit"] = true,
+                    },
                 },
                 [2] = 
                 {
-                    ["RepairEquipped"] = 
-                    {
-                        ["repairWithCrownRepairKitThreshold"] = 10,
-                        ["repairWithRepairKit"] = true,
-                        ["lowRepairKitWarning"] = true,
-                        ["defaultRepairKit"] = 0,
-                        ["repairWithGold"] = true,
-                        ["lowRepairKitThreshold"] = 10,
-                        ["repairWithRepairKitThreshold"] = 10,
-                        ["repairWithCrownRepairKit"] = false,
-                        ["repairWithGoldDurabilityThreshold"] = 75,
-                    },
-                    ["name"] = "Primary Default",
-                    ["autoRepairInventoryEnabled"] = true,
-                    ["RechargeWeapons"] = 
-                    {
-                        ["lowSoulGemWarning"] = true,
-                        ["lowSoulGemThreshold"] = 10,
-                        ["useSoulGems"] = true,
-                        ["defaultSoulGem"] = 1,
-                    },
                     ["silentMode"] = false,
+                    ["name"] = "Primary Default",
+                    ["autoRepairEnabled"] = true,
                     ["RepairInventory"] = 
                     {
                         ["repairWithGold"] = true,
                         ["repairWithGoldDurabilityThreshold"] = 75,
                     },
-                    ["autoRepairEnabled"] = true,
+                    ["RechargeWeapons"] = 
+                    {
+                        ["useSoulGems"] = true,
+                        ["defaultSoulGem"] = 1,
+                        ["lowSoulGemThreshold"] = 10,
+                        ["lowSoulGemWarning"] = true,
+                    },
+                    ["autoRepairInventoryEnabled"] = true,
+                    ["RepairEquipped"] = 
+                    {
+                        ["repairWithCrownRepairKitThreshold"] = 10,
+                        ["lowRepairKitThreshold"] = 10,
+                        ["repairWithGold"] = true,
+                        ["defaultRepairKit"] = 0,
+                        ["lowRepairKitWarning"] = true,
+                        ["repairWithCrownRepairKit"] = false,
+                        ["repairWithGoldDurabilityThreshold"] = 75,
+                        ["repairWithRepairKitThreshold"] = 10,
+                        ["repairWithRepairKit"] = true,
+                    },
                 },
                 [11] = 
                 {
-                    ["RepairEquipped"] = 
-                    {
-                        ["repairWithCrownRepairKitThreshold"] = 10,
-                        ["repairWithRepairKit"] = true,
-                        ["lowRepairKitWarning"] = true,
-                        ["defaultRepairKit"] = 0,
-                        ["repairWithGold"] = true,
-                        ["lowRepairKitThreshold"] = 10,
-                        ["repairWithRepairKitThreshold"] = 10,
-                        ["repairWithCrownRepairKit"] = false,
-                        ["repairWithGoldDurabilityThreshold"] = 99,
-                    },
-                    ["name"] = "Jodina",
-                    ["autoRepairInventoryEnabled"] = true,
-                    ["RechargeWeapons"] = 
-                    {
-                        ["lowSoulGemWarning"] = true,
-                        ["lowSoulGemThreshold"] = 10,
-                        ["useSoulGems"] = true,
-                        ["defaultSoulGem"] = 1,
-                    },
                     ["silentMode"] = false,
+                    ["name"] = "Jodina",
+                    ["autoRepairEnabled"] = true,
                     ["RepairInventory"] = 
                     {
                         ["repairWithGold"] = true,
                         ["repairWithGoldDurabilityThreshold"] = 99,
                     },
-                    ["autoRepairEnabled"] = true,
+                    ["RechargeWeapons"] = 
+                    {
+                        ["useSoulGems"] = true,
+                        ["defaultSoulGem"] = 1,
+                        ["lowSoulGemThreshold"] = 10,
+                        ["lowSoulGemWarning"] = true,
+                    },
+                    ["autoRepairInventoryEnabled"] = true,
+                    ["RepairEquipped"] = 
+                    {
+                        ["repairWithCrownRepairKitThreshold"] = 10,
+                        ["lowRepairKitThreshold"] = 10,
+                        ["repairWithGold"] = true,
+                        ["defaultRepairKit"] = 0,
+                        ["lowRepairKitWarning"] = true,
+                        ["repairWithCrownRepairKit"] = false,
+                        ["repairWithGoldDurabilityThreshold"] = 99,
+                        ["repairWithRepairKitThreshold"] = 10,
+                        ["repairWithRepairKit"] = true,
+                    },
                 },
-                ["savedVarsVersion"] = 20511,
-                ["version"] = 1,
                 ["profileCounter"] = 11,
+                ["version"] = 1,
+                ["savedVarsVersion"] = 20511,
             },
         },
     },

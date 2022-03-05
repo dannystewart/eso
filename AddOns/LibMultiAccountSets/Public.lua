@@ -23,7 +23,7 @@ Public.EVENT_COLLECTION_UPDATED = 2
 --------------------------------------------------------------------------------
 
 function Public.GetNumItemSetCollectionSlotsUnlockedForAccountEx( server, account, itemSetId )
-	if (server == Internal.server and (account == nil or account == Internal.account)) then
+	if (server == Internal.server and account == Internal.account) then
 		return GetNumItemSetCollectionSlotsUnlocked(itemSetId)
 	elseif (Internal.data[server] and Internal.data[server][account] and Internal.data[server][account][itemSetId]) then
 		local found = 0
@@ -43,7 +43,7 @@ function Public.GetNumItemSetCollectionSlotsUnlockedForAccountEx( server, accoun
 end
 
 function Public.IsItemSetCollectionSlotUnlockedForAccountEx( server, account, itemSetId, slot )
-	if (server == Internal.server and (account == nil or account == Internal.account)) then
+	if (server == Internal.server and account == Internal.account) then
 		return IsItemSetCollectionSlotUnlocked(itemSetId, slot)
 	elseif (Internal.data[server] and Internal.data[server][account]) then
 		return Internal.CheckSlot(Internal.data[server][account][itemSetId], Id64ToString(slot) + 0)
@@ -53,7 +53,7 @@ function Public.IsItemSetCollectionSlotUnlockedForAccountEx( server, account, it
 end
 
 function Public.IsItemSetCollectionPieceUnlockedForAccountEx( server, account, pieceId )
-	if (server == Internal.server and (account == nil or account == Internal.account)) then
+	if (server == Internal.server and account == Internal.account) then
 		return IsItemSetCollectionPieceUnlocked(pieceId)
 	else
 		return Public.IsItemSetCollectionItemLinkUnlockedForAccountEx(server, account, GetItemSetCollectionPieceItemLink(pieceId, LINK_STYLE_DEFAULT, ITEM_TRAIT_TYPE_NONE))
@@ -61,7 +61,7 @@ function Public.IsItemSetCollectionPieceUnlockedForAccountEx( server, account, p
 end
 
 function Public.GetItemReconstructionCurrencyOptionCostForAccountEx( server, account, itemSetId, currencyType )
-	if (server == Internal.server and (account == nil or account == Internal.account)) then
+	if (server == Internal.server and account == Internal.account) then
 		return GetItemReconstructionCurrencyOptionCost(itemSetId, currencyType)
 	elseif (currencyType == CURT_CHAOTIC_CREATIA) then
 		local setSize = GetNumItemSetCollectionPieces(itemSetId)
@@ -75,7 +75,7 @@ function Public.GetItemReconstructionCurrencyOptionCostForAccountEx( server, acc
 end
 
 function Public.IsItemSetCollectionItemLinkUnlockedForAccountEx( server, account, itemLink )
-	if (server == Internal.server and (account == nil or account == Internal.account)) then
+	if (server == Internal.server and account == Internal.account) then
 		return IsItemSetCollectionPieceUnlocked(GetItemLinkItemId(itemLink))
 	else
 		return Public.IsItemSetCollectionSlotUnlockedForAccountEx(server, account, select(6, GetItemLinkSetInfo(itemLink)), GetItemLinkItemSetCollectionSlot(itemLink))
@@ -87,11 +87,12 @@ end
 -- Other Functions
 --------------------------------------------------------------------------------
 
-function Public.GetAccountListEx( server, excludeCurrentAccount )
+function Public.GetAccountList( excludeCurrentAccount )
 	local accounts = { }
-	if (Internal.data[server]) then
-		for account in pairs(Internal.data[server]) do
-			if (not (excludeCurrentAccount and server == Internal.server and account == Internal.account)) then
+	local data = Internal.data[Internal.server]
+	if (data) then
+		for account in pairs(data) do
+			if (not (excludeCurrentAccount and account == Internal.account)) then
 				table.insert(accounts, account)
 			end
 		end
@@ -166,7 +167,7 @@ end
 
 function Public.GetLastScanTimeEx( server, account )
 	local timestamp
-	if (server == Internal.server and (account == nil or account == Internal.account)) then
+	if (server == Internal.server and account == Internal.account) then
 		timestamp = Internal.currentSlots.timestamp
 	elseif (Internal.data[server] and Internal.data[server][account]) then
 		timestamp = Internal.data[server][account].timestamp
@@ -180,7 +181,7 @@ end
 --------------------------------------------------------------------------------
 
 function Public.GetRawDataEx( server, account, itemSetId )
-	if (type(account) == "string" and type(itemSetId) == "number") then
+	if (type(server) == "string" and type(account) == "string" and type(itemSetId) == "number") then
 		return Internal.data[server] and Internal.data[server][account] and Internal.data[server][account][itemSetId]
 	else
 		return nil
@@ -188,7 +189,7 @@ function Public.GetRawDataEx( server, account, itemSetId )
 end
 
 function Public.SetRawDataEx( server, account, itemSetId, slots )
-	if (type(account) == "string" and type(itemSetId) == "number" and type(slots) == "number" and slots >= 0 and slots < 0x1000000000 and zo_floor(slots) == slots) then
+	if (type(server) == "string" and type(account) == "string" and type(itemSetId) == "number" and type(slots) == "number" and slots >= 0 and slots < 0x1000000000 and zo_floor(slots) == slots) then
 		if (account ~= Internal.account and Internal.data[server] and Internal.data[server][account] and Internal.currentSlots[itemSetId]) then
 			Internal.data[server][account][itemSetId] = slots
 			return true
@@ -240,7 +241,6 @@ local SERVERLESS_FUNCTION_NAMES = {
 	"IsItemSetCollectionPieceUnlockedForAccount",
 	"GetItemReconstructionCurrencyOptionCostForAccount",
 	"IsItemSetCollectionItemLinkUnlockedForAccount",
-	"GetAccountList",
 	"GetLastScanTime",
 	"GetRawData",
 	"SetRawData",
@@ -249,11 +249,12 @@ local SERVERLESS_FUNCTION_NAMES = {
 for _, name in ipairs(SERVERLESS_FUNCTION_NAMES) do
 	local nameEx = name .. "Ex"
 
-	-- Standardize the server parameter input check as common code across all functions
+	-- Standardize the server and account input checks as common code across all functions
 	local fn = Public[nameEx]
-	Public[nameEx] = function( server, ... )
+	Public[nameEx] = function( server, account, ... )
 		if (not server or server == "") then server = Internal.server end
-		return fn(server, ...)
+		if (not account or account == "") then account = Internal.account end
+		return fn(server, account, ...)
 	end
 
 	-- Re-create the severless functions for backwards compatibility

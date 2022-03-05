@@ -8,17 +8,8 @@ PersonalAssistantIntegration_SavedVariables =
             {
                 [1] = 
                 {
-                    ["name"] = "Crafter",
                     ["FCOItemSaver"] = 
                     {
-                        ["SellGuildStore"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Sell"] = 
-                        {
-                            ["autoSellMarked"] = false,
-                        },
                         ["GearSets"] = 
                         {
                             ["itemMoveMode"] = 
@@ -30,23 +21,20 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
+                        ["Sell"] = 
+                        {
+                            ["autoSellMarked"] = false,
+                        },
                         ["Improvement"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
                         ["Locked"] = 
                         {
-                            ["preventAutoSell"] = false,
                             ["preventMoving"] = false,
+                            ["preventAutoSell"] = false,
                         },
-                        ["DynamicIcons"] = 
-                        {
-                        },
-                        ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Research"] = 
+                        ["SellGuildStore"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -54,7 +42,19 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["itemMoveMode"] = 0,
                         },
+                        ["DynamicIcons"] = 
+                        {
+                        },
+                        ["Research"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Deconstruction"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                     },
+                    ["name"] = "Crafter",
                     ["LazyWritCrafter"] = 
                     {
                         ["compatibility"] = true,
@@ -62,17 +62,8 @@ PersonalAssistantIntegration_SavedVariables =
                 },
                 [2] = 
                 {
-                    ["name"] = "Primary Default",
                     ["FCOItemSaver"] = 
                     {
-                        ["SellGuildStore"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Sell"] = 
-                        {
-                            ["autoSellMarked"] = true,
-                        },
                         ["GearSets"] = 
                         {
                             ["itemMoveMode"] = 
@@ -84,23 +75,20 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
+                        ["Sell"] = 
+                        {
+                            ["autoSellMarked"] = true,
+                        },
                         ["Improvement"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
                         ["Locked"] = 
                         {
-                            ["preventAutoSell"] = true,
                             ["preventMoving"] = false,
+                            ["preventAutoSell"] = true,
                         },
-                        ["DynamicIcons"] = 
-                        {
-                        },
-                        ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Research"] = 
+                        ["SellGuildStore"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -108,7 +96,19 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["itemMoveMode"] = 0,
                         },
+                        ["DynamicIcons"] = 
+                        {
+                        },
+                        ["Research"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Deconstruction"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                     },
+                    ["name"] = "Primary Default",
                     ["LazyWritCrafter"] = 
                     {
                         ["compatibility"] = true,
@@ -116,17 +116,8 @@ PersonalAssistantIntegration_SavedVariables =
                 },
                 [11] = 
                 {
-                    ["name"] = "Jodina",
                     ["FCOItemSaver"] = 
                     {
-                        ["SellGuildStore"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Sell"] = 
-                        {
-                            ["autoSellMarked"] = false,
-                        },
                         ["GearSets"] = 
                         {
                             ["itemMoveMode"] = 
@@ -138,23 +129,20 @@ PersonalAssistantIntegration_SavedVariables =
                                 [5] = 0,
                             },
                         },
+                        ["Sell"] = 
+                        {
+                            ["autoSellMarked"] = false,
+                        },
                         ["Improvement"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
                         ["Locked"] = 
                         {
-                            ["preventAutoSell"] = false,
                             ["preventMoving"] = false,
+                            ["preventAutoSell"] = false,
                         },
-                        ["DynamicIcons"] = 
-                        {
-                        },
-                        ["Deconstruction"] = 
-                        {
-                            ["itemMoveMode"] = 0,
-                        },
-                        ["Research"] = 
+                        ["SellGuildStore"] = 
                         {
                             ["itemMoveMode"] = 0,
                         },
@@ -162,15 +150,27 @@ PersonalAssistantIntegration_SavedVariables =
                         {
                             ["itemMoveMode"] = 0,
                         },
+                        ["DynamicIcons"] = 
+                        {
+                        },
+                        ["Research"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
+                        ["Deconstruction"] = 
+                        {
+                            ["itemMoveMode"] = 0,
+                        },
                     },
+                    ["name"] = "Jodina",
                     ["LazyWritCrafter"] = 
                     {
                         ["compatibility"] = true,
                     },
                 },
-                ["savedVarsVersion"] = 20511,
-                ["version"] = 1,
                 ["profileCounter"] = 11,
+                ["version"] = 1,
+                ["savedVarsVersion"] = 20511,
             },
         },
     },

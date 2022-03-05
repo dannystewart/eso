@@ -4,45 +4,45 @@ ChatWindowManager =
     {
         ["@timelord726"] = 
         {
-            ["Salnda"] = 
+            ["Miliin"] = 
             {
-                ["RememberState"] = true,
-                ["chatstate"] = 1,
                 ["version"] = 1,
-                ["AddReloadButton"] = true,
                 ["AutoHideChat"] = true,
+                ["AddReloadButton"] = true,
+                ["chatstate"] = 1,
+                ["RememberState"] = false,
             },
             ["Sirynwe"] = 
             {
-                ["RememberState"] = true,
+                ["version"] = 1,
+                ["AutoHideChat"] = true,
+                ["AddReloadButton"] = true,
                 ["chatstate"] = 1,
-                ["version"] = 1,
-                ["AddReloadButton"] = true,
-                ["AutoHideChat"] = true,
-            },
-            ["Miliin"] = 
-            {
-                ["RememberState"] = false,
-                ["chatstate"] = 1,
-                ["version"] = 1,
-                ["AddReloadButton"] = true,
-                ["AutoHideChat"] = true,
-            },
-            ["Jodina"] = 
-            {
                 ["RememberState"] = true,
-                ["chatstate"] = 0,
-                ["version"] = 1,
-                ["AddReloadButton"] = true,
-                ["AutoHideChat"] = true,
             },
             ["Ranivora"] = 
             {
-                ["RememberState"] = true,
-                ["chatstate"] = 1,
                 ["version"] = 1,
-                ["AddReloadButton"] = false,
                 ["AutoHideChat"] = false,
+                ["AddReloadButton"] = false,
+                ["chatstate"] = 1,
+                ["RememberState"] = true,
+            },
+            ["Salnda"] = 
+            {
+                ["version"] = 1,
+                ["AutoHideChat"] = true,
+                ["AddReloadButton"] = true,
+                ["chatstate"] = 1,
+                ["RememberState"] = true,
+            },
+            ["Jodina"] = 
+            {
+                ["version"] = 1,
+                ["AutoHideChat"] = true,
+                ["AddReloadButton"] = true,
+                ["chatstate"] = 0,
+                ["RememberState"] = true,
             },
         },
     },
@@ -52,17 +52,17 @@ ChatWindowManager =
         {
             ["$AccountWide"] = 
             {
-                ["HideFriendLogin"] = false,
-                ["ReloadConfirm"] = false,
                 ["version"] = 1.2200000000,
-                ["AddStatusSelect"] = false,
+                ["ReloadConfirm"] = false,
                 ["SimpleDelete"] = true,
-                ["AutoHideChat"] = false,
-                ["chatstate"] = 1,
-                ["StatusChat"] = true,
-                ["RememberState"] = true,
+                ["AddStatusSelect"] = false,
                 ["AddReloadButton"] = false,
+                ["AutoHideChat"] = false,
                 ["sBuffer"] = false,
+                ["RememberState"] = true,
+                ["HideFriendLogin"] = false,
+                ["StatusChat"] = true,
+                ["chatstate"] = 1,
             },
         },
     },

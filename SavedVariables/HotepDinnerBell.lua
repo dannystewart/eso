@@ -6,16 +6,25 @@ HotepFoodVars =
         {
             ["$AccountWide"] = 
             {
+                ["ns_awide_opt"] = 
+                {
+                    ["opts"] = 
+                    {
+                        ["acct_wide"] = true,
+                    },
+                    ["version"] = 1,
+                },
                 [""] = 
                 {
                     ["vars"] = 
                     {
                         ["timelimit"] = 39,
-                        ["nochatwarning"] = false,
-                        ["trackxp"] = true,
-                        ["nochatloaded"] = true,
                         ["selected"] = " - none - ",
+                        ["nochatloaded"] = true,
+                        ["trackxp"] = true,
+                        ["nochatwarning"] = false,
                     },
+                    ["version"] = 1,
                     ["everybuff"] = 
                     {
                         [1] = "Anniversary Cake",
@@ -29,26 +38,24 @@ HotepFoodVars =
                         [9] = "Increase Max Health",
                         [10] = "Increase Stamina Recovery",
                     },
+                    ["excludes"] = 
+                    {
+                    },
                     ["favs"] = 
                     {
-                        ["(Food) Ayleid Well"] = 
+                        ["(Drink) Increase Health Recovery"] = 
                         {
-                            ["buffName"] = "Ayleid Well",
+                            ["buffName"] = "Increase Health Recovery",
+                            ["consume"] = "Drink",
+                        },
+                        ["(Food) Anniversary Cake"] = 
+                        {
+                            ["buffName"] = "Anniversary Cake",
                             ["consume"] = "Food",
                         },
                         ["(Food) Increase Max Health"] = 
                         {
                             ["buffName"] = "Increase Max Health",
-                            ["consume"] = "Food",
-                        },
-                        ["(Food) Increase Max Stamina"] = 
-                        {
-                            ["buffName"] = "Increase Max Stamina",
-                            ["consume"] = "Food",
-                        },
-                        ["(Food) Crown Fortifying Meal"] = 
-                        {
-                            ["buffName"] = "Crown Fortifying Meal",
                             ["consume"] = "Food",
                         },
                         ["(Drink) Increase Stamina Recovery"] = 
@@ -61,41 +68,34 @@ HotepFoodVars =
                             ["buffName"] = "Increase Health & Stamina Recovery",
                             ["consume"] = "Drink",
                         },
-                        ["(Drink) Increase Health Recovery"] = 
+                        ["(Food) Crown Fortifying Meal"] = 
                         {
-                            ["buffName"] = "Increase Health Recovery",
-                            ["consume"] = "Drink",
+                            ["buffName"] = "Crown Fortifying Meal",
+                            ["consume"] = "Food",
                         },
-                        ["(Drink) Crown Refreshing Drink"] = 
+                        ["(Food) Increase Max Stamina"] = 
                         {
-                            ["buffName"] = "Crown Refreshing Drink",
-                            ["consume"] = "Drink",
+                            ["buffName"] = "Increase Max Stamina",
+                            ["consume"] = "Food",
                         },
                         [" - none - "] = 
                         {
-                        },
-                        ["(Food) Anniversary Cake"] = 
-                        {
-                            ["buffName"] = "Anniversary Cake",
-                            ["consume"] = "Food",
                         },
                         ["(Food) Increase Max Magicka"] = 
                         {
                             ["buffName"] = "Increase Max Magicka",
                             ["consume"] = "Food",
                         },
-                    },
-                    ["version"] = 1,
-                    ["excludes"] = 
-                    {
-                    },
-                },
-                ["ns_awide_opt"] = 
-                {
-                    ["version"] = 1,
-                    ["opts"] = 
-                    {
-                        ["acct_wide"] = true,
+                        ["(Drink) Crown Refreshing Drink"] = 
+                        {
+                            ["buffName"] = "Crown Refreshing Drink",
+                            ["consume"] = "Drink",
+                        },
+                        ["(Food) Ayleid Well"] = 
+                        {
+                            ["buffName"] = "Ayleid Well",
+                            ["consume"] = "Food",
+                        },
                     },
                 },
             },

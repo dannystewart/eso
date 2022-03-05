@@ -4,16 +4,15 @@ WritWorthyVars =
     {
         ["@timelord726"] = 
         {
-            ["Jodina"] = 
+            ["Miliin"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+                ["version"] = 1,
             },
             ["$AccountWide"] = 
             {
-                ["enable_mat_list_chat"] = "Off",
                 ["enable_mm_fallback"] = true,
                 ["version"] = 1,
                 ["position"] = 
@@ -21,62 +20,63 @@ WritWorthyVars =
                     [2] = 50,
                     [1] = 50,
                 },
+                ["enable_mat_list_chat"] = "Off",
             },
             ["Ranivora"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
-            },
-            ["Sleeping-in-Light"] = 
-            {
                 ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Sirynwe"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Salnda"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Miliin"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
-            },
-            ["Ches'Dar"] = 
-            {
-                ["version"] = 1,
-                ["writ_unique_id"] = 
-                {
-                },
             },
             ["Svarella"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+                ["version"] = 1,
+            },
+            ["Sirynwe"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
             },
             ["Katya the Greatest"] = 
             {
-                ["version"] = 1,
                 ["writ_unique_id"] = 
                 {
                 },
+                ["version"] = 1,
+            },
+            ["Sleeping-in-Light"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Ches'Dar"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Jodina"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
+            },
+            ["Salnda"] = 
+            {
+                ["writ_unique_id"] = 
+                {
+                },
+                ["version"] = 1,
             },
         },
     },

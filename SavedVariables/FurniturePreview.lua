@@ -7,12 +7,12 @@ Furniture =
             ["$AccountWide"] = 
             {
                 ["inventory"] = true,
-                ["guildBank"] = true,
+                ["version"] = 2,
                 ["bank"] = true,
+                ["tradinghouse"] = true,
                 ["disablePreviewOnClick"] = false,
                 ["mailSend"] = false,
-                ["version"] = 2,
-                ["tradinghouse"] = true,
+                ["guildBank"] = true,
             },
         },
     },

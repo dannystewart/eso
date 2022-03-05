@@ -8,8 +8,8 @@
 ## Description: Library for tracking Item Set Collection progress across multiple accounts
 ## Author: @code65536
 ## IsLibrary: true
-## Version: 3.0.0
-## AddOnVersion: 12
+## Version: 3.0.1
+## AddOnVersion: 13
 ## APIVersion: 101032 101033
 ## SavedVariables: LibMultiAccountSetsSavedVariables LibMultiAccountSetsData
 ## OptionalDependsOn: LibAddonMenu-2.0
@@ -25,6 +25,10 @@ Public.lua
 Settings.lua
 
 ; Changelog:
+;
+; Version 3.0.1 (2022/03/03)
+; * For addon developers: Removed GetAccountListEx; GetAccountList still exists,
+;   and GetServerAndAccountList can be used for querying foreign server accounts
 ;
 ; Version 3.0.0 (2022/02/23)
 ; * For addon developers: It is now possible to query item set collection data

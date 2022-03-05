@@ -16,7 +16,7 @@ function Internal.RegisterSettingsPanel( )
 		Internal.settingsPanel = LAM:RegisterAddonPanel(panelId, {
 			type = "panel",
 			name = Internal.name,
-			version = "3.0.0",
+			version = "3.0.1",
 			author = "@code65536",
 			website = "https://www.esoui.com/downloads/info2843.html",
 			donation = "https://www.esoui.com/downloads/info2843.html#donate",

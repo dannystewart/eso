@@ -4,14 +4,14 @@ SlowDialogs_SavedVariables =
     {
         ["@timelord726"] = 
         {
-            ["Jodina"] = 
+            ["Miliin"] = 
             {
                 ["settings"] = 
                 {
                     ["animation_length"] = 20,
-                    ["start_delay"] = 5,
                     ["version"] = 2,
-                    ["speed"] = 50,
+                    ["speed"] = 60,
+                    ["start_delay"] = 5,
                 },
             },
             ["Ranivora"] = 
@@ -19,59 +19,9 @@ SlowDialogs_SavedVariables =
                 ["settings"] = 
                 {
                     ["animation_length"] = 20,
-                    ["start_delay"] = 5,
                     ["version"] = 2,
                     ["speed"] = 30,
-                },
-            },
-            ["Sleeping-in-Light"] = 
-            {
-                ["settings"] = 
-                {
-                    ["animation_length"] = 20,
                     ["start_delay"] = 5,
-                    ["version"] = 2,
-                    ["speed"] = 30,
-                },
-            },
-            ["Sirynwe"] = 
-            {
-                ["settings"] = 
-                {
-                    ["animation_length"] = 20,
-                    ["start_delay"] = 5,
-                    ["version"] = 2,
-                    ["speed"] = 30,
-                },
-            },
-            ["Salnda"] = 
-            {
-                ["settings"] = 
-                {
-                    ["animation_length"] = 20,
-                    ["start_delay"] = 5,
-                    ["version"] = 2,
-                    ["speed"] = 30,
-                },
-            },
-            ["Miliin"] = 
-            {
-                ["settings"] = 
-                {
-                    ["animation_length"] = 20,
-                    ["start_delay"] = 5,
-                    ["version"] = 2,
-                    ["speed"] = 60,
-                },
-            },
-            ["Ches'Dar"] = 
-            {
-                ["settings"] = 
-                {
-                    ["animation_length"] = 20,
-                    ["start_delay"] = 5,
-                    ["version"] = 2,
-                    ["speed"] = 50,
                 },
             },
             ["Svarella"] = 
@@ -79,9 +29,19 @@ SlowDialogs_SavedVariables =
                 ["settings"] = 
                 {
                     ["animation_length"] = 20,
-                    ["start_delay"] = 5,
                     ["version"] = 2,
                     ["speed"] = 30,
+                    ["start_delay"] = 5,
+                },
+            },
+            ["Sirynwe"] = 
+            {
+                ["settings"] = 
+                {
+                    ["animation_length"] = 20,
+                    ["version"] = 2,
+                    ["speed"] = 30,
+                    ["start_delay"] = 5,
                 },
             },
             ["Katya the Greatest"] = 
@@ -89,9 +49,49 @@ SlowDialogs_SavedVariables =
                 ["settings"] = 
                 {
                     ["animation_length"] = 20,
-                    ["start_delay"] = 5,
                     ["version"] = 2,
                     ["speed"] = 30,
+                    ["start_delay"] = 5,
+                },
+            },
+            ["Sleeping-in-Light"] = 
+            {
+                ["settings"] = 
+                {
+                    ["animation_length"] = 20,
+                    ["version"] = 2,
+                    ["speed"] = 30,
+                    ["start_delay"] = 5,
+                },
+            },
+            ["Ches'Dar"] = 
+            {
+                ["settings"] = 
+                {
+                    ["animation_length"] = 20,
+                    ["version"] = 2,
+                    ["speed"] = 50,
+                    ["start_delay"] = 5,
+                },
+            },
+            ["Jodina"] = 
+            {
+                ["settings"] = 
+                {
+                    ["animation_length"] = 20,
+                    ["version"] = 2,
+                    ["speed"] = 50,
+                    ["start_delay"] = 5,
+                },
+            },
+            ["Salnda"] = 
+            {
+                ["settings"] = 
+                {
+                    ["animation_length"] = 20,
+                    ["version"] = 2,
+                    ["speed"] = 30,
+                    ["start_delay"] = 5,
                 },
             },
         },

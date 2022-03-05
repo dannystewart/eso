@@ -4,18 +4,19 @@ FasterTravel_Data =
     {
         ["@timelord726"] = 
         {
-            ["8796093050176555"] = 
-            {
-                ["$LastCharacterName"] = "Jodina",
-            },
-            ["8796093050185289"] = 
-            {
-                ["$LastCharacterName"] = "Ranivora",
-            },
             ["$AccountWide"] = 
             {
                 ["Account"] = 
                 {
+                    ["verbosity"] = 0,
+                    ["favourites"] = 
+                    {
+                        [1] = 
+                        {
+                            ["nodeIndex"] = 214,
+                        },
+                    },
+                    ["version"] = 1,
                     ["recent"] = 
                     {
                         [1] = 
@@ -59,25 +60,24 @@ FasterTravel_Data =
                             ["nodeIndex"] = 328,
                         },
                     },
-                    ["verbosity"] = 0,
-                    ["version"] = 1,
                     ["recentsPosition"] = 2,
-                    ["favourites"] = 
-                    {
-                        [1] = 
-                        {
-                            ["nodeIndex"] = 214,
-                        },
-                    },
                 },
             },
             ["8796093055169929"] = 
             {
                 ["$LastCharacterName"] = "Miliin",
             },
+            ["8796093050176555"] = 
+            {
+                ["$LastCharacterName"] = "Jodina",
+            },
             ["8796093064405109"] = 
             {
                 ["$LastCharacterName"] = "Ches'Dar",
+            },
+            ["8796093050185289"] = 
+            {
+                ["$LastCharacterName"] = "Ranivora",
             },
         },
     },

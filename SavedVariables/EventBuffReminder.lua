@@ -6,11 +6,11 @@ EventBuffReminderVariables =
         {
             ["$AccountWide"] = 
             {
-                ["BehaviorEnabled"] = true,
                 ["CurrentEvent"] = 2,
+                ["AutoReapplyBuff"] = false,
                 ["ShowingAlert"] = false,
                 ["version"] = 1,
-                ["AutoReapplyBuff"] = false,
+                ["BehaviorEnabled"] = true,
             },
         },
     },

@@ -6,257 +6,257 @@ AzurahDB =
         {
             ["$AccountWide"] = 
             {
-                ["actTrackerDisable"] = false,
-                ["compassPinScale"] = 1,
-                ["theftCMakeSafer"] = true,
-                ["attributes"] = 
+                ["compassHidePinLabel"] = false,
+                ["bagWatcher"] = 
                 {
-                    ["magickaFontFace"] = "Univers 67",
-                    ["staminaFontOutline"] = "soft-shadow-thick",
-                    ["healthOverlayFancy"] = true,
-                    ["magickaOverlayFancy"] = true,
-                    ["staminaFontFace"] = "Univers 67",
-                    ["lockSize"] = false,
-                    ["magickaFontColour"] = 
-                    {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
-                        ["b"] = 0.9000000000,
-                        ["r"] = 0.9000000000,
-                    },
-                    ["healthOverlayShield"] = true,
-                    ["healthFontColour"] = 
-                    {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
-                        ["b"] = 0.9000000000,
-                        ["r"] = 0.9000000000,
-                    },
-                    ["healthFontSize"] = 17,
-                    ["magickaOverlay"] = 1,
-                    ["healthOverlay"] = 1,
-                    ["magickaFontOutline"] = "soft-shadow-thick",
-                    ["healthFontOutline"] = "soft-shadow-thick",
-                    ["staminaFontSize"] = 17,
-                    ["fadeMaxAlpha"] = 1,
-                    ["healthFontFace"] = "Univers 67",
-                    ["staminaOverlayFancy"] = true,
-                    ["staminaOverlay"] = 1,
-                    ["fadeMinAlpha"] = 0,
-                    ["staminaFontColour"] = 
-                    {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
-                        ["b"] = 0.9000000000,
-                        ["r"] = 0.9000000000,
-                    },
-                    ["combatBars"] = true,
-                    ["magickaFontSize"] = 17,
-                },
-                ["target"] = 
-                {
-                    ["RPInteract"] = false,
+                    ["reverseAlignment"] = true,
+                    ["enabled"] = false,
                     ["fontColour"] = 
                     {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
                         ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
                         ["r"] = 0.9000000000,
                     },
-                    ["RPTitle"] = false,
-                    ["lockSize"] = false,
-                    ["fontSize"] = 17,
-                    ["colourByLevel"] = true,
-                    ["colourByBar"] = 2,
-                    ["RPIcon"] = false,
-                    ["overlayShield"] = true,
-                    ["RPName"] = false,
-                    ["overlayFancy"] = true,
+                    ["lowSpaceTrigger"] = 10,
                     ["fontFace"] = "Univers 67",
-                    ["colourByName"] = 1,
-                    ["allianceShow"] = false,
-                    ["overlay"] = 1,
-                    ["classShow"] = false,
-                    ["allianceByName"] = false,
-                    ["classByName"] = false,
+                    ["lowSpaceLock"] = false,
                     ["fontOutline"] = "soft-shadow-thick",
+                    ["overlay"] = 2,
+                    ["fontSize"] = 18,
                 },
-                ["theftPreventAccidental"] = true,
-                ["theftMakeSafer"] = true,
+                ["compassPinScale"] = 1,
+                ["theftCMakeSafer"] = true,
+                ["useAccountWide"] = true,
                 ["actionBar"] = 
                 {
+                    ["hideBindText"] = false,
                     ["ultValueFontColour"] = 
                     {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
                         ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
                         ["r"] = 0.9000000000,
                     },
                     ["hideBindBG"] = false,
-                    ["ultPercentShow"] = false,
-                    ["ultPercentRelative"] = true,
-                    ["ultPercentFontOutline"] = "soft-shadow-thick",
-                    ["ultPercentFontColour"] = 
-                    {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
-                        ["b"] = 0.9000000000,
-                        ["r"] = 0.9000000000,
-                    },
-                    ["ultValueShowCost"] = false,
-                    ["ultValueFontSize"] = 15,
-                    ["ultPercentFontFace"] = "Univers 67",
                     ["ultValueFontOutline"] = "soft-shadow-thick",
                     ["ultValueShow"] = false,
-                    ["hideWeaponSwap"] = false,
+                    ["ultPercentFontOutline"] = "soft-shadow-thick",
                     ["ultValueFontFace"] = "Univers 67",
+                    ["hideWeaponSwap"] = false,
                     ["ultPercentFontSize"] = 20,
-                    ["hideBindText"] = false,
+                    ["ultPercentFontFace"] = "Univers 67",
+                    ["ultPercentRelative"] = true,
+                    ["ultValueFontSize"] = 15,
+                    ["ultValueShowCost"] = false,
+                    ["ultPercentShow"] = false,
+                    ["ultPercentFontColour"] = 
+                    {
+                        ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
+                        ["r"] = 0.9000000000,
+                    },
                 },
+                ["actTrackerDisable"] = false,
+                ["experienceBar"] = 
+                {
+                    ["fontOutline"] = "soft-shadow-thick",
+                    ["overlayFancy"] = true,
+                    ["fontFace"] = "Univers 67",
+                    ["overlay"] = 6,
+                    ["fontColour"] = 
+                    {
+                        ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
+                        ["r"] = 0.9000000000,
+                    },
+                    ["fontSize"] = 16,
+                    ["displayStyle"] = 2,
+                },
+                ["werewolf"] = 
+                {
+                    ["fontOutline"] = "soft-shadow-thick",
+                    ["fontFace"] = "Univers 67",
+                    ["iconOnRight"] = false,
+                    ["enabled"] = false,
+                    ["fontColour"] = 
+                    {
+                        ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
+                        ["r"] = 0.9000000000,
+                    },
+                    ["fontSize"] = 20,
+                    ["flashOnExtend"] = true,
+                },
+                ["modeChangeReload"] = false,
+                ["theftAnnounceBlock"] = false,
                 ["uiData"] = 
                 {
                     ["keyboard"] = 
                     {
-                        ["ZO_CenterScreenAnnounce"] = 
+                        ["ZO_BattlegroundHUDFragmentTopLevel"] = 
                         {
-                            ["x"] = 0,
-                            ["y"] = 190,
-                            ["point"] = 1,
                             ["scale"] = 1,
-                        },
-                        ["ZO_SynergyTopLevelContainer"] = 
-                        {
-                            ["x"] = 0,
-                            ["y"] = 190,
-                            ["point"] = 128,
-                            ["scale"] = 1,
-                        },
-                        ["ZO_InteractWindowDivider"] = 
-                        {
-                            ["x"] = -96,
-                            ["y"] = 70,
                             ["point"] = 8,
-                            ["scale"] = 1,
-                        },
-                        ["ZO_AlertTextNotification"] = 
-                        {
+                            ["y"] = -140,
                             ["x"] = 0,
-                            ["y"] = 0,
-                            ["point"] = 9,
-                            ["scale"] = 1,
-                        },
-                        ["Azurah_TargetDebuffs"] = 
-                        {
-                            ["x"] = 0,
-                            ["y"] = 135,
-                            ["point"] = 1,
-                            ["scale"] = 1,
-                        },
-                        ["Azurah_PlayerBuffs"] = 
-                        {
-                            ["x"] = 0,
-                            ["y"] = -155,
-                            ["point"] = 4,
-                            ["scale"] = 1,
                         },
                         ["ZO_FocusedQuestTrackerPanel"] = 
                         {
-                            ["x"] = 0,
-                            ["y"] = -160,
-                            ["point"] = 8,
                             ["scale"] = 1,
+                            ["point"] = 8,
+                            ["y"] = -160,
+                            ["x"] = 0,
+                        },
+                        ["ZO_InteractWindowDivider"] = 
+                        {
+                            ["scale"] = 1,
+                            ["point"] = 8,
+                            ["y"] = 70,
+                            ["x"] = -96,
+                        },
+                        ["Azurah_PlayerBuffs"] = 
+                        {
+                            ["scale"] = 1,
+                            ["point"] = 4,
+                            ["y"] = -155,
+                            ["x"] = 0,
+                        },
+                        ["ZO_CenterScreenAnnounce"] = 
+                        {
+                            ["scale"] = 1,
+                            ["point"] = 1,
+                            ["y"] = 190,
+                            ["x"] = 0,
+                        },
+                        ["ZO_AlertTextNotification"] = 
+                        {
+                            ["scale"] = 1,
+                            ["point"] = 9,
+                            ["y"] = 0,
+                            ["x"] = 0,
                         },
                         ["ZO_ActiveCombatTipsTip"] = 
                         {
-                            ["x"] = 0,
-                            ["y"] = -220,
+                            ["scale"] = 1,
                             ["point"] = 4,
-                            ["scale"] = 1,
-                        },
-                        ["ZO_BattlegroundHUDFragmentTopLevel"] = 
-                        {
+                            ["y"] = -220,
                             ["x"] = 0,
-                            ["y"] = -140,
-                            ["point"] = 8,
+                        },
+                        ["ZO_SynergyTopLevelContainer"] = 
+                        {
                             ["scale"] = 1,
+                            ["point"] = 128,
+                            ["y"] = 190,
+                            ["x"] = 0,
+                        },
+                        ["Azurah_TargetDebuffs"] = 
+                        {
+                            ["scale"] = 1,
+                            ["point"] = 1,
+                            ["y"] = 135,
+                            ["x"] = 0,
                         },
                     },
                     ["gamepad"] = 
                     {
                     },
                 },
-                ["experienceBar"] = 
+                ["attributes"] = 
                 {
-                    ["fontFace"] = "Univers 67",
-                    ["fontSize"] = 16,
-                    ["overlay"] = 6,
-                    ["fontColour"] = 
+                    ["healthOverlayShield"] = true,
+                    ["magickaOverlayFancy"] = true,
+                    ["lockSize"] = false,
+                    ["healthFontOutline"] = "soft-shadow-thick",
+                    ["healthFontColour"] = 
                     {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
                         ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
                         ["r"] = 0.9000000000,
                     },
+                    ["staminaFontOutline"] = "soft-shadow-thick",
+                    ["healthOverlayFancy"] = true,
+                    ["staminaFontColour"] = 
+                    {
+                        ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
+                        ["r"] = 0.9000000000,
+                    },
+                    ["magickaFontColour"] = 
+                    {
+                        ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
+                        ["r"] = 0.9000000000,
+                    },
+                    ["staminaFontSize"] = 17,
+                    ["staminaOverlay"] = 1,
+                    ["healthFontSize"] = 17,
+                    ["staminaFontFace"] = "Univers 67",
+                    ["magickaOverlay"] = 1,
+                    ["fadeMinAlpha"] = 0,
+                    ["magickaFontOutline"] = "soft-shadow-thick",
+                    ["combatBars"] = true,
+                    ["magickaFontSize"] = 17,
+                    ["fadeMaxAlpha"] = 1,
+                    ["healthFontFace"] = "Univers 67",
+                    ["healthOverlay"] = 1,
+                    ["magickaFontFace"] = "Univers 67",
+                    ["staminaOverlayFancy"] = true,
+                },
+                ["target"] = 
+                {
                     ["overlayFancy"] = true,
-                    ["displayStyle"] = 2,
-                    ["fontOutline"] = "soft-shadow-thick",
-                },
-                ["bagWatcher"] = 
-                {
-                    ["reverseAlignment"] = true,
-                    ["lowSpaceTrigger"] = 10,
+                    ["lockSize"] = false,
+                    ["RPName"] = false,
+                    ["fontSize"] = 17,
+                    ["allianceShow"] = false,
+                    ["classShow"] = false,
+                    ["RPTitle"] = false,
+                    ["colourByBar"] = 2,
+                    ["RPInteract"] = false,
                     ["fontColour"] = 
                     {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
                         ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
                         ["r"] = 0.9000000000,
                     },
-                    ["fontFace"] = "Univers 67",
-                    ["fontSize"] = 18,
-                    ["overlay"] = 2,
-                    ["lowSpaceLock"] = false,
-                    ["enabled"] = false,
                     ["fontOutline"] = "soft-shadow-thick",
-                },
-                ["werewolf"] = 
-                {
-                    ["iconOnRight"] = false,
-                    ["fontSize"] = 20,
-                    ["flashOnExtend"] = true,
-                    ["fontColour"] = 
-                    {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
-                        ["b"] = 0.9000000000,
-                        ["r"] = 0.9000000000,
-                    },
-                    ["enabled"] = false,
+                    ["colourByLevel"] = true,
+                    ["allianceByName"] = false,
+                    ["overlay"] = 1,
+                    ["RPIcon"] = false,
+                    ["colourByName"] = 1,
                     ["fontFace"] = "Univers 67",
-                    ["fontOutline"] = "soft-shadow-thick",
+                    ["overlayShield"] = true,
+                    ["classByName"] = false,
                 },
-                ["useAccountWide"] = true,
-                ["version"] = 2,
-                ["compassHidePinLabel"] = false,
-                ["theftPMakeSafer"] = true,
-                ["notificationHAlign"] = 1,
                 ["bossbar"] = 
                 {
+                    ["overlayFancy"] = true,
                     ["fontFace"] = "Univers 67",
-                    ["fontSize"] = 17,
-                    ["overlay"] = 6,
+                    ["fontOutline"] = "soft-shadow-thin",
                     ["fontColour"] = 
                     {
-                        ["g"] = 0.9000000000,
-                        ["a"] = 1,
                         ["b"] = 0.9000000000,
+                        ["a"] = 1,
+                        ["g"] = 0.9000000000,
                         ["r"] = 0.9000000000,
                     },
-                    ["overlayFancy"] = true,
-                    ["fontOutline"] = "soft-shadow-thin",
+                    ["fontSize"] = 17,
+                    ["overlay"] = 6,
                 },
-                ["theftAnnounceBlock"] = false,
-                ["modeChangeReload"] = false,
+                ["notificationHAlign"] = 1,
+                ["theftPMakeSafer"] = true,
+                ["theftPreventAccidental"] = true,
+                ["version"] = 2,
+                ["theftMakeSafer"] = true,
             },
         },
     },

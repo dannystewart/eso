@@ -8,1431 +8,824 @@ SousChef_Settings =
             {
                 ["en"] = 
                 {
+                    ["showOnClick"] = false,
+                    ["mainChar"] = "8796093055169929",
+                    ["qualityChecked"] = false,
+                    ["shoppingList"] = 
+                    {
+                    },
+                    ["knownChars"] = 
+                    {
+                        [4] = "8796093050185289",
+                        [1] = "(current)",
+                        [2] = "8796093055169929",
+                        [3] = "8796093050176555",
+                    },
+                    ["Cookbook"] = 
+                    {
+                        ["gingerosetea"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bananasurprise"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["khajiitfirepit,brick"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["dwarvenpipecap,bolted"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argoniantable,rough"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["carrotcheesecake"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["darkelfcounter,bar"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["darkelftable,formal"] = 
+                        {
+                            ["8796093050185289"] = true,
+                            ["8796093050176555"] = true,
+                        },
+                        ["drescup,emptymazte"] = 
+                        {
+                            ["8796093050185289"] = true,
+                            ["8796093050176555"] = true,
+                        },
+                        ["strosm'kaigrilledseagull"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["dresbowl,serving"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["tongs,forge"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianbowl,wooden"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["orcishbar,longblock"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["senchalcurryfishandrice"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["radishesinrice"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["porthundingcheesefries"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["roughbedroll,basic"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["clamberskull"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["nordlantern,cage"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["woodelftable,leather"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["pirate'sjigtonic"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["potato,wax"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bretondresser,open"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["muthsera'sremorse"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bakedapples"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["dreslantern,stationary"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianmat,tidyreed"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["bretondesk"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commonlantern,hanging"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["woodelfwallhide,fur"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commonbowlofstew,display"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["nutbrownale"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["camlornsweetbrownale"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["panfriedtrout"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["markarthmead"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["sourflowertea"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["elsweyrspicedisplay,turmericyellow"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["hagraven'stonic"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["isinmateinfusion"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardstreetlamp,single"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commoncandle,set"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["ginkgotonic"] = 
+                        {
+                            ["8796093050185289"] = true,
+                            ["8796093050176555"] = true,
+                        },
+                        ["argoniancanopy,reed"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["yerbasyrahwine"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["ham,display"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bretonvase,ceramic"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["melonjelly"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianurn,clawfoot"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["highelfcounter,block"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardendtable,inlaid"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardcarpet,dunes"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["desk,engraved"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["rabbitpasty"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["mage'sgorappleporridge"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["solitudenightstand,cabinet"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bretontrestle,sturdy"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardcarriage,practical"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianpan,frying"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["tarragonchicken"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093050185289"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["woodelfurn,scratched"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["flanksteak"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["hlaalubed,single"] = 
+                        {
+                            ["8796093050185289"] = true,
+                        },
+                        ["bretonsconce,torch"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["highelfbed,single"] = 
+                        {
+                            ["8796093050185289"] = true,
+                        },
+                        ["highelfendtable,sturdy"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["daedriccandles,group"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["orcishpew,peaked"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commoncargo,covered"] = 
+                        {
+                            ["8796093050185289"] = true,
+                            ["8796093050176555"] = true,
+                        },
+                        ["orcishbedding,stone"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commontrap,hunting"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["highelfcandleholder,sturdy"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["khajiitendtable,faded"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardcandleholder,practical"] = 
+                        {
+                            ["8796093050185289"] = true,
+                        },
+                        ["yellowgoblintonic"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["balmoracabbagebiscuits"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["foureyegrog"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["spicybeetsalad"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["roughstretcher,military"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["goldenlager"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bretonbed,bunk"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commoncleaver,cooking"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commonpost,signholder"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianchimneystack"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["hlaalurack,barrel"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["pumpkinpuree"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093050185289"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["fishystick"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["punkinbunny"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["shimmerenetonic"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["greensalad"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["wintersquash,display"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["highelfplate,dinner"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["roseherbaltea"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bakedpotato"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bretonbench,plain"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["daedricbench,ashen"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bitterlemontea"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["darkelfbasin,ringed"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["colovianamberale"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["carrotsoup"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093050185289"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["greenscourguttea"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["suriliesyrahwine"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["acaitonicinfusion"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["woodelfbar,long"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["kennel,locked"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["oldcleareyewhiskey"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["bravilmelonsalad"] = 
+                        {
+                            ["8796093055169929"] = true,
+                        },
+                        ["pumpkin,display"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["tsaescitea"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bretonstreetpost,stone"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["drespot,sauce"] = 
+                        {
+                            ["8796093050185289"] = true,
+                        },
+                        ["argonianbaskets,double"] = 
+                        {
+                            ["8796093055169929"] = true,
+                        },
+                        ["redguardpot,capped"] = 
+                        {
+                            ["8796093050185289"] = true,
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardcandleholder,polished"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bretonbed,full"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bogironale"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["roastpig"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["nordbench,braced"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["nordshelf,wall"] = 
+                        {
+                            ["8796093055169929"] = true,
+                        },
+                        ["darkelfstreetpost,banner"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["woodelfpedestal,engraved"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["khajiitdesk,faded"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["grapes,wax"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["candle,group"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commonbowlofsoup,display"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["footstool,block"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["khajiitbed,fur"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["bananamilletmuffin"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianmat,reed"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["savorythorncornbread"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["sweetstingtea"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["darkelfcart,merchant"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["comberrychai"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["applecobblersupreme"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["highelfbench,curved"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["indorilstreetlight,stone"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["dwarvenpot,sealed"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["highelfbed,bunk"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["heart'sdayrosetea"] = 
+                        {
+                            ["8796093050185289"] = true,
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardcenser,hangingbulb"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["khajiitframe,arched"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardchair,backless"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["friedgreentomatoes"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["darkelflantern,oil"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["borscht"] = 
+                        {
+                            ["8796093050185289"] = true,
+                            ["8796093050176555"] = true,
+                        },
+                        ["roastcorn"] = 
+                        {
+                            ["8796093050185289"] = true,
+                        },
+                        ["meadymateyinfusion"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["tawnyport"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["dresbowl,dinner"] = 
+                        {
+                            ["8796093050185289"] = true,
+                        },
+                        ["khajiitdrapes,tattered"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["chickenbreast"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["indorilradishtartlets"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commonwashtub,empty"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["coloviangingerbeer"] = 
+                        {
+                            ["8796093050185289"] = true,
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianramekin,hardened"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["woodelfgrindingstone"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["nordbed,single"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["woodelfwallhide,pierced"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["highelfdesk,verdant"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianstool,roped"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["darkelfcandle,clawbase"] = 
+                        {
+                            ["8796093055169929"] = true,
+                        },
+                        ["highelftable,sturdykitchen"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["mintchai"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["redguardcouch,bolted"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["morningreveilletea"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["bretonlightpost,arched"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["alinorbookshelfwall,timeworn"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["orcishbar,side"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianlamppost"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["whiskeysour"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["orcishshelf,short"] = 
+                        {
+                            ["8796093050185289"] = true,
+                        },
+                        ["darkelfcarpet,fungal"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["kragenmoorzingermazte"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardbin,roped"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["nordtorch,triple"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["steamedradishes"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardmug,empty"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["orcishbanner,faded"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["argonianchair,woven"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["lotustea"] = 
+                        {
+                            ["8796093050185289"] = true,
+                        },
+                        ["redryebeer"] = 
+                        {
+                            ["8796093050176555"] = true,
+                            ["8796093050185289"] = true,
+                            ["8796093055169929"] = true,
+                        },
+                        ["mazte"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redguardcandelabra,practical"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["orcishcounter,block"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commoncargo,sealed"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["commonbasket,tall"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["darkelfcarpet,ashen"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["nordchandelier,antler"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["kelpkaveh"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["daedricpedestal,ritual"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["redhippocras"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                        ["highelfcup,gilded"] = 
+                        {
+                            ["8796093050176555"] = true,
+                        },
+                    },
                     ["shoppingColour"] = 
                     {
                         [1] = 0,
                         [2] = 1,
                         [3] = 1,
                     },
-                    ["CookbookIndex"] = 
-                    {
-                        ["8796093050176555"] = 
-                        {
-                            ["|c00ff00Colovian Ginger Beer|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 41,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Redguard Streetlamp, Single|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 158,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Redguard Couch, Bolted|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 148,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c00ff00Wood Elf Bar, Long|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 329,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00High Elf Bench, Curved|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 50,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c0066ffYerba Syrah Wine|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 12,
-                            },
-                            ["|c0066ffTongs, Forge|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 89,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c0066ffDaedric Bench, Ashen|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 33,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c782ee6Alinor Bookshelf Wall, Timeworn|r"] = 
-                            {
-                                ["numIngredients"] = 6,
-                                ["recipeIndex"] = 93,
-                                ["listIndex"] = 22,
-                            },
-                            ["|c00ff00Savory Thorn Cornbread|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 29,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Solitude Nightstand, Cabinet|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 241,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Wood Elf Table, Leather|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 152,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c0066ffRedguard Carpet, Dunes|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 145,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c00ff00Balmora Cabbage Biscuits|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 10,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Fishy Stick|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 1,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Dark Elf Cart, Merchant|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 19,
-                                ["listIndex"] = 18,
-                            },
-                            ["|c00ff00Winter Squash, Display|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 327,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Rose Herbal Tea|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 3,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c0066ffBreton Lightpost, Arched|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 15,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Green Salad|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c0066ffDark Elf Counter, Bar|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 37,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Dwarven Pot, Sealed|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 151,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Sourflower Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 10,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Argonian Bowl, Wooden|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 10,
-                                ["listIndex"] = 21,
-                            },
-                            ["|cFFFFFFRough Bedroll, Basic|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 165,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Common Candle, Set|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 32,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Orcish Bar, Side|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 96,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Orcish Banner, Faded|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 130,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c00ff00Breton Bench, Plain|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 14,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Muthsera's Remorse|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 42,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Common Lantern, Hanging|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 36,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Fried Green Tomatoes|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 11,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Golden Lager|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 3,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Common Bowl of Soup, Display|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 95,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c0066ffHigh Elf Desk, Verdant|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 30,
-                                ["listIndex"] = 22,
-                            },
-                            ["|c00ff00Dres Bowl, Serving|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 129,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Common Cargo, Covered|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 28,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c00ff00Redguard Candelabra, Practical|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 141,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Hlaalu Rack, Barrel|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 186,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Bog-Iron Ale|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 4,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c0066ffBreton Bed, Full|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 18,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c0066ffDaedric Pedestal, Ritual|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 34,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Wood Elf Grinding Stone|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 344,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Common Bowl of Stew, Display|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 96,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Khajiit Firepit, Brick|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 104,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Dark Elf Basin, Ringed|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 25,
-                                ["listIndex"] = 27,
-                            },
-                            ["|c00ff00Markarth Mead|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 42,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Indoril Radish Tartlets|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 24,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Pan-Fried Trout|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 12,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Borscht|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 5,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Dark Elf Streetpost, Banner|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 17,
-                                ["listIndex"] = 18,
-                            },
-                            ["|c0066ffDesk, Engraved|r"] = 
-                            {
-                                ["numIngredients"] = 6,
-                                ["recipeIndex"] = 21,
-                                ["listIndex"] = 22,
-                            },
-                            ["|c00ff00Nord Bed, Single|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 94,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Orcish Bar, Long Block|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 94,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Orcish Bedding, Stone|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 110,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Pirate's Jig Tonic|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 20,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Baked Potato|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Mage's Gorapple Porridge|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 29,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Whiskey Sour|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 30,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Senchal Curry Fish and Rice|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 19,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Tawny Port|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 10,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c0066ffCamlorn Sweet Brown Ale|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 35,
-                                ["listIndex"] = 12,
-                            },
-                            ["|c0066ffDark Elf Carpet, Fungal|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 28,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c00ff00Wood Elf Urn, Scratched|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 355,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c0066ffCandle, Group|r"] = 
-                            {
-                                ["numIngredients"] = 6,
-                                ["recipeIndex"] = 28,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Argonian Table, Rough|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 11,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Argonian Mat, Reed|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 5,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Isinmate Infusion|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 10,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00High Elf Candleholder, Sturdy|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 69,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Footstool, Block|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 25,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c0066ffTsaesci Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 4,
-                                ["listIndex"] = 13,
-                            },
-                            ["|c00ff00Redguard Chair, Backless|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 121,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Redguard Carriage, Practical|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 39,
-                                ["listIndex"] = 18,
-                            },
-                            ["|c0066ffKennel, Locked|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 38,
-                                ["listIndex"] = 27,
-                            },
-                            ["|c00ff00Wood Elf Pedestal, Engraved|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 64,
-                                ["listIndex"] = 27,
-                            },
-                            ["|c00ff00Stros M'Kai Grilled Seagull|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 27,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Argonian Stool, Roped|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c0066ffHam, Display|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 160,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00High Elf Bed, Bunk|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 49,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Mint Chai|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Nord Bench, Braced|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 78,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Nut Brown Ale|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 1,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Carrot Soup|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 1,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Spicy Beet Salad|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 11,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Common Trap, Hunting|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 32,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c00ff00Radishes in Rice|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 9,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00High Elf Plate, Dinner|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 172,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Kragenmoor Zinger Mazte|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 40,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Apple Cobbler Supreme|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 24,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Roast Pig|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Common Washtub, Empty|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 108,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Mazte|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 5,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Ginkgo Tonic|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 1,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Nord Torch, Triple|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 118,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Argonian Mat, Tidy Reed|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Grapes, Wax|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 158,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Redguard Bin, Roped|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 70,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c00ff00Pumpkin Puree|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Yellow Goblin Tonic|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 9,
-                                ["listIndex"] = 10,
-                            },
-                            ["|cFFFFFFRough Stretcher, Military|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 166,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Green Scourgut Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 11,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Potato, Wax|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 254,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Breton Bed, Bunk|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 15,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Common Cargo, Sealed|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 30,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c00ff00Pumpkin, Display|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 255,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c782ee6Nord Chandelier, Antler|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 113,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Dark Elf Table, Formal|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 40,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c0066ffOrcish Pew, Peaked|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 104,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Argonian Ramekin, Hardened|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 29,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c782ee6Daedric Candles, Group|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 40,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Common Post, Sign Holder|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 14,
-                                ["listIndex"] = 18,
-                            },
-                            ["|c00ff00Dres Lantern, Stationary|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 75,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Melon Jelly|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 4,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Bitterlemon Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 13,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Breton Vase, Ceramic|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 24,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c00ff00Shimmerene Tonic|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 28,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c0066ffRedguard Mug, Empty|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 279,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Heart's Day Rose Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 40,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Argonian Chimney Stack|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 3,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c00ff00High Elf Table, Sturdy Kitchen|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 58,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Acai Tonic Infusion|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Chicken Breast|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 3,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Morning Reveille Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c782ee6Redguard Censer, Hanging Bulb|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 46,
-                                ["listIndex"] = 27,
-                            },
-                            ["|c00ff00Khajiit Desk, Faded|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 41,
-                                ["listIndex"] = 22,
-                            },
-                            ["|c00ff00Khajiit Frame, Arched|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 26,
-                                ["listIndex"] = 18,
-                            },
-                            ["|c782ee6High Elf Counter, Block|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 55,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Sweetsting Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 9,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Breton Desk|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 22,
-                            },
-                            ["|c00ff00Redguard Pot, Capped|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 281,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Nord Lantern, Cage|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 115,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Breton Sconce, Torch|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 20,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Red Rye Beer|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Carrot Cheesecake|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 7,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c0066ffDark Elf Carpet, Ashen|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 27,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c00ff00High Elf End Table, Sturdy|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 53,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c00ff00Steamed Radishes|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 4,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Orcish Counter, Block|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 100,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Kelp Kaveh|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 11,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Tarragon Chicken|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Old Clear-Eye Whiskey|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 12,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c0066ffRedguard End Table, Inlaid|r"] = 
-                            {
-                                ["numIngredients"] = 6,
-                                ["recipeIndex"] = 153,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c0066ffArgonian Lamppost|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 3,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Port Hunding Cheese Fries|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 12,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Indoril Streetlight, Stone|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 98,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Rabbit Pasty|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 7,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Colovian Amber Ale|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 27,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Baked Apples|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 1,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Hagraven's Tonic|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 42,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Common Basket, Tall|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 94,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Four-Eye Grog|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00High Elf Cup, Gilded|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 166,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Argonian Canopy, Reed|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 25,
-                            },
-                            ["|c00ff00Banana Surprise|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Surilie Syrah Wine|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Elsweyr Spice Display, Turmeric Yellow|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 424,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c0066ffPunkin Bunny|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 3,
-                                ["listIndex"] = 4,
-                            },
-                            ["|c00ff00Breton Street Post, Stone|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 11,
-                                ["listIndex"] = 18,
-                            },
-                            ["|c00ff00Khajiit Drapes, Tattered|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 110,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c00ff00Gingerose Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 12,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Khajiit Bed, Fur|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 81,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Banana Millet Muffin|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Wood Elf Wall Hide, Pierced|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 69,
-                                ["listIndex"] = 27,
-                            },
-                            ["|c00ff00Comberry Chai|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Flank Steak|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 4,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Breton Trestle, Sturdy|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 29,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Argonian Pan, Frying|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 23,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c0066ffArgonian Chair, Woven|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 4,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Dres Cup, Empty Mazte|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 133,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Khajiit End Table, Faded|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 111,
-                                ["listIndex"] = 23,
-                            },
-                            ["|c0066ffArgonian Urn, Clawfoot|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 17,
-                                ["listIndex"] = 27,
-                            },
-                            ["|c00ff00Meady-Matey Infusion|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Wood Elf Wall Hide, Fur|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 68,
-                                ["listIndex"] = 27,
-                            },
-                            ["|c00ff00Breton Dresser, Open|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 27,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Dwarven Pipe Cap, Bolted|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 40,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c00ff00Red Hippocras|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 11,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Common Cleaver, Cooking|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 99,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Dark Elf Lantern, Oil|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 49,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c0066ffClamberskull|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 11,
-                            },
-                            ["|c0066ffRedguard Candleholder, Polished|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 143,
-                                ["listIndex"] = 24,
-                            },
-                        },
-                        ["8796093055169929"] = 
-                        {
-                            ["|c00ff00Redguard Chair, Backless|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 121,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Tarragon Chicken|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Nord Shelf, Wall|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 47,
-                                ["listIndex"] = 22,
-                            },
-                            ["|c00ff00Surilie Syrah Wine|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Khajiit Desk, Faded|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 41,
-                                ["listIndex"] = 22,
-                            },
-                            ["|c00ff00Pumpkin Puree|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Yellow Goblin Tonic|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 9,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Mint Chai|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Red Rye Beer|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Meady-Matey Infusion|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Carrot Soup|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 1,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Bravil Melon Salad|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 9,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Old Clear-Eye Whiskey|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 12,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Balmora Cabbage Biscuits|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 10,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Argonian Baskets, Double|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 5,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Dark Elf Candle, Claw Base|r"] = 
-                            {
-                                ["numIngredients"] = 5,
-                                ["recipeIndex"] = 44,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c0066ffYerba Syrah Wine|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 12,
-                            },
-                            ["|c00ff00Argonian Mat, Tidy Reed|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Khajiit Bed, Fur|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 81,
-                                ["listIndex"] = 26,
-                            },
-                        },
-                        ["8796093050185289"] = 
-                        {
-                            ["|c00ff00Colovian Ginger Beer|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 41,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Ginkgo Tonic|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 1,
-                                ["listIndex"] = 10,
-                            },
-                            ["|c00ff00Tarragon Chicken|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 8,
-                                ["listIndex"] = 1,
-                            },
-                            ["|c00ff00Pumpkin Puree|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 6,
-                                ["listIndex"] = 2,
-                            },
-                            ["|c00ff00Redguard Candleholder, Practical|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 144,
-                                ["listIndex"] = 24,
-                            },
-                            ["|c00ff00Redguard Pot, Capped|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 281,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Red Rye Beer|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 2,
-                                ["listIndex"] = 8,
-                            },
-                            ["|c00ff00Borscht|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 5,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Carrot Soup|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 1,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Dres Cup, Empty Mazte|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 133,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Heart's Day Rose Tea|r"] = 
-                            {
-                                ["numIngredients"] = 2,
-                                ["recipeIndex"] = 40,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Dres Bowl, Dinner|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 126,
-                                ["listIndex"] = 21,
-                            },
-                            ["|c00ff00Roast Corn|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 3,
-                                ["listIndex"] = 3,
-                            },
-                            ["|c00ff00Dark Elf Table, Formal|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 40,
-                                ["listIndex"] = 19,
-                            },
-                            ["|c00ff00Orcish Shelf, Short|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 54,
-                                ["listIndex"] = 22,
-                            },
-                            ["|c00ff00High Elf Bed, Single|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 50,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Common Cargo, Covered|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 28,
-                                ["listIndex"] = 28,
-                            },
-                            ["|c00ff00Hlaalu Bed, Single|r"] = 
-                            {
-                                ["numIngredients"] = 4,
-                                ["recipeIndex"] = 65,
-                                ["listIndex"] = 26,
-                            },
-                            ["|c00ff00Lotus Tea|r"] = 
-                            {
-                                ["numIngredients"] = 1,
-                                ["recipeIndex"] = 4,
-                                ["listIndex"] = 9,
-                            },
-                            ["|c00ff00Dres Pot, Sauce|r"] = 
-                            {
-                                ["numIngredients"] = 3,
-                                ["recipeIndex"] = 139,
-                                ["listIndex"] = 21,
-                            },
-                        },
-                    },
-                    ["mainChar"] = "8796093055169929",
-                    ["version"] = 230,
                     ["showSpecialIngredients"] = false,
-                    ["Pantry"] = 
-                    {
-                        [34305] = 4,
-                        [34307] = 5,
-                        [34308] = 4,
-                        [34309] = 5,
-                        [4486] = 11,
-                        [34311] = 4,
-                        [45838] = 11,
-                        [34321] = 3,
-                        [34323] = 5,
-                        [34324] = 5,
-                        [34329] = 6,
-                        [54170] = 11,
-                        [27035] = 10,
-                        [45852] = 11,
-                        [34333] = 8,
-                        [54174] = 11,
-                        [34335] = 8,
-                        [54178] = 11,
-                        [27043] = 10,
-                        [54180] = 11,
-                        [27048] = 10,
-                        [27049] = 10,
-                        [34346] = 8,
-                        [34347] = 8,
-                        [34348] = 6,
-                        [34349] = 8,
-                        [27057] = 9,
-                        [27058] = 9,
-                        [27059] = 11,
-                        [27063] = 9,
-                        [27064] = 9,
-                        [28603] = 4,
-                        [28604] = 5,
-                        [28610] = 11,
-                        [151621] = 11,
-                        [46151] = 11,
-                        [114889] = 11,
-                        [26954] = 9,
-                        [114891] = 11,
-                        [114892] = 11,
-                        [114893] = 11,
-                        [114894] = 11,
-                        [114895] = 11,
-                        [33752] = 3,
-                        [33753] = 3,
-                        [33754] = 3,
-                        [33755] = 4,
-                        [33756] = 3,
-                        [34345] = 6,
-                        [33758] = 5,
-                        [28639] = 6,
-                        [26802] = 11,
-                        [137953] = 11,
-                        [27052] = 10,
-                        [33251] = 11,
-                        [33252] = 11,
-                        [33253] = 11,
-                        [29030] = 6,
-                        [33255] = 11,
-                        [33256] = 11,
-                        [33257] = 11,
-                        [33258] = 11,
-                        [28636] = 7,
-                        [33772] = 8,
-                        [33773] = 7,
-                        [33774] = 6,
-                        [33768] = 7,
-                        [54171] = 11,
-                        [45851] = 11,
-                        [34334] = 7,
-                        [57587] = 11,
-                        [114890] = 11,
-                        [34330] = 7,
-                        [33254] = 11,
-                        [54179] = 11,
-                        [33194] = 11,
-                        [135161] = 11,
-                        [28666] = 10,
-                        [27100] = 9,
-                        [45853] = 11,
-                        [54175] = 11,
-                        [33150] = 11,
-                        [54172] = 11,
-                    },
-                    ["showAltShopping"] = true,
-                    ["showCounts"] = true,
-                    ["showAltIngredientKnowledge"] = false,
-                    ["boldIcon"] = false,
                     ["ReverseCookbook"] = 
                     {
                         [34305] = 
@@ -1933,11 +1326,10 @@ SousChef_Settings =
                             [2] = "|c0066ffPunkin Bunny|r",
                             [1] = "|c00ff00Rabbit Pasty|r",
                         },
-                        [34345] = 
+                        [54172] = 
                         {
-                            [1] = "|c00ff00Surilie Syrah Wine|r",
-                            [2] = "|c0066ffYerba Syrah Wine|r",
-                            [3] = "|c00ff00Red Hippocras|r",
+                            [2] = "|c782ee6Redguard Censer, Hanging Bulb|r",
+                            [1] = "|c782ee6Nord Chandelier, Antler|r",
                         },
                         [33758] = 
                         {
@@ -1959,13 +1351,13 @@ SousChef_Settings =
                         {
                             [1] = "|c782ee6Alinor Bookshelf Wall, Timeworn|r",
                         },
-                        [27052] = 
+                        [54175] = 
                         {
-                            [1] = "|c00ff00Red Hippocras|r",
-                            [2] = "|c00ff00Colovian Ginger Beer|r",
-                            [3] = "|c00ff00Morning Reveille Tea|r",
-                            [4] = "|c00ff00Gingerose Tea|r",
-                            [5] = "|c00ff00Hagraven's Tonic|r",
+                            [1] = "|c0066ffDark Elf Carpet, Ashen|r",
+                            [2] = "|c0066ffDark Elf Carpet, Fungal|r",
+                            [3] = "|c0066ffRedguard Carpet, Dunes|r",
+                            [4] = "|c0066ffArgonian Lamppost|r",
+                            [5] = "|c0066ffBreton Bed, Full|r",
                         },
                         [33251] = 
                         {
@@ -2064,11 +1456,9 @@ SousChef_Settings =
                             [12] = "|c00ff00Redguard Bin, Roped|r",
                             [13] = "|c00ff00Redguard Candleholder, Practical|r",
                         },
-                        [28636] = 
+                        [45853] = 
                         {
-                            [1] = "|c00ff00Rose Herbal Tea|r",
-                            [2] = "|c00ff00Gingerose Tea|r",
-                            [3] = "|c00ff00Heart's Day Rose Tea|r",
+                            [1] = "|c782ee6Alinor Bookshelf Wall, Timeworn|r",
                         },
                         [33772] = 
                         {
@@ -2085,9 +1475,27 @@ SousChef_Settings =
                             [2] = "|c00ff00Tawny Port|r",
                             [3] = "|c00ff00Colovian Ginger Beer|r",
                         },
-                        [33768] = 
+                        [27100] = 
                         {
-                            [1] = "|c00ff00Comberry Chai|r",
+                            [1] = "|c00ff00Balmora Cabbage Biscuits|r",
+                            [2] = "|c00ff00Rabbit Pasty|r",
+                            [3] = "|c00ff00Pan-Fried Trout|r",
+                            [4] = "|c00ff00Apple Cobbler Supreme|r",
+                            [5] = "|c00ff00Indoril Radish Tartlets|r",
+                            [6] = "|c00ff00Common Bowl of Stew, Display|r",
+                            [7] = "|c00ff00Dres Bowl, Serving|r",
+                            [8] = "|c00ff00Dres Cup, Empty Mazte|r",
+                            [9] = "|c00ff00Grapes, Wax|r",
+                            [10] = "|c00ff00Potato, Wax|r",
+                            [11] = "|c00ff00Pumpkin, Display|r",
+                            [12] = "|c00ff00Redguard Pot, Capped|r",
+                            [13] = "|c00ff00Winter Squash, Display|r",
+                            [14] = "|c00ff00Wood Elf Urn, Scratched|r",
+                            [15] = "|c00ff00Elsweyr Spice Display, Turmeric Yellow|r",
+                            [16] = "|c00ff00Breton Vase, Ceramic|r",
+                            [17] = "|c00ff00Common Candle, Set|r",
+                            [18] = "|c00ff00Dres Bowl, Dinner|r",
+                            [19] = "|c00ff00Common Bowl of Soup, Display|r",
                         },
                         [54171] = 
                         {
@@ -2108,48 +1516,29 @@ SousChef_Settings =
                             [6] = "|c00ff00Orcish Bedding, Stone|r",
                             [7] = "|c00ff00Wood Elf Pedestal, Engraved|r",
                         },
-                        [34334] = 
+                        [33194] = 
                         {
-                            [4] = "|c0066ffClamberskull|r",
-                            [1] = "|c00ff00Green Scourgut Tea|r",
-                            [2] = "|c00ff00Bitterlemon Tea|r",
-                            [3] = "|c00ff00Muthsera's Remorse|r",
+                            [1] = "|c00ff00Wood Elf Table, Leather|r",
+                            [2] = "|c00ff00Wood Elf Bar, Long|r",
+                            [3] = "|c00ff00Wood Elf Grinding Stone|r",
+                            [4] = "|c00ff00Wood Elf Urn, Scratched|r",
+                            [5] = "|c00ff00Wood Elf Pedestal, Engraved|r",
+                            [6] = "|c00ff00Wood Elf Wall Hide, Fur|r",
+                            [7] = "|c00ff00Wood Elf Wall Hide, Pierced|r",
                         },
                         [57587] = 
                         {
                             [2] = "|c00ff00Dwarven Pipe Cap, Bolted|r",
                             [1] = "|c00ff00Dwarven Pot, Sealed|r",
                         },
-                        [114890] = 
+                        [54179] = 
                         {
-                            [1] = "|c00ff00Argonian Mat, Tidy Reed|r",
-                            [2] = "|c0066ffArgonian Chair, Woven|r",
-                            [3] = "|c0066ffDaedric Bench, Ashen|r",
-                            [4] = "|c00ff00Common Basket, Tall|r",
-                            [5] = "|c0066ffDark Elf Carpet, Ashen|r",
-                            [6] = "|c0066ffDark Elf Carpet, Fungal|r",
-                            [7] = "|c00ff00Khajiit Drapes, Tattered|r",
-                            [8] = "|c0066ffRedguard Carpet, Dunes|r",
-                            [9] = "|c0066ffArgonian Lamppost|r",
-                            [10] = "|c00ff00Argonian Canopy, Reed|r",
-                            [11] = "|c00ff00Argonian Mat, Reed|r",
-                            [12] = "|c00ff00Breton Bed, Bunk|r",
-                            [13] = "|c0066ffBreton Bed, Full|r",
-                            [14] = "|c00ff00High Elf Bed, Bunk|r",
-                            [15] = "|c00ff00Nord Bed, Single|r",
-                            [16] = "|cFFFFFFRough Bedroll, Basic|r",
-                            [17] = "|cFFFFFFRough Stretcher, Military|r",
-                            [18] = "|c00ff00Redguard Bin, Roped|r",
-                            [19] = "|c00ff00High Elf Bed, Single|r",
-                            [20] = "|c00ff00Hlaalu Bed, Single|r",
-                            [21] = "|c00ff00Argonian Baskets, Double|r",
-                        },
-                        [34330] = 
-                        {
-                            [4] = "|c00ff00Lotus Tea|r",
-                            [1] = "|c00ff00Sweetsting Tea|r",
-                            [2] = "|c00ff00Sourflower Tea|r",
-                            [3] = "|c0066ffTsaesci Tea|r",
+                            [1] = "|c0066ffArgonian Chair, Woven|r",
+                            [2] = "|c0066ffDark Elf Counter, Bar|r",
+                            [3] = "|c0066ffOrcish Pew, Peaked|r",
+                            [4] = "|c0066ffDesk, Engraved|r",
+                            [5] = "|c0066ffRedguard End Table, Inlaid|r",
+                            [6] = "|c0066ffRedguard Candleholder, Polished|r",
                         },
                         [33254] = 
                         {
@@ -2177,24 +1566,43 @@ SousChef_Settings =
                             [22] = "|c0066ffTongs, Forge|r",
                             [23] = "|c00ff00Common Bowl of Soup, Display|r",
                         },
-                        [54179] = 
+                        [34330] = 
                         {
-                            [1] = "|c0066ffArgonian Chair, Woven|r",
-                            [2] = "|c0066ffDark Elf Counter, Bar|r",
-                            [3] = "|c0066ffOrcish Pew, Peaked|r",
-                            [4] = "|c0066ffDesk, Engraved|r",
-                            [5] = "|c0066ffRedguard End Table, Inlaid|r",
-                            [6] = "|c0066ffRedguard Candleholder, Polished|r",
+                            [4] = "|c00ff00Lotus Tea|r",
+                            [1] = "|c00ff00Sweetsting Tea|r",
+                            [2] = "|c00ff00Sourflower Tea|r",
+                            [3] = "|c0066ffTsaesci Tea|r",
                         },
-                        [33194] = 
+                        [114890] = 
                         {
-                            [1] = "|c00ff00Wood Elf Table, Leather|r",
-                            [2] = "|c00ff00Wood Elf Bar, Long|r",
-                            [3] = "|c00ff00Wood Elf Grinding Stone|r",
-                            [4] = "|c00ff00Wood Elf Urn, Scratched|r",
-                            [5] = "|c00ff00Wood Elf Pedestal, Engraved|r",
-                            [6] = "|c00ff00Wood Elf Wall Hide, Fur|r",
-                            [7] = "|c00ff00Wood Elf Wall Hide, Pierced|r",
+                            [1] = "|c00ff00Argonian Mat, Tidy Reed|r",
+                            [2] = "|c0066ffArgonian Chair, Woven|r",
+                            [3] = "|c0066ffDaedric Bench, Ashen|r",
+                            [4] = "|c00ff00Common Basket, Tall|r",
+                            [5] = "|c0066ffDark Elf Carpet, Ashen|r",
+                            [6] = "|c0066ffDark Elf Carpet, Fungal|r",
+                            [7] = "|c00ff00Khajiit Drapes, Tattered|r",
+                            [8] = "|c0066ffRedguard Carpet, Dunes|r",
+                            [9] = "|c0066ffArgonian Lamppost|r",
+                            [10] = "|c00ff00Argonian Canopy, Reed|r",
+                            [11] = "|c00ff00Argonian Mat, Reed|r",
+                            [12] = "|c00ff00Breton Bed, Bunk|r",
+                            [13] = "|c0066ffBreton Bed, Full|r",
+                            [14] = "|c00ff00High Elf Bed, Bunk|r",
+                            [15] = "|c00ff00Nord Bed, Single|r",
+                            [16] = "|cFFFFFFRough Bedroll, Basic|r",
+                            [17] = "|cFFFFFFRough Stretcher, Military|r",
+                            [18] = "|c00ff00Redguard Bin, Roped|r",
+                            [19] = "|c00ff00High Elf Bed, Single|r",
+                            [20] = "|c00ff00Hlaalu Bed, Single|r",
+                            [21] = "|c00ff00Argonian Baskets, Double|r",
+                        },
+                        [34334] = 
+                        {
+                            [4] = "|c0066ffClamberskull|r",
+                            [1] = "|c00ff00Green Scourgut Tea|r",
+                            [2] = "|c00ff00Bitterlemon Tea|r",
+                            [3] = "|c00ff00Muthsera's Remorse|r",
                         },
                         [135161] = 
                         {
@@ -2207,39 +1615,23 @@ SousChef_Settings =
                             [2] = "|c00ff00Green Scourgut Tea|r",
                             [3] = "|c00ff00Kelp Kaveh|r",
                         },
-                        [27100] = 
+                        [33768] = 
                         {
-                            [1] = "|c00ff00Balmora Cabbage Biscuits|r",
-                            [2] = "|c00ff00Rabbit Pasty|r",
-                            [3] = "|c00ff00Pan-Fried Trout|r",
-                            [4] = "|c00ff00Apple Cobbler Supreme|r",
-                            [5] = "|c00ff00Indoril Radish Tartlets|r",
-                            [6] = "|c00ff00Common Bowl of Stew, Display|r",
-                            [7] = "|c00ff00Dres Bowl, Serving|r",
-                            [8] = "|c00ff00Dres Cup, Empty Mazte|r",
-                            [9] = "|c00ff00Grapes, Wax|r",
-                            [10] = "|c00ff00Potato, Wax|r",
-                            [11] = "|c00ff00Pumpkin, Display|r",
-                            [12] = "|c00ff00Redguard Pot, Capped|r",
-                            [13] = "|c00ff00Winter Squash, Display|r",
-                            [14] = "|c00ff00Wood Elf Urn, Scratched|r",
-                            [15] = "|c00ff00Elsweyr Spice Display, Turmeric Yellow|r",
-                            [16] = "|c00ff00Breton Vase, Ceramic|r",
-                            [17] = "|c00ff00Common Candle, Set|r",
-                            [18] = "|c00ff00Dres Bowl, Dinner|r",
-                            [19] = "|c00ff00Common Bowl of Soup, Display|r",
+                            [1] = "|c00ff00Comberry Chai|r",
                         },
-                        [45853] = 
+                        [28636] = 
                         {
-                            [1] = "|c782ee6Alinor Bookshelf Wall, Timeworn|r",
+                            [1] = "|c00ff00Rose Herbal Tea|r",
+                            [2] = "|c00ff00Gingerose Tea|r",
+                            [3] = "|c00ff00Heart's Day Rose Tea|r",
                         },
-                        [54175] = 
+                        [27052] = 
                         {
-                            [1] = "|c0066ffDark Elf Carpet, Ashen|r",
-                            [2] = "|c0066ffDark Elf Carpet, Fungal|r",
-                            [3] = "|c0066ffRedguard Carpet, Dunes|r",
-                            [4] = "|c0066ffArgonian Lamppost|r",
-                            [5] = "|c0066ffBreton Bed, Full|r",
+                            [1] = "|c00ff00Red Hippocras|r",
+                            [2] = "|c00ff00Colovian Ginger Beer|r",
+                            [3] = "|c00ff00Morning Reveille Tea|r",
+                            [4] = "|c00ff00Gingerose Tea|r",
+                            [5] = "|c00ff00Hagraven's Tonic|r",
                         },
                         [33150] = 
                         {
@@ -2257,839 +1649,1447 @@ SousChef_Settings =
                             [12] = "|c00ff00Argonian Stool, Roped|r",
                             [13] = "|c00ff00Argonian Baskets, Double|r",
                         },
-                        [54172] = 
+                        [34345] = 
                         {
-                            [2] = "|c782ee6Redguard Censer, Hanging Bulb|r",
-                            [1] = "|c782ee6Nord Chandelier, Antler|r",
+                            [1] = "|c00ff00Surilie Syrah Wine|r",
+                            [2] = "|c0066ffYerba Syrah Wine|r",
+                            [3] = "|c00ff00Red Hippocras|r",
                         },
                     },
-                    ["typeIcon"] = true,
-                    ["knownChars"] = 
-                    {
-                        [4] = "8796093050185289",
-                        [1] = "(current)",
-                        [2] = "8796093055169929",
-                        [3] = "8796093050176555",
-                    },
-                    ["markAlt"] = true,
-                    ["ignoredRecipes"] = 
-                    {
-                    },
-                    ["checkKnown"] = "unknown",
-                    ["processRecipes"] = true,
-                    ["autoJunk"] = false,
-                    ["sortKnownIngredients"] = false,
-                    ["showAltKnowledge"] = true,
+                    ["showCounts"] = true,
                     ["onlyShowShopping"] = false,
-                    ["Cookbook"] = 
-                    {
-                        ["darkelfcarpet,ashen"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardpot,capped"] = 
-                        {
-                            ["8796093050185289"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["solitudenightstand,cabinet"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretondresser,open"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["darkelfcarpet,fungal"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["meadymateyinfusion"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["shimmerenetonic"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["whiskeysour"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["markarthmead"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianmat,tidyreed"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["orcishpew,peaked"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["isinmateinfusion"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["flanksteak"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["porthundingcheesefries"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["woodelfwallhide,pierced"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["daedricbench,ashen"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commoncandle,set"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["pirate'sjigtonic"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["elsweyrspicedisplay,turmericyellow"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianchimneystack"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfbed,bunk"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["gingerosetea"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bakedapples"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardendtable,inlaid"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["suriliesyrahwine"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfdesk,verdant"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretondesk"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["mazte"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["orcishshelf,short"] = 
-                        {
-                            ["8796093050185289"] = true,
-                        },
-                        ["mintchai"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["dresbowl,dinner"] = 
-                        {
-                            ["8796093050185289"] = true,
-                        },
-                        ["wintersquash,display"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianbowl,wooden"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["kelpkaveh"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["darkelfbasin,ringed"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardmug,empty"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["orcishbanner,faded"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commoncargo,sealed"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["roughbedroll,basic"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["daedriccandles,group"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["woodelfpedestal,engraved"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["orcishcounter,block"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argoniantable,rough"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commonpost,signholder"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["yellowgoblintonic"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianmat,reed"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commonbasket,tall"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["lotustea"] = 
-                        {
-                            ["8796093050185289"] = true,
-                        },
-                        ["redguardcarpet,dunes"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianchair,woven"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["friedgreentomatoes"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["drescup,emptymazte"] = 
-                        {
-                            ["8796093050185289"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretonvase,ceramic"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["khajiitbed,fur"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["redryebeer"] = 
-                        {
-                            ["8796093050176555"] = true,
-                            ["8796093055169929"] = true,
-                            ["8796093050185289"] = true,
-                        },
-                        ["senchalcurryfishandrice"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianurn,clawfoot"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["ham,display"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commontrap,hunting"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["khajiitframe,arched"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["woodelfurn,scratched"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["nutbrownale"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["savorythorncornbread"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfplate,dinner"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["yerbasyrahwine"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["mage'sgorappleporridge"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["muthsera'sremorse"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["nordchandelier,antler"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["steamedradishes"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretontrestle,sturdy"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["strosm'kaigrilledseagull"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["woodelfgrindingstone"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commoncleaver,cooking"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["nordtorch,triple"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardbin,roped"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["woodelfwallhide,fur"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardchair,backless"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["goldenlager"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["dwarvenpot,sealed"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianstool,roped"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["kennel,locked"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardcandleholder,polished"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["alinorbookshelfwall,timeworn"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["tongs,forge"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretonlightpost,arched"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["morningreveilletea"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretonsconce,torch"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["dreslantern,stationary"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commonwashtub,empty"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianbaskets,double"] = 
-                        {
-                            ["8796093055169929"] = true,
-                        },
-                        ["argonianpan,frying"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commonlantern,hanging"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfcup,gilded"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["nordbench,braced"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["foureyegrog"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelftable,sturdykitchen"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["clamberskull"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["borscht"] = 
-                        {
-                            ["8796093050185289"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["commoncargo,covered"] = 
-                        {
-                            ["8796093050185289"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["panfriedtrout"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["tarragonchicken"] = 
-                        {
-                            ["8796093050176555"] = true,
-                            ["8796093055169929"] = true,
-                            ["8796093050185289"] = true,
-                        },
-                        ["darkelfcandle,clawbase"] = 
-                        {
-                            ["8796093055169929"] = true,
-                        },
-                        ["argonianlamppost"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["colovianamberale"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["roastcorn"] = 
-                        {
-                            ["8796093050185289"] = true,
-                        },
-                        ["coloviangingerbeer"] = 
-                        {
-                            ["8796093050185289"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["argonianramekin,hardened"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardcouch,bolted"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["indorilradishtartlets"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretonbed,bunk"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["hagraven'stonic"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["dwarvenpipecap,bolted"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["comberrychai"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["fishystick"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["ginkgotonic"] = 
-                        {
-                            ["8796093050185289"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["chickenbreast"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["khajiitdrapes,tattered"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redhippocras"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["tsaescitea"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["melonjelly"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["carrotcheesecake"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["camlornsweetbrownale"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["tawnyport"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["commonbowlofstew,display"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["potato,wax"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["nordbed,single"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["sweetstingtea"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardcenser,hangingbulb"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["sourflowertea"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["hlaalubed,single"] = 
-                        {
-                            ["8796093050185289"] = true,
-                        },
-                        ["bravilmelonsalad"] = 
-                        {
-                            ["8796093055169929"] = true,
-                        },
-                        ["kragenmoorzingermazte"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["indorilstreetlight,stone"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfendtable,sturdy"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["punkinbunny"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfbench,curved"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["khajiitendtable,faded"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["woodelftable,leather"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["orcishbar,side"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["footstool,block"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfbed,single"] = 
-                        {
-                            ["8796093050185289"] = true,
-                        },
-                        ["bananasurprise"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["darkelflantern,oil"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["pumpkinpuree"] = 
-                        {
-                            ["8796093050176555"] = true,
-                            ["8796093055169929"] = true,
-                            ["8796093050185289"] = true,
-                        },
-                        ["greenscourguttea"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardcarriage,practical"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["hlaalurack,barrel"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["darkelftable,formal"] = 
-                        {
-                            ["8796093050185289"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["commonbowlofsoup,display"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["candle,group"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretonbed,full"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["grapes,wax"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["argoniancanopy,reed"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["orcishbar,longblock"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["khajiitdesk,faded"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["darkelfstreetpost,banner"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["nordshelf,wall"] = 
-                        {
-                            ["8796093055169929"] = true,
-                        },
-                        ["roastpig"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardstreetlamp,single"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bogironale"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfcandleholder,sturdy"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["darkelfcounter,bar"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["darkelfcart,merchant"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["greensalad"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["desk,engraved"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["drespot,sauce"] = 
-                        {
-                            ["8796093050185289"] = true,
-                        },
-                        ["bretonstreetpost,stone"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["pumpkin,display"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["heart'sdayrosetea"] = 
-                        {
-                            ["8796093050185289"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["oldcleareyewhiskey"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["woodelfbar,long"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["acaitonicinfusion"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["roseherbaltea"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["carrotsoup"] = 
-                        {
-                            ["8796093050176555"] = true,
-                            ["8796093055169929"] = true,
-                            ["8796093050185289"] = true,
-                        },
-                        ["bitterlemontea"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["nordlantern,cage"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["highelfcounter,block"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bakedpotato"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bretonbench,plain"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["daedricpedestal,ritual"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["dresbowl,serving"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["radishesinrice"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["rabbitpasty"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["bananamilletmuffin"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardcandelabra,practical"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["roughstretcher,military"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["spicybeetsalad"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["khajiitfirepit,brick"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["balmoracabbagebiscuits"] = 
-                        {
-                            ["8796093055169929"] = true,
-                            ["8796093050176555"] = true,
-                        },
-                        ["redguardcandleholder,practical"] = 
-                        {
-                            ["8796093050185289"] = true,
-                        },
-                        ["applecobblersupreme"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                        ["orcishbedding,stone"] = 
-                        {
-                            ["8796093050176555"] = true,
-                        },
-                    },
-                    ["shoppingList"] = 
-                    {
-                    },
-                    ["qualityChecked"] = false,
-                    ["showOnClick"] = false,
+                    ["version"] = 230,
                     ["colour"] = 
                     {
                         [1] = 1,
                         [2] = 1,
                         [3] = 1,
                     },
+                    ["showAltShopping"] = true,
+                    ["Pantry"] = 
+                    {
+                        [34305] = 4,
+                        [34307] = 5,
+                        [34308] = 4,
+                        [34309] = 5,
+                        [4486] = 11,
+                        [34311] = 4,
+                        [45838] = 11,
+                        [34321] = 3,
+                        [34323] = 5,
+                        [34324] = 5,
+                        [34329] = 6,
+                        [54170] = 11,
+                        [27035] = 10,
+                        [45852] = 11,
+                        [34333] = 8,
+                        [54174] = 11,
+                        [34335] = 8,
+                        [54178] = 11,
+                        [27043] = 10,
+                        [54180] = 11,
+                        [27048] = 10,
+                        [27049] = 10,
+                        [34346] = 8,
+                        [34347] = 8,
+                        [34348] = 6,
+                        [34349] = 8,
+                        [27057] = 9,
+                        [27058] = 9,
+                        [27059] = 11,
+                        [27063] = 9,
+                        [27064] = 9,
+                        [28603] = 4,
+                        [28604] = 5,
+                        [28610] = 11,
+                        [151621] = 11,
+                        [46151] = 11,
+                        [114889] = 11,
+                        [26954] = 9,
+                        [114891] = 11,
+                        [114892] = 11,
+                        [114893] = 11,
+                        [114894] = 11,
+                        [114895] = 11,
+                        [33752] = 3,
+                        [33753] = 3,
+                        [33754] = 3,
+                        [33755] = 4,
+                        [33756] = 3,
+                        [54172] = 11,
+                        [33758] = 5,
+                        [28639] = 6,
+                        [26802] = 11,
+                        [137953] = 11,
+                        [54175] = 11,
+                        [33251] = 11,
+                        [33252] = 11,
+                        [33253] = 11,
+                        [29030] = 6,
+                        [33255] = 11,
+                        [33256] = 11,
+                        [33257] = 11,
+                        [33258] = 11,
+                        [45853] = 11,
+                        [33772] = 8,
+                        [33773] = 7,
+                        [33774] = 6,
+                        [27100] = 9,
+                        [54171] = 11,
+                        [45851] = 11,
+                        [33194] = 11,
+                        [57587] = 11,
+                        [54179] = 11,
+                        [33254] = 11,
+                        [34330] = 7,
+                        [114890] = 11,
+                        [34334] = 7,
+                        [135161] = 11,
+                        [28666] = 10,
+                        [33768] = 7,
+                        [28636] = 7,
+                        [27052] = 10,
+                        [33150] = 11,
+                        [34345] = 6,
+                    },
+                    ["showAltKnowledge"] = true,
+                    ["boldIcon"] = false,
+                    ["checkKnown"] = "unknown",
+                    ["sortKnownIngredients"] = false,
+                    ["autoJunk"] = false,
+                    ["showAltIngredientKnowledge"] = false,
+                    ["ignoredRecipes"] = 
+                    {
+                    },
+                    ["markAlt"] = true,
+                    ["typeIcon"] = true,
+                    ["CookbookIndex"] = 
+                    {
+                        ["8796093050176555"] = 
+                        {
+                            ["|c00ff00Comberry Chai|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 6,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Hagraven's Tonic|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 42,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c00ff00Dark Elf Cart, Merchant|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 19,
+                                ["listIndex"] = 18,
+                            },
+                            ["|c00ff00Green Salad|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 6,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00High Elf Bench, Curved|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 50,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c0066ffDaedric Bench, Ashen|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 33,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Hlaalu Rack, Barrel|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 186,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Breton Vase, Ceramic|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 24,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c00ff00Dres Cup, Empty Mazte|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 133,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Redguard Couch, Bolted|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 148,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c00ff00Wood Elf Grinding Stone|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 344,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Argonian Table, Rough|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 11,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Dark Elf Streetpost, Banner|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 17,
+                                ["listIndex"] = 18,
+                            },
+                            ["|c00ff00Nord Bench, Braced|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 78,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Common Cargo, Covered|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 28,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Spicy Beet Salad|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 11,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Common Post, Sign Holder|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 14,
+                                ["listIndex"] = 18,
+                            },
+                            ["|c00ff00Flank Steak|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 4,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Wood Elf Table, Leather|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 152,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Kragenmoor Zinger Mazte|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 40,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Orcish Bedding, Stone|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 110,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Nord Torch, Triple|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 118,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Mint Chai|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Dark Elf Basin, Ringed|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 25,
+                                ["listIndex"] = 27,
+                            },
+                            ["|c0066ffRedguard End Table, Inlaid|r"] = 
+                            {
+                                ["numIngredients"] = 6,
+                                ["recipeIndex"] = 153,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c00ff00Pumpkin, Display|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 255,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Mazte|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 5,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Redguard Bin, Roped|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 70,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Muthsera's Remorse|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 42,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Common Candle, Set|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 32,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Whiskey Sour|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 30,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Golden Lager|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 3,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Rabbit Pasty|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 7,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Dwarven Pipe Cap, Bolted|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 40,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Redguard Carriage, Practical|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 39,
+                                ["listIndex"] = 18,
+                            },
+                            ["|c00ff00Wood Elf Bar, Long|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 329,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Grapes, Wax|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 158,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Surilie Syrah Wine|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 6,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Winter Squash, Display|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 327,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c782ee6Redguard Censer, Hanging Bulb|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 46,
+                                ["listIndex"] = 27,
+                            },
+                            ["|c00ff00High Elf End Table, Sturdy|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 53,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c0066ffClamberskull|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 11,
+                            },
+                            ["|c00ff00Bitterlemon Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 13,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Meady-Matey Infusion|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 8,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c0066ffDark Elf Carpet, Fungal|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 28,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c00ff00Solitude Nightstand, Cabinet|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 241,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c782ee6Daedric Candles, Group|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 40,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Dres Bowl, Serving|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 129,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c0066ffArgonian Chair, Woven|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 4,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00High Elf Cup, Gilded|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 166,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Borscht|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 5,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Argonian Mat, Reed|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 5,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c0066ffArgonian Lamppost|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 3,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Khajiit Firepit, Brick|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 104,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Breton Sconce, Torch|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 20,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00High Elf Bed, Bunk|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 49,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Red Hippocras|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 11,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00High Elf Table, Sturdy Kitchen|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 58,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c0066ffKennel, Locked|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 38,
+                                ["listIndex"] = 27,
+                            },
+                            ["|c00ff00Apple Cobbler Supreme|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 24,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c00ff00Fried Green Tomatoes|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 11,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c00ff00Pan-Fried Trout|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 12,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Footstool, Block|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 25,
+                                ["listIndex"] = 28,
+                            },
+                            ["|cFFFFFFRough Bedroll, Basic|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 165,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Breton Bench, Plain|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 14,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Baked Apples|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 1,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c00ff00Colovian Amber Ale|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 27,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Senchal Curry Fish and Rice|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 19,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Redguard Candelabra, Practical|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 141,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Wood Elf Urn, Scratched|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 355,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Dark Elf Table, Formal|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 40,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Melon Jelly|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 4,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c00ff00Argonian Pan, Frying|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 23,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Four-Eye Grog|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 8,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Savory Thorn Cornbread|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 29,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Banana Surprise|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c00ff00Wood Elf Wall Hide, Fur|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 68,
+                                ["listIndex"] = 27,
+                            },
+                            ["|c00ff00Argonian Bowl, Wooden|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 10,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Steamed Radishes|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 4,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Radishes in Rice|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 9,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c0066ffTongs, Forge|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 89,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Red Rye Beer|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Old Clear-Eye Whiskey|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 12,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Isinmate Infusion|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 10,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c0066ffRedguard Carpet, Dunes|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 145,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c0066ffRedguard Candleholder, Polished|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 143,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Nord Bed, Single|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 94,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c0066ffDark Elf Counter, Bar|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 37,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Argonian Chimney Stack|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 3,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Fishy Stick|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 1,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c0066ffHam, Display|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 160,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c0066ffHigh Elf Desk, Verdant|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 30,
+                                ["listIndex"] = 22,
+                            },
+                            ["|c00ff00Breton Bed, Bunk|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 15,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Khajiit Frame, Arched|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 26,
+                                ["listIndex"] = 18,
+                            },
+                            ["|c00ff00Khajiit Drapes, Tattered|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 110,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c00ff00Wood Elf Pedestal, Engraved|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 64,
+                                ["listIndex"] = 27,
+                            },
+                            ["|c00ff00Gingerose Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 12,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Baked Potato|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c0066ffArgonian Urn, Clawfoot|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 17,
+                                ["listIndex"] = 27,
+                            },
+                            ["|c00ff00Nut Brown Ale|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 1,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Roast Pig|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Redguard Streetlamp, Single|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 158,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c0066ffTsaesci Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 4,
+                                ["listIndex"] = 13,
+                            },
+                            ["|c00ff00Khajiit End Table, Faded|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 111,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c00ff00Banana Millet Muffin|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 8,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c00ff00Morning Reveille Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 8,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Rose Herbal Tea|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 3,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Breton Trestle, Sturdy|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 29,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Orcish Banner, Faded|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 130,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c00ff00Wood Elf Wall Hide, Pierced|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 69,
+                                ["listIndex"] = 27,
+                            },
+                            ["|c00ff00Orcish Bar, Long Block|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 94,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Common Cleaver, Cooking|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 99,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Yellow Goblin Tonic|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 9,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c00ff00Indoril Radish Tartlets|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 24,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Breton Street Post, Stone|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 11,
+                                ["listIndex"] = 18,
+                            },
+                            ["|c0066ffPunkin Bunny|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 3,
+                                ["listIndex"] = 4,
+                            },
+                            ["|c00ff00Elsweyr Spice Display, Turmeric Yellow|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 424,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Port Hunding Cheese Fries|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 12,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Argonian Canopy, Reed|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 25,
+                            },
+                            ["|c00ff00Indoril Streetlight, Stone|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 98,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Common Basket, Tall|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 94,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Tarragon Chicken|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 8,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Kelp Kaveh|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 11,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c00ff00Redguard Pot, Capped|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 281,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Sourflower Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 10,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Dres Lantern, Stationary|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 75,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c0066ffDark Elf Carpet, Ashen|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 27,
+                                ["listIndex"] = 23,
+                            },
+                            ["|c00ff00Carrot Cheesecake|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 7,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Nord Lantern, Cage|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 115,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Common Lantern, Hanging|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 36,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Orcish Counter, Block|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 100,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Breton Desk|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 8,
+                                ["listIndex"] = 22,
+                            },
+                            ["|c00ff00Stros M'Kai Grilled Seagull|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 27,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Sweetsting Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 9,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00High Elf Plate, Dinner|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 172,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c0066ffYerba Syrah Wine|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 6,
+                                ["listIndex"] = 12,
+                            },
+                            ["|c00ff00Balmora Cabbage Biscuits|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 10,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c0066ffOrcish Pew, Peaked|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 104,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Khajiit Desk, Faded|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 41,
+                                ["listIndex"] = 22,
+                            },
+                            ["|c00ff00Common Bowl of Stew, Display|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 96,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c0066ffDesk, Engraved|r"] = 
+                            {
+                                ["numIngredients"] = 6,
+                                ["recipeIndex"] = 21,
+                                ["listIndex"] = 22,
+                            },
+                            ["|c00ff00Tawny Port|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 10,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00High Elf Candleholder, Sturdy|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 69,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c0066ffCandle, Group|r"] = 
+                            {
+                                ["numIngredients"] = 6,
+                                ["recipeIndex"] = 28,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Bog-Iron Ale|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 4,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Acai Tonic Infusion|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c00ff00Heart's Day Rose Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 40,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Colovian Ginger Beer|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 41,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c0066ffRedguard Mug, Empty|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 279,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Shimmerene Tonic|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 28,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c00ff00Argonian Ramekin, Hardened|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 29,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c782ee6High Elf Counter, Block|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 55,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c782ee6Nord Chandelier, Antler|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 113,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Common Cargo, Sealed|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 30,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Potato, Wax|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 254,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Green Scourgut Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 11,
+                                ["listIndex"] = 9,
+                            },
+                            ["|cFFFFFFRough Stretcher, Military|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 166,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Dwarven Pot, Sealed|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 151,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Common Washtub, Empty|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 108,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Pirate's Jig Tonic|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 20,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c0066ffBreton Bed, Full|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 18,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Carrot Soup|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 1,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Khajiit Bed, Fur|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 81,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Ginkgo Tonic|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 1,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c00ff00Common Trap, Hunting|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 32,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Dark Elf Lantern, Oil|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 49,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Breton Dresser, Open|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 27,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Mage's Gorapple Porridge|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 29,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c782ee6Alinor Bookshelf Wall, Timeworn|r"] = 
+                            {
+                                ["numIngredients"] = 6,
+                                ["recipeIndex"] = 93,
+                                ["listIndex"] = 22,
+                            },
+                            ["|c00ff00Common Bowl of Soup, Display|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 95,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c0066ffCamlorn Sweet Brown Ale|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 35,
+                                ["listIndex"] = 12,
+                            },
+                            ["|c00ff00Chicken Breast|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 3,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Redguard Chair, Backless|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 121,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Argonian Stool, Roped|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 6,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Orcish Bar, Side|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 96,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Argonian Mat, Tidy Reed|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 8,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c0066ffBreton Lightpost, Arched|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 15,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c0066ffDaedric Pedestal, Ritual|r"] = 
+                            {
+                                ["numIngredients"] = 5,
+                                ["recipeIndex"] = 34,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Pumpkin Puree|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 6,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c00ff00Markarth Mead|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 42,
+                                ["listIndex"] = 8,
+                            },
+                        },
+                        ["8796093050185289"] = 
+                        {
+                            ["|c00ff00Dark Elf Table, Formal|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 40,
+                                ["listIndex"] = 19,
+                            },
+                            ["|c00ff00Hlaalu Bed, Single|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 65,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Redguard Candleholder, Practical|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 144,
+                                ["listIndex"] = 24,
+                            },
+                            ["|c00ff00Lotus Tea|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 4,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Redguard Pot, Capped|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 281,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Tarragon Chicken|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 8,
+                                ["listIndex"] = 1,
+                            },
+                            ["|c00ff00Carrot Soup|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 1,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Roast Corn|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 3,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Dres Cup, Empty Mazte|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 133,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00High Elf Bed, Single|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 50,
+                                ["listIndex"] = 26,
+                            },
+                            ["|c00ff00Ginkgo Tonic|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 1,
+                                ["listIndex"] = 10,
+                            },
+                            ["|c00ff00Orcish Shelf, Short|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 54,
+                                ["listIndex"] = 22,
+                            },
+                            ["|c00ff00Dres Bowl, Dinner|r"] = 
+                            {
+                                ["numIngredients"] = 4,
+                                ["recipeIndex"] = 126,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Dres Pot, Sauce|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 139,
+                                ["listIndex"] = 21,
+                            },
+                            ["|c00ff00Common Cargo, Covered|r"] = 
+                            {
+                                ["numIngredients"] = 3,
+                                ["recipeIndex"] = 28,
+                                ["listIndex"] = 28,
+                            },
+                            ["|c00ff00Heart's Day Rose Tea|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 40,
+                                ["listIndex"] = 9,
+                            },
+                            ["|c00ff00Borscht|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 5,
+                                ["listIndex"] = 3,
+                            },
+                            ["|c00ff00Red Rye Beer|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 2,
+                                ["listIndex"] = 8,
+                            },
+                            ["|c00ff00Pumpkin Puree|r"] = 
+                            {
+                                ["numIngredients"] = 1,
+                                ["recipeIndex"] = 6,
+                                ["listIndex"] = 2,
+                            },
+                            ["|c00ff00Colovian Ginger Beer|r"] = 
+                            {
+                                ["numIngredients"] = 2,
+                                ["recipeIndex"] = 41,
+                                ["listIndex"] = 8,
+                            },
+                        },
+                        ["8796093055169929"] = 
+                        {
+                            ["|c00ff00Surilie Syrah Wine|r"] = 
+                            {
+                                ["listIndex"] = 8,
+                                ["recipeIndex"] = 6,
+                                ["numIngredients"] = 1,
+                            },
+                            ["|c00ff00Bravil Melon Salad|r"] = 
+                            {
+                                ["listIndex"] = 2,
+                                ["recipeIndex"] = 9,
+                                ["numIngredients"] = 2,
+                            },
+                            ["|c00ff00Tarragon Chicken|r"] = 
+                            {
+                                ["listIndex"] = 1,
+                                ["recipeIndex"] = 8,
+                                ["numIngredients"] = 2,
+                            },
+                            ["|c00ff00Carrot Soup|r"] = 
+                            {
+                                ["listIndex"] = 3,
+                                ["recipeIndex"] = 1,
+                                ["numIngredients"] = 1,
+                            },
+                            ["|c00ff00Meady-Matey Infusion|r"] = 
+                            {
+                                ["listIndex"] = 10,
+                                ["recipeIndex"] = 8,
+                                ["numIngredients"] = 2,
+                            },
+                            ["|c00ff00Khajiit Bed, Fur|r"] = 
+                            {
+                                ["listIndex"] = 26,
+                                ["recipeIndex"] = 81,
+                                ["numIngredients"] = 4,
+                            },
+                            ["|c0066ffYerba Syrah Wine|r"] = 
+                            {
+                                ["listIndex"] = 12,
+                                ["recipeIndex"] = 6,
+                                ["numIngredients"] = 2,
+                            },
+                            ["|c00ff00Balmora Cabbage Biscuits|r"] = 
+                            {
+                                ["listIndex"] = 3,
+                                ["recipeIndex"] = 10,
+                                ["numIngredients"] = 2,
+                            },
+                            ["|c00ff00Red Rye Beer|r"] = 
+                            {
+                                ["listIndex"] = 8,
+                                ["recipeIndex"] = 2,
+                                ["numIngredients"] = 1,
+                            },
+                            ["|c00ff00Mint Chai|r"] = 
+                            {
+                                ["listIndex"] = 9,
+                                ["recipeIndex"] = 2,
+                                ["numIngredients"] = 1,
+                            },
+                            ["|c00ff00Old Clear-Eye Whiskey|r"] = 
+                            {
+                                ["listIndex"] = 8,
+                                ["recipeIndex"] = 12,
+                                ["numIngredients"] = 2,
+                            },
+                            ["|c00ff00Redguard Chair, Backless|r"] = 
+                            {
+                                ["listIndex"] = 19,
+                                ["recipeIndex"] = 121,
+                                ["numIngredients"] = 3,
+                            },
+                            ["|c00ff00Dark Elf Candle, Claw Base|r"] = 
+                            {
+                                ["listIndex"] = 24,
+                                ["recipeIndex"] = 44,
+                                ["numIngredients"] = 5,
+                            },
+                            ["|c00ff00Argonian Baskets, Double|r"] = 
+                            {
+                                ["listIndex"] = 21,
+                                ["recipeIndex"] = 5,
+                                ["numIngredients"] = 3,
+                            },
+                            ["|c00ff00Argonian Mat, Tidy Reed|r"] = 
+                            {
+                                ["listIndex"] = 26,
+                                ["recipeIndex"] = 8,
+                                ["numIngredients"] = 3,
+                            },
+                            ["|c00ff00Yellow Goblin Tonic|r"] = 
+                            {
+                                ["listIndex"] = 10,
+                                ["recipeIndex"] = 9,
+                                ["numIngredients"] = 2,
+                            },
+                            ["|c00ff00Khajiit Desk, Faded|r"] = 
+                            {
+                                ["listIndex"] = 22,
+                                ["recipeIndex"] = 41,
+                                ["numIngredients"] = 5,
+                            },
+                            ["|c00ff00Pumpkin Puree|r"] = 
+                            {
+                                ["listIndex"] = 2,
+                                ["recipeIndex"] = 6,
+                                ["numIngredients"] = 1,
+                            },
+                            ["|c00ff00Nord Shelf, Wall|r"] = 
+                            {
+                                ["listIndex"] = 22,
+                                ["recipeIndex"] = 47,
+                                ["numIngredients"] = 3,
+                            },
+                        },
+                    },
+                    ["processRecipes"] = true,
                 },
             },
         },

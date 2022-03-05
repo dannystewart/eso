@@ -4,316 +4,11 @@ MP_SavedVars =
     {
         ["@timelord726"] = 
         {
-            ["Ranivora"] = 
-            {
-                [1] = false,
-                [2] = false,
-                [3] = true,
-                [4] = false,
-                [5] = false,
-                [6] = false,
-                [7] = false,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                [20] = false,
-                [21] = true,
-                [22] = false,
-                ["TimeBreachClosed"] = 
-                {
-                },
-                ["version"] = 2,
-            },
-            ["Jodina"] = 
-            {
-                [1] = true,
-                [2] = false,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = false,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                [20] = false,
-                [21] = true,
-                [22] = false,
-                ["TimeBreachClosed"] = 
-                {
-                    ["summerset_base"] = 
-                    {
-                        [8] = true,
-                        [1] = true,
-                        [2] = true,
-                        [3] = true,
-                        [9] = true,
-                        [6] = true,
-                        [7] = true,
-                    },
-                },
-                ["version"] = 2,
-            },
-            ["Ches'Dar"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                [21] = true,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
-            ["Lenora Wingarde"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                [21] = true,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
-            ["Kirslian"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                [21] = true,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
-            ["Ches'dar"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = false,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
-            ["Adhraji"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
-            ["Salnda"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = true,
-                [19] = false,
-                [21] = true,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
-            ["Sleeping-in-Light"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                [21] = true,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
-            ["Sirynwe"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                [21] = true,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
-            ["Do'hinda"] = 
-            {
-                [1] = true,
-                [2] = true,
-                [3] = true,
-                [4] = false,
-                [5] = true,
-                [6] = false,
-                [7] = true,
-                [8] = true,
-                [9] = false,
-                [10] = false,
-                [11] = false,
-                [12] = false,
-                [13] = false,
-                [14] = false,
-                [15] = false,
-                [16] = false,
-                [17] = false,
-                [18] = false,
-                [19] = false,
-                ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
-            },
             ["Miliin"] = 
             {
+                ["TimeBreachClosed"] = 
+                {
+                },
                 [1] = true,
                 [2] = false,
                 [3] = true,
@@ -336,13 +31,13 @@ MP_SavedVars =
                 [20] = false,
                 [21] = true,
                 [22] = false,
+                ["version"] = 2,
+            },
+            ["Katya the Greatest"] = 
+            {
                 ["TimeBreachClosed"] = 
                 {
                 },
-                ["version"] = 2,
-            },
-            ["Dinerya"] = 
-            {
                 [1] = true,
                 [2] = true,
                 [3] = true,
@@ -362,13 +57,14 @@ MP_SavedVars =
                 [17] = false,
                 [18] = false,
                 [19] = false,
+                [21] = true,
                 ["version"] = 2,
-                ["TimeBreachClosed"] = 
-                {
-                },
             },
             ["Svarella"] = 
             {
+                ["TimeBreachClosed"] = 
+                {
+                },
                 [1] = true,
                 [2] = true,
                 [3] = true,
@@ -390,12 +86,12 @@ MP_SavedVars =
                 [19] = false,
                 [21] = true,
                 ["version"] = 2,
+            },
+            ["Lenora Wingarde"] = 
+            {
                 ["TimeBreachClosed"] = 
                 {
                 },
-            },
-            ["Katya the Greatest"] = 
-            {
                 [1] = true,
                 [2] = true,
                 [3] = true,
@@ -417,9 +113,313 @@ MP_SavedVars =
                 [19] = false,
                 [21] = true,
                 ["version"] = 2,
+            },
+            ["Ranivora"] = 
+            {
                 ["TimeBreachClosed"] = 
                 {
                 },
+                [1] = false,
+                [2] = false,
+                [3] = true,
+                [4] = false,
+                [5] = false,
+                [6] = false,
+                [7] = false,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                [20] = false,
+                [21] = true,
+                [22] = false,
+                ["version"] = 2,
+            },
+            ["Dinerya"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                ["version"] = 2,
+            },
+            ["Kirslian"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                [21] = true,
+                ["version"] = 2,
+            },
+            ["Adhraji"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                ["version"] = 2,
+            },
+            ["Sirynwe"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                [21] = true,
+                ["version"] = 2,
+            },
+            ["Do'hinda"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                ["version"] = 2,
+            },
+            ["Salnda"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = true,
+                [19] = false,
+                [21] = true,
+                ["version"] = 2,
+            },
+            ["Sleeping-in-Light"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                [21] = true,
+                ["version"] = 2,
+            },
+            ["Ches'Dar"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = true,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                [21] = true,
+                ["version"] = 2,
+            },
+            ["Jodina"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                    ["summerset_base"] = 
+                    {
+                        [8] = true,
+                        [1] = true,
+                        [2] = true,
+                        [3] = true,
+                        [9] = true,
+                        [6] = true,
+                        [7] = true,
+                    },
+                },
+                [1] = true,
+                [2] = false,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = false,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                [20] = false,
+                [21] = true,
+                [22] = false,
+                ["version"] = 2,
+            },
+            ["Ches'dar"] = 
+            {
+                ["TimeBreachClosed"] = 
+                {
+                },
+                [1] = true,
+                [2] = true,
+                [3] = true,
+                [4] = false,
+                [5] = true,
+                [6] = false,
+                [7] = true,
+                [8] = false,
+                [9] = false,
+                [10] = false,
+                [11] = false,
+                [12] = false,
+                [13] = false,
+                [14] = false,
+                [15] = false,
+                [16] = false,
+                [17] = false,
+                [18] = false,
+                [19] = false,
+                ["version"] = 2,
             },
         },
     },
@@ -432,8 +432,8 @@ MP_SavedGlobal =
         {
             ["$AccountWide"] = 
             {
-                ["pinsize"] = 20,
                 ["version"] = 1,
+                ["pinsize"] = 20,
             },
         },
     },
@@ -446,96 +446,6 @@ MP_ChestData =
         {
             ["$AccountWide"] = 
             {
-                ["lilmothcity_base"] = 
-                {
-                    [1] = 
-                    {
-                        [2] = 0.5648000000,
-                        [1] = 0.7914000000,
-                    },
-                },
-                ["grahtwood_base"] = 
-                {
-                    [2] = 
-                    {
-                        [2] = 0.3877000000,
-                        [1] = 0.6901000000,
-                    },
-                    [1] = 
-                    {
-                        [2] = 0.2911000000,
-                        [1] = 0.4071000000,
-                    },
-                },
-                ["thebanishedcells_base"] = 
-                {
-                    [2] = 
-                    {
-                        [2] = 0.7677000000,
-                        [1] = 0.8170000000,
-                    },
-                    [1] = 
-                    {
-                        [2] = 0.7795000000,
-                        [1] = 0.8111000000,
-                    },
-                },
-                ["khenarthisroost_base"] = 
-                {
-                    [2] = 
-                    {
-                        [2] = 0.5141000000,
-                        [1] = 0.2604000000,
-                    },
-                    [1] = 
-                    {
-                        [2] = 0.6326000000,
-                        [1] = 0.5173000000,
-                    },
-                },
-                ["version"] = 2,
-                ["thetangle_base"] = 
-                {
-                    [1] = 
-                    {
-                        [2] = 0.6317000000,
-                        [1] = 0.5828000000,
-                    },
-                },
-                ["auridon_base"] = 
-                {
-                    [1] = 
-                    {
-                        [2] = 0.8702000000,
-                        [1] = 0.5464000000,
-                    },
-                    [2] = 
-                    {
-                        [2] = 0.5926000000,
-                        [1] = 0.4915000000,
-                    },
-                    [3] = 
-                    {
-                        [2] = 0.8520000000,
-                        [1] = 0.7090000000,
-                    },
-                },
-                ["swallowedgrove_base"] = 
-                {
-                    [1] = 
-                    {
-                        [2] = 0.4246000000,
-                        [1] = 0.5405000000,
-                    },
-                },
-                ["weepingscarmain_base"] = 
-                {
-                    [1] = 
-                    {
-                        [2] = 0.2907000000,
-                        [1] = 0.5187000000,
-                    },
-                },
                 ["bangkorai_base"] = 
                 {
                     [1] = 
@@ -544,12 +454,20 @@ MP_ChestData =
                         [1] = 0.6409000000,
                     },
                 },
-                ["valleyofblades2_base"] = 
+                ["lilmothcity_base"] = 
                 {
                     [1] = 
                     {
-                        [2] = 0.4823000000,
-                        [1] = 0.7675000000,
+                        [2] = 0.5648000000,
+                        [1] = 0.7914000000,
+                    },
+                },
+                ["malabaltor_base"] = 
+                {
+                    [1] = 
+                    {
+                        [2] = 0.7422000000,
+                        [1] = 0.6349000000,
                     },
                 },
                 ["elsweyr_base"] = 
@@ -615,41 +533,87 @@ MP_ChestData =
                         [1] = 0.5002000000,
                     },
                 },
-                ["tsofeercavern01_0"] = 
+                ["knightfall3_base"] = 
                 {
                     [2] = 
                     {
-                        [2] = 0.3522000000,
-                        [1] = 0.6090000000,
+                        [2] = 0.5351000000,
+                        [1] = 0.2886000000,
                     },
                     [1] = 
                     {
-                        [2] = 0.2558000000,
-                        [1] = 0.1665000000,
+                        [2] = 0.5510000000,
+                        [1] = 0.2905000000,
                     },
                 },
-                ["tombofserpents_base"] = 
+                ["pariahcatacombs_base"] = 
                 {
                     [1] = 
                     {
-                        [2] = 0.1719000000,
-                        [1] = 0.3678000000,
+                        [2] = 0.7375000000,
+                        [1] = 0.7249000000,
                     },
                 },
-                ["summerset_base"] = 
+                ["thescab_base"] = 
                 {
                     [1] = 
                     {
-                        [2] = 0.4620000000,
-                        [1] = 0.3161000000,
+                        [2] = 0.6638000000,
+                        [1] = 0.7017000000,
                     },
                 },
-                ["predatorrise_base"] = 
+                ["baandaritradingpost_base"] = 
                 {
                     [1] = 
                     {
-                        [2] = 0.4011000000,
-                        [1] = 0.5057000000,
+                        [2] = 0.3674000000,
+                        [1] = 0.1614000000,
+                    },
+                },
+                ["shadowfen_base"] = 
+                {
+                    [1] = 
+                    {
+                        [2] = 0.2906000000,
+                        [1] = 0.3378000000,
+                    },
+                },
+                ["weepingscarmain_base"] = 
+                {
+                    [1] = 
+                    {
+                        [2] = 0.2907000000,
+                        [1] = 0.5187000000,
+                    },
+                },
+                ["version"] = 2,
+                ["swallowedgrove_base"] = 
+                {
+                    [1] = 
+                    {
+                        [2] = 0.4246000000,
+                        [1] = 0.5405000000,
+                    },
+                },
+                ["thetangle_base"] = 
+                {
+                    [1] = 
+                    {
+                        [2] = 0.6317000000,
+                        [1] = 0.5828000000,
+                    },
+                },
+                ["thebanishedcells_base"] = 
+                {
+                    [2] = 
+                    {
+                        [2] = 0.7677000000,
+                        [1] = 0.8170000000,
+                    },
+                    [1] = 
+                    {
+                        [2] = 0.7795000000,
+                        [1] = 0.8111000000,
                     },
                 },
                 ["deshaan_base"] = 
@@ -668,6 +632,24 @@ MP_ChestData =
                     {
                         [2] = 0.4583000000,
                         [1] = 0.6209000000,
+                    },
+                },
+                ["stormhaven_base"] = 
+                {
+                    [1] = 
+                    {
+                        [2] = 0.3897000000,
+                        [1] = 0.5937000000,
+                    },
+                    [2] = 
+                    {
+                        [2] = 0.5574000000,
+                        [1] = 0.4863000000,
+                    },
+                    [3] = 
+                    {
+                        [2] = 0.5408000000,
+                        [1] = 0.7710000000,
                     },
                 },
                 ["murkmire_base"] = 
@@ -693,75 +675,93 @@ MP_ChestData =
                         [1] = 0.4433000000,
                     },
                 },
-                ["malabaltor_base"] = 
+                ["tombofserpents_base"] = 
                 {
                     [1] = 
                     {
-                        [2] = 0.7422000000,
-                        [1] = 0.6349000000,
+                        [2] = 0.1719000000,
+                        [1] = 0.3678000000,
                     },
                 },
-                ["stormhaven_base"] = 
+                ["khenarthisroost_base"] = 
+                {
+                    [2] = 
+                    {
+                        [2] = 0.5141000000,
+                        [1] = 0.2604000000,
+                    },
+                    [1] = 
+                    {
+                        [2] = 0.6326000000,
+                        [1] = 0.5173000000,
+                    },
+                },
+                ["valleyofblades2_base"] = 
                 {
                     [1] = 
                     {
-                        [2] = 0.3897000000,
-                        [1] = 0.5937000000,
+                        [2] = 0.4823000000,
+                        [1] = 0.7675000000,
+                    },
+                },
+                ["auridon_base"] = 
+                {
+                    [1] = 
+                    {
+                        [2] = 0.8702000000,
+                        [1] = 0.5464000000,
                     },
                     [2] = 
                     {
-                        [2] = 0.5574000000,
-                        [1] = 0.4863000000,
+                        [2] = 0.5926000000,
+                        [1] = 0.4915000000,
                     },
                     [3] = 
                     {
-                        [2] = 0.5408000000,
-                        [1] = 0.7710000000,
+                        [2] = 0.8520000000,
+                        [1] = 0.7090000000,
                     },
                 },
-                ["baandaritradingpost_base"] = 
+                ["predatorrise_base"] = 
                 {
                     [1] = 
                     {
-                        [2] = 0.3674000000,
-                        [1] = 0.1614000000,
+                        [2] = 0.4011000000,
+                        [1] = 0.5057000000,
                     },
                 },
-                ["shadowfen_base"] = 
-                {
-                    [1] = 
-                    {
-                        [2] = 0.2906000000,
-                        [1] = 0.3378000000,
-                    },
-                },
-                ["knightfall3_base"] = 
+                ["tsofeercavern01_0"] = 
                 {
                     [2] = 
                     {
-                        [2] = 0.5351000000,
-                        [1] = 0.2886000000,
+                        [2] = 0.3522000000,
+                        [1] = 0.6090000000,
                     },
                     [1] = 
                     {
-                        [2] = 0.5510000000,
-                        [1] = 0.2905000000,
+                        [2] = 0.2558000000,
+                        [1] = 0.1665000000,
                     },
                 },
-                ["thescab_base"] = 
+                ["summerset_base"] = 
                 {
                     [1] = 
                     {
-                        [2] = 0.6638000000,
-                        [1] = 0.7017000000,
+                        [2] = 0.4620000000,
+                        [1] = 0.3161000000,
                     },
                 },
-                ["pariahcatacombs_base"] = 
+                ["grahtwood_base"] = 
                 {
+                    [2] = 
+                    {
+                        [2] = 0.3877000000,
+                        [1] = 0.6901000000,
+                    },
                     [1] = 
                     {
-                        [2] = 0.7375000000,
-                        [1] = 0.7249000000,
+                        [2] = 0.2911000000,
+                        [1] = 0.4071000000,
                     },
                 },
             },
@@ -776,7 +776,6 @@ MP_ThievesTrove =
         {
             ["$AccountWide"] = 
             {
-                ["version"] = 2,
                 ["elsweyr_base"] = 
                 {
                     [1] = 
@@ -785,6 +784,7 @@ MP_ThievesTrove =
                         [1] = 0.6795000000,
                     },
                 },
+                ["version"] = 2,
             },
         },
     },

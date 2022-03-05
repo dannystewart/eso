@@ -7,12 +7,12 @@ AutoResearch_Account =
             ["$AccountWide"] = 
             {
                 ["version"] = 4,
-                ["stylesEnabled"] = 1,
                 ["setsEnabled"] = 
                 {
                     ["isCrafted"] = 1,
                     ["isOverland"] = 1,
                 },
+                ["stylesEnabled"] = 1,
             },
         },
     },
@@ -25,21 +25,21 @@ AutoResearch_Character =
         {
             ["8796093050176555"] = 
             {
-                ["coloredPrefix"] = true,
-                ["sets"] = 
-                {
-                    [297] = true,
-                    [285] = true,
-                },
-                ["styles"] = 
-                {
-                    [20] = true,
-                },
                 ["LibSavedVars"] = 
                 {
                     ["accountSavedVarsActive"] = true,
                 },
                 ["version"] = 4,
+                ["coloredPrefix"] = true,
+                ["sets"] = 
+                {
+                    [285] = true,
+                    [297] = true,
+                },
+                ["styles"] = 
+                {
+                    [20] = true,
+                },
                 ["$LastCharacterName"] = "Jodina",
             },
             ["8796093064549993"] = 

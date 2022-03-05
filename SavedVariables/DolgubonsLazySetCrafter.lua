@@ -4,44 +4,92 @@ dolgubonslazysetcraftersavedvars =
     {
         ["@timelord726"] = 
         {
-            ["8796093054929639"] = 
-            {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
-                ["useCharacterSettings"] = false,
-                ["showToggle"] = false,
-                ["OpenAtCraftStation"] = false,
-                ["$LastCharacterName"] = "Sirynwe",
-            },
-            ["8796093050185289"] = 
-            {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
-                ["useCharacterSettings"] = false,
-                ["showToggle"] = false,
-                ["OpenAtCraftStation"] = true,
-                ["$LastCharacterName"] = "Ranivora",
-            },
             ["$AccountWide"] = 
             {
-                ["quality"] = 3,
-                ["weaponTrait"] = 5,
-                ["toggleYPos"] = 177.2727203369,
-                ["toggleXPos"] = 1151.6363525391,
-                ["armourTrait"] = 14,
-                ["set"] = 0,
-                ["autoCraft"] = false,
-                ["counter"] = 165,
+                ["jewelryTraits"] = 31,
+                ["currentPriceChoice"] = 1,
                 ["xPos"] = 293.3155517578,
-                ["saveLastChoice"] = true,
+                ["toggleYPost"] = 50,
+                ["notifyNewFeatures"] = 
+                {
+                    ["priceSwitch"] = true,
+                    ["homeStation"] = true,
+                },
+                ["autoCraft"] = false,
+                ["height"] = 772.6311645508,
+                ["champion"] = false,
+                ["style"] = 17,
+                ["armourTrait"] = 14,
+                ["notifyWiped"] = true,
+                ["weaponTrait"] = 5,
+                ["multiplier"] = "1",
+                ["toggleYPos"] = 177.2727203369,
+                ["yPos"] = 147.9250640869,
                 ["jewelEnchant"] = 0,
+                ["quality"] = 3,
+                ["version"] = 5,
+                ["toggleXPos"] = 1151.6363525391,
+                ["weaponEnchant"] = 0,
+                ["accountWideProfile"] = 
+                {
+                    ["useCharacterSettings"] = false,
+                    ["closeOnExit"] = true,
+                    ["autocraft"] = true,
+                    ["OpenAtCraftStation"] = false,
+                    ["showToggle"] = false,
+                },
+                ["set"] = 0,
+                [6697110] = false,
+                ["counter"] = 165,
+                ["level"] = "14",
+                ["faves"] = 
+                {
+                },
+                ["armourEnchant"] = 0,
                 ["width"] = 1150,
+                ["showFavourites"] = true,
+                ["enchantQuality"] = 3,
                 ["queue"] = 
                 {
                     [1] = 
                     {
+                        ["Link"] = "|H1:item:45095:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Trait"] = 
+                        {
+                            [1] = 14,
+                            [2] = "Reinforced",
+                            ["isKnown"] = false,
+                        },
+                        ["Set"] = 
+                        {
+                            [1] = 0,
+                            [2] = "No Set",
+                            ["isKnown"] = true,
+                        },
+                        ["Quality"] = 
+                        {
+                            [2] = "Superior",
+                            [1] = 3,
+                        },
+                        ["Station"] = 1,
+                        ["Weight"] = 
+                        {
+                            [2] = "Heavy",
+                            [1] = 3,
+                        },
+                        ["Reference"] = 158,
+                        ["Pattern"] = 
+                        {
+                            [2] = "Chest",
+                            [1] = 8,
+                        },
+                        ["EnchantQuality"] = 1,
+                        ["Level"] = 
+                        {
+                            [1] = 14,
+                            [2] = "14",
+                            [3] = false,
+                        },
                         ["CraftRequestTable"] = 
                         {
                             [1] = 8,
@@ -57,7 +105,28 @@ dolgubonslazysetcraftersavedvars =
                             [11] = 158,
                             [15] = 1,
                         },
-                        ["Link"] = "|H1:item:45095:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Style"] = 
+                        {
+                            [1] = 17,
+                            [2] = "Barbaric",
+                            ["isKnown"] = false,
+                        },
+                        ["Enchant"] = "",
+                        ["Quantity"] = 
+                        {
+                            [2] = "1x",
+                            [1] = 1,
+                        },
+                    },
+                    [2] = 
+                    {
+                        ["Link"] = "|H1:item:45096:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Trait"] = 
+                        {
+                            [1] = 14,
+                            [2] = "Reinforced",
+                            ["isKnown"] = true,
+                        },
                         ["Set"] = 
                         {
                             [1] = 0,
@@ -69,46 +138,25 @@ dolgubonslazysetcraftersavedvars =
                             [2] = "Superior",
                             [1] = 3,
                         },
-                        ["EnchantQuality"] = 1,
+                        ["Station"] = 1,
                         ["Weight"] = 
                         {
                             [2] = "Heavy",
                             [1] = 3,
                         },
-                        ["Quantity"] = 
+                        ["Reference"] = 159,
+                        ["Pattern"] = 
                         {
-                            [2] = "1x",
-                            [1] = 1,
+                            [2] = "Feet",
+                            [1] = 9,
                         },
-                        ["Station"] = 1,
-                        ["Reference"] = 158,
+                        ["EnchantQuality"] = 1,
                         ["Level"] = 
                         {
                             [1] = 14,
                             [2] = "14",
                             [3] = false,
                         },
-                        ["Pattern"] = 
-                        {
-                            [2] = "Chest",
-                            [1] = 8,
-                        },
-                        ["Style"] = 
-                        {
-                            [1] = 17,
-                            [2] = "Barbaric",
-                            ["isKnown"] = false,
-                        },
-                        ["Enchant"] = "",
-                        ["Trait"] = 
-                        {
-                            [1] = 14,
-                            [2] = "Reinforced",
-                            ["isKnown"] = false,
-                        },
-                    },
-                    [2] = 
-                    {
                         ["CraftRequestTable"] = 
                         {
                             [1] = 9,
@@ -124,7 +172,28 @@ dolgubonslazysetcraftersavedvars =
                             [11] = 159,
                             [15] = 1,
                         },
-                        ["Link"] = "|H1:item:45096:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Style"] = 
+                        {
+                            [1] = 17,
+                            [2] = "Barbaric",
+                            ["isKnown"] = false,
+                        },
+                        ["Enchant"] = "",
+                        ["Quantity"] = 
+                        {
+                            [2] = "1x",
+                            [1] = 1,
+                        },
+                    },
+                    [3] = 
+                    {
+                        ["Link"] = "|H1:item:45097:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Trait"] = 
+                        {
+                            [1] = 14,
+                            [2] = "Reinforced",
+                            ["isKnown"] = false,
+                        },
                         ["Set"] = 
                         {
                             [1] = 0,
@@ -136,46 +205,25 @@ dolgubonslazysetcraftersavedvars =
                             [2] = "Superior",
                             [1] = 3,
                         },
-                        ["EnchantQuality"] = 1,
+                        ["Station"] = 1,
                         ["Weight"] = 
                         {
                             [2] = "Heavy",
                             [1] = 3,
                         },
-                        ["Quantity"] = 
+                        ["Reference"] = 160,
+                        ["Pattern"] = 
                         {
-                            [2] = "1x",
-                            [1] = 1,
+                            [2] = "Hands",
+                            [1] = 10,
                         },
-                        ["Station"] = 1,
-                        ["Reference"] = 159,
+                        ["EnchantQuality"] = 1,
                         ["Level"] = 
                         {
                             [1] = 14,
                             [2] = "14",
                             [3] = false,
                         },
-                        ["Pattern"] = 
-                        {
-                            [2] = "Feet",
-                            [1] = 9,
-                        },
-                        ["Style"] = 
-                        {
-                            [1] = 17,
-                            [2] = "Barbaric",
-                            ["isKnown"] = false,
-                        },
-                        ["Enchant"] = "",
-                        ["Trait"] = 
-                        {
-                            [1] = 14,
-                            [2] = "Reinforced",
-                            ["isKnown"] = true,
-                        },
-                    },
-                    [3] = 
-                    {
                         ["CraftRequestTable"] = 
                         {
                             [1] = 10,
@@ -191,7 +239,28 @@ dolgubonslazysetcraftersavedvars =
                             [11] = 160,
                             [15] = 1,
                         },
-                        ["Link"] = "|H1:item:45097:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Style"] = 
+                        {
+                            [1] = 17,
+                            [2] = "Barbaric",
+                            ["isKnown"] = false,
+                        },
+                        ["Enchant"] = "",
+                        ["Quantity"] = 
+                        {
+                            [2] = "1x",
+                            [1] = 1,
+                        },
+                    },
+                    [4] = 
+                    {
+                        ["Link"] = "|H1:item:45098:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Trait"] = 
+                        {
+                            [1] = 14,
+                            [2] = "Reinforced",
+                            ["isKnown"] = true,
+                        },
                         ["Set"] = 
                         {
                             [1] = 0,
@@ -203,46 +272,25 @@ dolgubonslazysetcraftersavedvars =
                             [2] = "Superior",
                             [1] = 3,
                         },
-                        ["EnchantQuality"] = 1,
+                        ["Station"] = 1,
                         ["Weight"] = 
                         {
                             [2] = "Heavy",
                             [1] = 3,
                         },
-                        ["Quantity"] = 
+                        ["Reference"] = 161,
+                        ["Pattern"] = 
                         {
-                            [2] = "1x",
-                            [1] = 1,
+                            [2] = "Head",
+                            [1] = 11,
                         },
-                        ["Station"] = 1,
-                        ["Reference"] = 160,
+                        ["EnchantQuality"] = 1,
                         ["Level"] = 
                         {
                             [1] = 14,
                             [2] = "14",
                             [3] = false,
                         },
-                        ["Pattern"] = 
-                        {
-                            [2] = "Hands",
-                            [1] = 10,
-                        },
-                        ["Style"] = 
-                        {
-                            [1] = 17,
-                            [2] = "Barbaric",
-                            ["isKnown"] = false,
-                        },
-                        ["Enchant"] = "",
-                        ["Trait"] = 
-                        {
-                            [1] = 14,
-                            [2] = "Reinforced",
-                            ["isKnown"] = false,
-                        },
-                    },
-                    [4] = 
-                    {
                         ["CraftRequestTable"] = 
                         {
                             [1] = 11,
@@ -258,7 +306,28 @@ dolgubonslazysetcraftersavedvars =
                             [11] = 161,
                             [15] = 1,
                         },
-                        ["Link"] = "|H1:item:45098:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Style"] = 
+                        {
+                            [1] = 17,
+                            [2] = "Barbaric",
+                            ["isKnown"] = false,
+                        },
+                        ["Enchant"] = "",
+                        ["Quantity"] = 
+                        {
+                            [2] = "1x",
+                            [1] = 1,
+                        },
+                    },
+                    [5] = 
+                    {
+                        ["Link"] = "|H1:item:45099:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Trait"] = 
+                        {
+                            [1] = 14,
+                            [2] = "Reinforced",
+                            ["isKnown"] = true,
+                        },
                         ["Set"] = 
                         {
                             [1] = 0,
@@ -270,46 +339,25 @@ dolgubonslazysetcraftersavedvars =
                             [2] = "Superior",
                             [1] = 3,
                         },
-                        ["EnchantQuality"] = 1,
+                        ["Station"] = 1,
                         ["Weight"] = 
                         {
                             [2] = "Heavy",
                             [1] = 3,
                         },
-                        ["Quantity"] = 
+                        ["Reference"] = 162,
+                        ["Pattern"] = 
                         {
-                            [2] = "1x",
-                            [1] = 1,
+                            [2] = "Legs",
+                            [1] = 12,
                         },
-                        ["Station"] = 1,
-                        ["Reference"] = 161,
+                        ["EnchantQuality"] = 1,
                         ["Level"] = 
                         {
                             [1] = 14,
                             [2] = "14",
                             [3] = false,
                         },
-                        ["Pattern"] = 
-                        {
-                            [2] = "Head",
-                            [1] = 11,
-                        },
-                        ["Style"] = 
-                        {
-                            [1] = 17,
-                            [2] = "Barbaric",
-                            ["isKnown"] = false,
-                        },
-                        ["Enchant"] = "",
-                        ["Trait"] = 
-                        {
-                            [1] = 14,
-                            [2] = "Reinforced",
-                            ["isKnown"] = true,
-                        },
-                    },
-                    [5] = 
-                    {
                         ["CraftRequestTable"] = 
                         {
                             [1] = 12,
@@ -325,7 +373,28 @@ dolgubonslazysetcraftersavedvars =
                             [11] = 162,
                             [15] = 1,
                         },
-                        ["Link"] = "|H1:item:45099:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Style"] = 
+                        {
+                            [1] = 17,
+                            [2] = "Barbaric",
+                            ["isKnown"] = false,
+                        },
+                        ["Enchant"] = "",
+                        ["Quantity"] = 
+                        {
+                            [2] = "1x",
+                            [1] = 1,
+                        },
+                    },
+                    [6] = 
+                    {
+                        ["Link"] = "|H1:item:45100:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Trait"] = 
+                        {
+                            [1] = 14,
+                            [2] = "Reinforced",
+                            ["isKnown"] = true,
+                        },
                         ["Set"] = 
                         {
                             [1] = 0,
@@ -337,46 +406,25 @@ dolgubonslazysetcraftersavedvars =
                             [2] = "Superior",
                             [1] = 3,
                         },
-                        ["EnchantQuality"] = 1,
+                        ["Station"] = 1,
                         ["Weight"] = 
                         {
                             [2] = "Heavy",
                             [1] = 3,
                         },
-                        ["Quantity"] = 
+                        ["Reference"] = 163,
+                        ["Pattern"] = 
                         {
-                            [2] = "1x",
-                            [1] = 1,
+                            [2] = "Shoulders",
+                            [1] = 13,
                         },
-                        ["Station"] = 1,
-                        ["Reference"] = 162,
+                        ["EnchantQuality"] = 1,
                         ["Level"] = 
                         {
                             [1] = 14,
                             [2] = "14",
                             [3] = false,
                         },
-                        ["Pattern"] = 
-                        {
-                            [2] = "Legs",
-                            [1] = 12,
-                        },
-                        ["Style"] = 
-                        {
-                            [1] = 17,
-                            [2] = "Barbaric",
-                            ["isKnown"] = false,
-                        },
-                        ["Enchant"] = "",
-                        ["Trait"] = 
-                        {
-                            [1] = 14,
-                            [2] = "Reinforced",
-                            ["isKnown"] = true,
-                        },
-                    },
-                    [6] = 
-                    {
                         ["CraftRequestTable"] = 
                         {
                             [1] = 13,
@@ -392,7 +440,28 @@ dolgubonslazysetcraftersavedvars =
                             [11] = 163,
                             [15] = 1,
                         },
-                        ["Link"] = "|H1:item:45100:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Style"] = 
+                        {
+                            [1] = 17,
+                            [2] = "Barbaric",
+                            ["isKnown"] = false,
+                        },
+                        ["Enchant"] = "",
+                        ["Quantity"] = 
+                        {
+                            [2] = "1x",
+                            [1] = 1,
+                        },
+                    },
+                    [7] = 
+                    {
+                        ["Link"] = "|H1:item:45101:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
+                        ["Trait"] = 
+                        {
+                            [1] = 14,
+                            [2] = "Reinforced",
+                            ["isKnown"] = false,
+                        },
                         ["Set"] = 
                         {
                             [1] = 0,
@@ -404,46 +473,25 @@ dolgubonslazysetcraftersavedvars =
                             [2] = "Superior",
                             [1] = 3,
                         },
-                        ["EnchantQuality"] = 1,
+                        ["Station"] = 1,
                         ["Weight"] = 
                         {
                             [2] = "Heavy",
                             [1] = 3,
                         },
-                        ["Quantity"] = 
+                        ["Reference"] = 164,
+                        ["Pattern"] = 
                         {
-                            [2] = "1x",
-                            [1] = 1,
+                            [2] = "Belt",
+                            [1] = 14,
                         },
-                        ["Station"] = 1,
-                        ["Reference"] = 163,
+                        ["EnchantQuality"] = 1,
                         ["Level"] = 
                         {
                             [1] = 14,
                             [2] = "14",
                             [3] = false,
                         },
-                        ["Pattern"] = 
-                        {
-                            [2] = "Shoulders",
-                            [1] = 13,
-                        },
-                        ["Style"] = 
-                        {
-                            [1] = 17,
-                            [2] = "Barbaric",
-                            ["isKnown"] = false,
-                        },
-                        ["Enchant"] = "",
-                        ["Trait"] = 
-                        {
-                            [1] = 14,
-                            [2] = "Reinforced",
-                            ["isKnown"] = true,
-                        },
-                    },
-                    [7] = 
-                    {
                         ["CraftRequestTable"] = 
                         {
                             [1] = 14,
@@ -459,42 +507,6 @@ dolgubonslazysetcraftersavedvars =
                             [11] = 164,
                             [15] = 1,
                         },
-                        ["Link"] = "|H1:item:45101:22:14:0:0:0:0:0:0:0:0:0:0:0:0:17:0:0:0:10000:0|h|h",
-                        ["Set"] = 
-                        {
-                            [1] = 0,
-                            [2] = "No Set",
-                            ["isKnown"] = true,
-                        },
-                        ["Quality"] = 
-                        {
-                            [2] = "Superior",
-                            [1] = 3,
-                        },
-                        ["EnchantQuality"] = 1,
-                        ["Weight"] = 
-                        {
-                            [2] = "Heavy",
-                            [1] = 3,
-                        },
-                        ["Quantity"] = 
-                        {
-                            [2] = "1x",
-                            [1] = 1,
-                        },
-                        ["Station"] = 1,
-                        ["Reference"] = 164,
-                        ["Level"] = 
-                        {
-                            [1] = 14,
-                            [2] = "14",
-                            [3] = false,
-                        },
-                        ["Pattern"] = 
-                        {
-                            [2] = "Belt",
-                            [1] = 14,
-                        },
                         ["Style"] = 
                         {
                             [1] = 17,
@@ -502,116 +514,104 @@ dolgubonslazysetcraftersavedvars =
                             ["isKnown"] = false,
                         },
                         ["Enchant"] = "",
-                        ["Trait"] = 
+                        ["Quantity"] = 
                         {
-                            [1] = 14,
-                            [2] = "Reinforced",
-                            ["isKnown"] = false,
+                            [2] = "1x",
+                            [1] = 1,
                         },
                     },
                 },
-                ["yPos"] = 147.9250640869,
-                ["jewelryTraits"] = 31,
-                ["notifyNewFeatures"] = 
-                {
-                    ["homeStation"] = true,
-                    ["priceSwitch"] = true,
-                },
-                ["version"] = 5,
-                ["currentPriceChoice"] = 1,
-                ["level"] = "14",
-                ["multiplier"] = "1",
-                ["showFavourites"] = true,
-                ["armourEnchant"] = 0,
-                ["height"] = 772.6311645508,
-                [6697110] = false,
-                ["faves"] = 
-                {
-                },
-                ["toggleYPost"] = 50,
-                ["enchantQuality"] = 3,
-                ["accountWideProfile"] = 
-                {
-                    ["closeOnExit"] = true,
-                    ["useCharacterSettings"] = false,
-                    ["showToggle"] = false,
-                    ["autocraft"] = true,
-                    ["OpenAtCraftStation"] = false,
-                },
-                ["weaponEnchant"] = 0,
-                ["notifyWiped"] = true,
-                ["style"] = 17,
-                ["champion"] = false,
+                ["saveLastChoice"] = true,
             },
-            ["8796093055169929"] = 
+            ["8796093054929639"] = 
             {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
                 ["useCharacterSettings"] = false,
+                ["version"] = 5,
                 ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
                 ["OpenAtCraftStation"] = false,
-                ["$LastCharacterName"] = "Miliin",
+                ["$LastCharacterName"] = "Sirynwe",
+            },
+            ["8796093050185289"] = 
+            {
+                ["useCharacterSettings"] = false,
+                ["version"] = 5,
+                ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
+                ["OpenAtCraftStation"] = true,
+                ["$LastCharacterName"] = "Ranivora",
+            },
+            ["8796093054945253"] = 
+            {
+                ["useCharacterSettings"] = false,
+                ["version"] = 5,
+                ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
+                ["OpenAtCraftStation"] = false,
+                ["$LastCharacterName"] = "Svarella",
             },
             ["8796093064295307"] = 
             {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
                 ["useCharacterSettings"] = false,
+                ["version"] = 5,
                 ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
                 ["OpenAtCraftStation"] = false,
                 ["$LastCharacterName"] = "Katya the Greatest",
             },
             ["8796093064549993"] = 
             {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
                 ["useCharacterSettings"] = false,
+                ["version"] = 5,
                 ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
                 ["OpenAtCraftStation"] = false,
                 ["$LastCharacterName"] = "Sleeping-in-Light",
             },
+            ["8796093055169929"] = 
+            {
+                ["useCharacterSettings"] = false,
+                ["version"] = 5,
+                ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
+                ["OpenAtCraftStation"] = false,
+                ["$LastCharacterName"] = "Miliin",
+            },
+            ["8796093064405109"] = 
+            {
+                ["useCharacterSettings"] = false,
+                ["version"] = 5,
+                ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
+                ["OpenAtCraftStation"] = false,
+                ["$LastCharacterName"] = "Ches'Dar",
+            },
             ["8796093055293365"] = 
             {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
                 ["useCharacterSettings"] = false,
+                ["version"] = 5,
                 ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
                 ["OpenAtCraftStation"] = false,
                 ["$LastCharacterName"] = "Salnda",
             },
             ["8796093050176555"] = 
             {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
                 ["useCharacterSettings"] = false,
+                ["version"] = 5,
                 ["showToggle"] = false,
+                ["closeOnExit"] = true,
+                ["autocraft"] = true,
                 ["OpenAtCraftStation"] = false,
                 ["$LastCharacterName"] = "Jodina",
-            },
-            ["8796093064405109"] = 
-            {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
-                ["useCharacterSettings"] = false,
-                ["showToggle"] = false,
-                ["OpenAtCraftStation"] = false,
-                ["$LastCharacterName"] = "Ches'Dar",
-            },
-            ["8796093054945253"] = 
-            {
-                ["closeOnExit"] = true,
-                ["version"] = 5,
-                ["autocraft"] = true,
-                ["useCharacterSettings"] = false,
-                ["showToggle"] = false,
-                ["OpenAtCraftStation"] = false,
-                ["$LastCharacterName"] = "Svarella",
             },
         },
     },

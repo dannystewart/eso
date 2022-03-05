@@ -6,12 +6,10 @@ CRAFTINGSTATIONS_DB =
         {
             ["8796093054929639"] = 
             {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
-                ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
                 ["version"] = 2,
-                ["$LastCharacterName"] = "Sirynwe",
+                ["showDivider"] = true,
+                ["altAlign"] = true,
+                ["tooltipEnabled"] = true,
                 ["pinColor"] = 
                 {
                     [4] = 1,
@@ -19,231 +17,57 @@ CRAFTINGSTATIONS_DB =
                     [2] = 1,
                     [3] = 0.7500000000,
                 },
-                ["showDivider"] = true,
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
+                ["showSets"] = 
+                {
+                },
                 ["showTamrielStations"] = true,
-                ["linePadding"] = -8,
+                ["$LastCharacterName"] = "Sirynwe",
                 ["pinTexture"] = 
                 {
                     ["size"] = 40,
                     ["level"] = 51,
                     ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
                 },
-                ["showSets"] = 
-                {
-                },
-                ["tooltipEnabled"] = true,
+                ["linePadding"] = -8,
+                ["showCraftingStations"] = true,
             },
             ["8796093050185289"] = 
             {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
-                ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
                 ["version"] = 2,
+                ["showDivider"] = true,
+                ["altAlign"] = true,
+                ["tooltipEnabled"] = true,
+                ["pinColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 0.7500000000,
+                    [2] = 1,
+                    [3] = 0.7500000000,
+                },
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
+                ["showSets"] = 
+                {
+                },
+                ["showTamrielStations"] = true,
                 ["$LastCharacterName"] = "Ranivora",
-                ["pinColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 0.7500000000,
-                    [2] = 1,
-                    [3] = 0.7500000000,
-                },
-                ["showDivider"] = true,
-                ["showTamrielStations"] = true,
-                ["linePadding"] = -8,
                 ["pinTexture"] = 
                 {
                     ["size"] = 40,
                     ["level"] = 51,
                     ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
                 },
-                ["showSets"] = 
-                {
-                },
-                ["tooltipEnabled"] = true,
-            },
-            ["8796093064405109"] = 
-            {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
+                ["linePadding"] = -8,
                 ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Ches'Dar",
-                ["pinColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 0.7500000000,
-                    [2] = 1,
-                    [3] = 0.7500000000,
-                },
-                ["showDivider"] = true,
-                ["showTamrielStations"] = true,
-                ["linePadding"] = -8,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 40,
-                    ["level"] = 51,
-                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
-                },
-                ["showSets"] = 
-                {
-                },
-                ["tooltipEnabled"] = true,
-            },
-            ["8796093055169929"] = 
-            {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
-                ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Miliin",
-                ["pinColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 0.7500000000,
-                    [2] = 1,
-                    [3] = 0.7500000000,
-                },
-                ["showDivider"] = true,
-                ["showTamrielStations"] = false,
-                ["linePadding"] = -8,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 40,
-                    ["level"] = 51,
-                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
-                },
-                ["showSets"] = 
-                {
-                },
-                ["tooltipEnabled"] = false,
-            },
-            ["8796093064295307"] = 
-            {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
-                ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Katya the Greatest",
-                ["pinColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 0.7500000000,
-                    [2] = 1,
-                    [3] = 0.7500000000,
-                },
-                ["showDivider"] = true,
-                ["showTamrielStations"] = true,
-                ["linePadding"] = -8,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 40,
-                    ["level"] = 51,
-                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
-                },
-                ["showSets"] = 
-                {
-                },
-                ["tooltipEnabled"] = true,
-            },
-            ["8796093064549993"] = 
-            {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
-                ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Sleeping-in-Light",
-                ["pinColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 0.7500000000,
-                    [2] = 1,
-                    [3] = 0.7500000000,
-                },
-                ["showDivider"] = true,
-                ["showTamrielStations"] = true,
-                ["linePadding"] = -8,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 40,
-                    ["level"] = 51,
-                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
-                },
-                ["showSets"] = 
-                {
-                },
-                ["tooltipEnabled"] = true,
-            },
-            ["8796093055293365"] = 
-            {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
-                ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Salnda",
-                ["pinColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 0.7500000000,
-                    [2] = 1,
-                    [3] = 0.7500000000,
-                },
-                ["showDivider"] = true,
-                ["showTamrielStations"] = true,
-                ["linePadding"] = -8,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 40,
-                    ["level"] = 51,
-                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
-                },
-                ["showSets"] = 
-                {
-                },
-                ["tooltipEnabled"] = true,
-            },
-            ["8796093050176555"] = 
-            {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
-                ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
-                ["version"] = 2,
-                ["$LastCharacterName"] = "Jodina",
-                ["pinColor"] = 
-                {
-                    [4] = 1,
-                    [1] = 0.7500000000,
-                    [2] = 1,
-                    [3] = 0.7500000000,
-                },
-                ["showDivider"] = true,
-                ["showTamrielStations"] = true,
-                ["linePadding"] = -8,
-                ["pinTexture"] = 
-                {
-                    ["size"] = 40,
-                    ["level"] = 51,
-                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
-                },
-                ["showSets"] = 
-                {
-                },
-                ["tooltipEnabled"] = true,
             },
             ["8796093054945253"] = 
             {
-                ["tooltipStyle"] = "Full",
-                ["altAlign"] = true,
-                ["showCraftingStations"] = true,
-                ["showOnlyDiscovered"] = false,
                 ["version"] = 2,
-                ["$LastCharacterName"] = "Svarella",
+                ["showDivider"] = true,
+                ["altAlign"] = true,
+                ["tooltipEnabled"] = true,
                 ["pinColor"] = 
                 {
                     [4] = 1,
@@ -251,19 +75,195 @@ CRAFTINGSTATIONS_DB =
                     [2] = 1,
                     [3] = 0.7500000000,
                 },
-                ["showDivider"] = true,
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
+                ["showSets"] = 
+                {
+                },
                 ["showTamrielStations"] = true,
-                ["linePadding"] = -8,
+                ["$LastCharacterName"] = "Svarella",
                 ["pinTexture"] = 
                 {
                     ["size"] = 40,
                     ["level"] = 51,
                     ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
                 },
+                ["linePadding"] = -8,
+                ["showCraftingStations"] = true,
+            },
+            ["8796093064295307"] = 
+            {
+                ["version"] = 2,
+                ["showDivider"] = true,
+                ["altAlign"] = true,
+                ["tooltipEnabled"] = true,
+                ["pinColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 0.7500000000,
+                    [2] = 1,
+                    [3] = 0.7500000000,
+                },
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
                 ["showSets"] = 
                 {
                 },
+                ["showTamrielStations"] = true,
+                ["$LastCharacterName"] = "Katya the Greatest",
+                ["pinTexture"] = 
+                {
+                    ["size"] = 40,
+                    ["level"] = 51,
+                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
+                },
+                ["linePadding"] = -8,
+                ["showCraftingStations"] = true,
+            },
+            ["8796093064549993"] = 
+            {
+                ["version"] = 2,
+                ["showDivider"] = true,
+                ["altAlign"] = true,
                 ["tooltipEnabled"] = true,
+                ["pinColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 0.7500000000,
+                    [2] = 1,
+                    [3] = 0.7500000000,
+                },
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
+                ["showSets"] = 
+                {
+                },
+                ["showTamrielStations"] = true,
+                ["$LastCharacterName"] = "Sleeping-in-Light",
+                ["pinTexture"] = 
+                {
+                    ["size"] = 40,
+                    ["level"] = 51,
+                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
+                },
+                ["linePadding"] = -8,
+                ["showCraftingStations"] = true,
+            },
+            ["8796093055169929"] = 
+            {
+                ["version"] = 2,
+                ["showDivider"] = true,
+                ["altAlign"] = true,
+                ["tooltipEnabled"] = false,
+                ["pinColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 0.7500000000,
+                    [2] = 1,
+                    [3] = 0.7500000000,
+                },
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
+                ["showSets"] = 
+                {
+                },
+                ["showTamrielStations"] = false,
+                ["$LastCharacterName"] = "Miliin",
+                ["pinTexture"] = 
+                {
+                    ["size"] = 40,
+                    ["level"] = 51,
+                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
+                },
+                ["linePadding"] = -8,
+                ["showCraftingStations"] = true,
+            },
+            ["8796093050176555"] = 
+            {
+                ["version"] = 2,
+                ["showDivider"] = true,
+                ["altAlign"] = true,
+                ["tooltipEnabled"] = true,
+                ["pinColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 0.7500000000,
+                    [2] = 1,
+                    [3] = 0.7500000000,
+                },
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
+                ["showSets"] = 
+                {
+                },
+                ["showTamrielStations"] = true,
+                ["$LastCharacterName"] = "Jodina",
+                ["pinTexture"] = 
+                {
+                    ["size"] = 40,
+                    ["level"] = 51,
+                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
+                },
+                ["linePadding"] = -8,
+                ["showCraftingStations"] = true,
+            },
+            ["8796093055293365"] = 
+            {
+                ["version"] = 2,
+                ["showDivider"] = true,
+                ["altAlign"] = true,
+                ["tooltipEnabled"] = true,
+                ["pinColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 0.7500000000,
+                    [2] = 1,
+                    [3] = 0.7500000000,
+                },
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
+                ["showSets"] = 
+                {
+                },
+                ["showTamrielStations"] = true,
+                ["$LastCharacterName"] = "Salnda",
+                ["pinTexture"] = 
+                {
+                    ["size"] = 40,
+                    ["level"] = 51,
+                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
+                },
+                ["linePadding"] = -8,
+                ["showCraftingStations"] = true,
+            },
+            ["8796093064405109"] = 
+            {
+                ["version"] = 2,
+                ["showDivider"] = true,
+                ["altAlign"] = true,
+                ["tooltipEnabled"] = true,
+                ["pinColor"] = 
+                {
+                    [4] = 1,
+                    [1] = 0.7500000000,
+                    [2] = 1,
+                    [3] = 0.7500000000,
+                },
+                ["tooltipStyle"] = "Full",
+                ["showOnlyDiscovered"] = false,
+                ["showSets"] = 
+                {
+                },
+                ["showTamrielStations"] = true,
+                ["$LastCharacterName"] = "Ches'Dar",
+                ["pinTexture"] = 
+                {
+                    ["size"] = 40,
+                    ["level"] = 51,
+                    ["path"] = "esoui/art/icons/poi/poi_crafting_complete.dds",
+                },
+                ["linePadding"] = -8,
+                ["showCraftingStations"] = true,
             },
         },
     },

@@ -4,58 +4,58 @@ SlightlyImprovedDialogues_SavedVars =
     {
         ["@timelord726"] = 
         {
-            ["Jodina"] = 
+            ["Miliin"] = 
             {
-                ["addNumberPrefix"] = true,
                 ["goodbyeAlwaysSeen"] = true,
+                ["addNumberPrefix"] = true,
                 ["version"] = 1,
             },
             ["Ranivora"] = 
             {
-                ["addNumberPrefix"] = true,
                 ["goodbyeAlwaysSeen"] = true,
-                ["version"] = 1,
-            },
-            ["Sleeping-in-Light"] = 
-            {
                 ["addNumberPrefix"] = true,
-                ["goodbyeAlwaysSeen"] = true,
-                ["version"] = 1,
-            },
-            ["Sirynwe"] = 
-            {
-                ["addNumberPrefix"] = true,
-                ["goodbyeAlwaysSeen"] = true,
-                ["version"] = 1,
-            },
-            ["Salnda"] = 
-            {
-                ["addNumberPrefix"] = true,
-                ["goodbyeAlwaysSeen"] = true,
-                ["version"] = 1,
-            },
-            ["Miliin"] = 
-            {
-                ["addNumberPrefix"] = true,
-                ["goodbyeAlwaysSeen"] = true,
-                ["version"] = 1,
-            },
-            ["Ches'Dar"] = 
-            {
-                ["addNumberPrefix"] = true,
-                ["goodbyeAlwaysSeen"] = true,
                 ["version"] = 1,
             },
             ["Svarella"] = 
             {
-                ["addNumberPrefix"] = true,
                 ["goodbyeAlwaysSeen"] = true,
+                ["addNumberPrefix"] = true,
+                ["version"] = 1,
+            },
+            ["Sirynwe"] = 
+            {
+                ["goodbyeAlwaysSeen"] = true,
+                ["addNumberPrefix"] = true,
                 ["version"] = 1,
             },
             ["Katya the Greatest"] = 
             {
-                ["addNumberPrefix"] = true,
                 ["goodbyeAlwaysSeen"] = true,
+                ["addNumberPrefix"] = true,
+                ["version"] = 1,
+            },
+            ["Sleeping-in-Light"] = 
+            {
+                ["goodbyeAlwaysSeen"] = true,
+                ["addNumberPrefix"] = true,
+                ["version"] = 1,
+            },
+            ["Ches'Dar"] = 
+            {
+                ["goodbyeAlwaysSeen"] = true,
+                ["addNumberPrefix"] = true,
+                ["version"] = 1,
+            },
+            ["Jodina"] = 
+            {
+                ["goodbyeAlwaysSeen"] = true,
+                ["addNumberPrefix"] = true,
+                ["version"] = 1,
+            },
+            ["Salnda"] = 
+            {
+                ["goodbyeAlwaysSeen"] = true,
+                ["addNumberPrefix"] = true,
                 ["version"] = 1,
             },
         },

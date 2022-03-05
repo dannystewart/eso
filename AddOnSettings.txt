@@ -622,8 +622,8 @@ LibWorldMapInfoTab 1
 DetailedResearchScrolls 1
 HarvestMapAD 1
 CraftStoreFixedAndImproved 1
-rChat 0
 NTakCamera 1
+rChat 0
 #NA Megaserver-Sirynwe
 CustomCompassPins 1
 AF_FCODuplicateItemsFilters 0

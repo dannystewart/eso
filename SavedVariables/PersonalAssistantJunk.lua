@@ -8,81 +8,26 @@ PersonalAssistantJunk_SavedVariables =
             {
                 [1] = 
                 {
-                    ["Weapons"] = 
-                    {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 1,
-                        ["autoMarkKnownTraits"] = true,
-                        ["autoMarkUnknownTraits"] = true,
-                        ["autoMarkOrnate"] = true,
-                    },
-                    ["Trash"] = 
-                    {
-                        ["autoMarkTrash"] = true,
-                    },
-                    ["Armor"] = 
-                    {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 1,
-                        ["autoMarkKnownTraits"] = true,
-                        ["autoMarkUnknownTraits"] = true,
-                        ["autoMarkOrnate"] = true,
-                    },
-                    ["silentMode"] = false,
-                    ["autoSellJunk"] = true,
-                    ["Miscellaneous"] = 
-                    {
-                        ["autoMarkGlyphQualityThreshold"] = 1,
-                        ["autoMarkTreasure"] = true,
-                    },
-                    ["ignoreMailboxItems"] = true,
-                    ["Collectibles"] = 
-                    {
-                        ["autoMarkSellToMerchant"] = true,
-                    },
                     ["QuestProtection"] = 
                     {
                         ["ThievesGuild"] = 
                         {
                             ["excludeTheCovetousCountess"] = false,
                         },
+                        ["ClockworkCity"] = 
+                        {
+                            ["excludeAMatterOfRespect"] = false,
+                            ["excludeAMatterOfLeisure"] = false,
+                            ["excludeNibblesAndBits"] = false,
+                            ["excludeAMatterOfTributes"] = false,
+                            ["excludeMorselsAndPecks"] = false,
+                        },
                         ["NewLifeFestival"] = 
                         {
                             ["excludeRareFish"] = false,
                         },
-                        ["ClockworkCity"] = 
-                        {
-                            ["excludeNibblesAndBits"] = false,
-                            ["excludeMorselsAndPecks"] = false,
-                            ["excludeAMatterOfTributes"] = false,
-                            ["excludeAMatterOfRespect"] = false,
-                            ["excludeAMatterOfLeisure"] = false,
-                        },
                     },
-                    ["KeyBindings"] = 
-                    {
-                        ["enableMarkUnmarkAsPermJunkKeybind"] = false,
-                        ["destroyExcludeUnknownItems"] = true,
-                        ["enableDestroyItemKeybind"] = true,
-                        ["showMarkUnmarkAsPermJunkKeybind"] = true,
-                        ["showMarkUnmarkAsJunkKeybind"] = true,
-                        ["destroyItemQualityThreshold"] = 3,
-                        ["enableMarkUnmarkAsJunkKeybind"] = true,
-                        ["showDestroyItemKeybind"] = true,
-                    },
-                    ["autoSellJunkPirharri"] = false,
                     ["name"] = "Crafter",
-                    ["AutoDestroy"] = 
-                    {
-                        ["destroyMaxQualityThreshold"] = 0,
-                        ["destroyMaxStolenQualityThreshold"] = 0,
-                        ["destroyStolenJunk"] = false,
-                        ["destroyMaxStolenValueThreshold"] = 0,
-                        ["destroyJunk"] = true,
-                        ["destroyMaxValueThreshold"] = 0,
-                    },
                     ["Custom"] = 
                     {
                         ["PAItemIds"] = 
@@ -90,110 +35,110 @@ PersonalAssistantJunk_SavedVariables =
                         },
                         ["customItemsEnabled"] = true,
                     },
-                    ["autoMarkAsJunkEnabled"] = true,
                     ["ignoreCraftedItems"] = true,
-                    ["Jewelry"] = 
+                    ["autoSellJunk"] = true,
+                    ["KeyBindings"] = 
                     {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 1,
-                        ["autoMarkKnownTraits"] = true,
-                        ["autoMarkUnknownTraits"] = true,
-                        ["autoMarkOrnate"] = true,
+                        ["destroyExcludeUnknownItems"] = true,
+                        ["enableMarkUnmarkAsPermJunkKeybind"] = false,
+                        ["enableMarkUnmarkAsJunkKeybind"] = true,
+                        ["showDestroyItemKeybind"] = true,
+                        ["destroyItemQualityThreshold"] = 3,
+                        ["enableDestroyItemKeybind"] = true,
+                        ["showMarkUnmarkAsPermJunkKeybind"] = true,
+                        ["showMarkUnmarkAsJunkKeybind"] = true,
                     },
+                    ["Weapons"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = true,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 1,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = true,
+                    },
+                    ["Trash"] = 
+                    {
+                        ["autoMarkTrash"] = true,
+                    },
+                    ["Armor"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = true,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 1,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = true,
+                    },
+                    ["autoSellJunkPirharri"] = false,
+                    ["Miscellaneous"] = 
+                    {
+                        ["autoMarkTreasure"] = true,
+                        ["autoMarkGlyphQualityThreshold"] = 1,
+                    },
+                    ["silentMode"] = false,
+                    ["Collectibles"] = 
+                    {
+                        ["autoMarkSellToMerchant"] = true,
+                    },
+                    ["ignoreMailboxItems"] = true,
                     ["Stolen"] = 
                     {
-                        ["food"] = true,
-                        ["lures"] = true,
-                        ["styleMaterials"] = true,
-                        ["apparels"] = true,
+                        ["trash"] = true,
                         ["drinks"] = true,
-                        ["ingredients"] = true,
                         ["jewelries"] = true,
                         ["weapons"] = true,
                         ["solvents"] = true,
+                        ["ingredients"] = true,
                         ["traitItems"] = true,
-                        ["trash"] = true,
+                        ["lures"] = true,
+                        ["apparels"] = true,
                         ["treasures"] = true,
+                        ["food"] = true,
+                        ["styleMaterials"] = true,
+                    },
+                    ["Jewelry"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = true,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 1,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = true,
+                    },
+                    ["autoMarkAsJunkEnabled"] = true,
+                    ["AutoDestroy"] = 
+                    {
+                        ["destroyMaxQualityThreshold"] = 0,
+                        ["destroyMaxStolenValueThreshold"] = 0,
+                        ["destroyJunk"] = true,
+                        ["destroyMaxValueThreshold"] = 0,
+                        ["destroyStolenJunk"] = false,
+                        ["destroyMaxStolenQualityThreshold"] = 0,
                     },
                 },
                 [2] = 
                 {
-                    ["Weapons"] = 
-                    {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 2,
-                        ["autoMarkKnownTraits"] = false,
-                        ["autoMarkUnknownTraits"] = false,
-                        ["autoMarkOrnate"] = true,
-                    },
-                    ["Trash"] = 
-                    {
-                        ["autoMarkTrash"] = true,
-                    },
-                    ["Armor"] = 
-                    {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 2,
-                        ["autoMarkKnownTraits"] = false,
-                        ["autoMarkUnknownTraits"] = false,
-                        ["autoMarkOrnate"] = true,
-                    },
-                    ["silentMode"] = false,
-                    ["autoSellJunk"] = true,
-                    ["Miscellaneous"] = 
-                    {
-                        ["autoMarkGlyphQualityThreshold"] = 1,
-                        ["autoMarkTreasure"] = true,
-                    },
-                    ["ignoreMailboxItems"] = true,
-                    ["Collectibles"] = 
-                    {
-                        ["autoMarkSellToMerchant"] = true,
-                    },
                     ["QuestProtection"] = 
                     {
                         ["ThievesGuild"] = 
                         {
                             ["excludeTheCovetousCountess"] = false,
                         },
+                        ["ClockworkCity"] = 
+                        {
+                            ["excludeAMatterOfRespect"] = false,
+                            ["excludeAMatterOfLeisure"] = false,
+                            ["excludeNibblesAndBits"] = false,
+                            ["excludeAMatterOfTributes"] = false,
+                            ["excludeMorselsAndPecks"] = false,
+                        },
                         ["NewLifeFestival"] = 
                         {
                             ["excludeRareFish"] = false,
                         },
-                        ["ClockworkCity"] = 
-                        {
-                            ["excludeNibblesAndBits"] = false,
-                            ["excludeMorselsAndPecks"] = false,
-                            ["excludeAMatterOfTributes"] = false,
-                            ["excludeAMatterOfRespect"] = false,
-                            ["excludeAMatterOfLeisure"] = false,
-                        },
                     },
-                    ["KeyBindings"] = 
-                    {
-                        ["enableMarkUnmarkAsPermJunkKeybind"] = false,
-                        ["destroyExcludeUnknownItems"] = false,
-                        ["enableDestroyItemKeybind"] = true,
-                        ["showMarkUnmarkAsPermJunkKeybind"] = true,
-                        ["showMarkUnmarkAsJunkKeybind"] = true,
-                        ["destroyItemQualityThreshold"] = 99,
-                        ["enableMarkUnmarkAsJunkKeybind"] = true,
-                        ["showDestroyItemKeybind"] = false,
-                    },
-                    ["autoSellJunkPirharri"] = false,
                     ["name"] = "Primary Default",
-                    ["AutoDestroy"] = 
-                    {
-                        ["destroyMaxQualityThreshold"] = 0,
-                        ["destroyMaxStolenQualityThreshold"] = 0,
-                        ["destroyStolenJunk"] = false,
-                        ["destroyMaxStolenValueThreshold"] = 0,
-                        ["destroyJunk"] = false,
-                        ["destroyMaxValueThreshold"] = 0,
-                    },
                     ["Custom"] = 
                     {
                         ["PAItemIds"] = 
@@ -201,110 +146,110 @@ PersonalAssistantJunk_SavedVariables =
                         },
                         ["customItemsEnabled"] = true,
                     },
-                    ["autoMarkAsJunkEnabled"] = true,
                     ["ignoreCraftedItems"] = true,
-                    ["Jewelry"] = 
+                    ["autoSellJunk"] = true,
+                    ["KeyBindings"] = 
                     {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 2,
-                        ["autoMarkKnownTraits"] = false,
-                        ["autoMarkUnknownTraits"] = false,
-                        ["autoMarkOrnate"] = true,
+                        ["destroyExcludeUnknownItems"] = false,
+                        ["enableMarkUnmarkAsPermJunkKeybind"] = false,
+                        ["enableMarkUnmarkAsJunkKeybind"] = true,
+                        ["showDestroyItemKeybind"] = false,
+                        ["destroyItemQualityThreshold"] = 99,
+                        ["enableDestroyItemKeybind"] = true,
+                        ["showMarkUnmarkAsPermJunkKeybind"] = true,
+                        ["showMarkUnmarkAsJunkKeybind"] = true,
                     },
+                    ["Weapons"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = false,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 2,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = false,
+                    },
+                    ["Trash"] = 
+                    {
+                        ["autoMarkTrash"] = true,
+                    },
+                    ["Armor"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = false,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 2,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = false,
+                    },
+                    ["autoSellJunkPirharri"] = false,
+                    ["Miscellaneous"] = 
+                    {
+                        ["autoMarkTreasure"] = true,
+                        ["autoMarkGlyphQualityThreshold"] = 1,
+                    },
+                    ["silentMode"] = false,
+                    ["Collectibles"] = 
+                    {
+                        ["autoMarkSellToMerchant"] = true,
+                    },
+                    ["ignoreMailboxItems"] = true,
                     ["Stolen"] = 
                     {
-                        ["food"] = true,
-                        ["lures"] = true,
-                        ["styleMaterials"] = true,
-                        ["apparels"] = true,
+                        ["trash"] = false,
                         ["drinks"] = true,
-                        ["ingredients"] = true,
                         ["jewelries"] = true,
                         ["weapons"] = true,
                         ["solvents"] = false,
+                        ["ingredients"] = true,
                         ["traitItems"] = true,
-                        ["trash"] = false,
+                        ["lures"] = true,
+                        ["apparels"] = true,
                         ["treasures"] = true,
+                        ["food"] = true,
+                        ["styleMaterials"] = true,
+                    },
+                    ["Jewelry"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = false,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 2,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = false,
+                    },
+                    ["autoMarkAsJunkEnabled"] = true,
+                    ["AutoDestroy"] = 
+                    {
+                        ["destroyMaxQualityThreshold"] = 0,
+                        ["destroyMaxStolenValueThreshold"] = 0,
+                        ["destroyJunk"] = false,
+                        ["destroyMaxValueThreshold"] = 0,
+                        ["destroyStolenJunk"] = false,
+                        ["destroyMaxStolenQualityThreshold"] = 0,
                     },
                 },
                 [11] = 
                 {
-                    ["Weapons"] = 
-                    {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 1,
-                        ["autoMarkKnownTraits"] = true,
-                        ["autoMarkUnknownTraits"] = true,
-                        ["autoMarkOrnate"] = true,
-                    },
-                    ["Trash"] = 
-                    {
-                        ["autoMarkTrash"] = true,
-                    },
-                    ["Armor"] = 
-                    {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 1,
-                        ["autoMarkKnownTraits"] = true,
-                        ["autoMarkUnknownTraits"] = true,
-                        ["autoMarkOrnate"] = true,
-                    },
-                    ["silentMode"] = false,
-                    ["autoSellJunk"] = true,
-                    ["Miscellaneous"] = 
-                    {
-                        ["autoMarkGlyphQualityThreshold"] = 1,
-                        ["autoMarkTreasure"] = true,
-                    },
-                    ["ignoreMailboxItems"] = true,
-                    ["Collectibles"] = 
-                    {
-                        ["autoMarkSellToMerchant"] = true,
-                    },
                     ["QuestProtection"] = 
                     {
                         ["ThievesGuild"] = 
                         {
                             ["excludeTheCovetousCountess"] = false,
                         },
+                        ["ClockworkCity"] = 
+                        {
+                            ["excludeAMatterOfRespect"] = false,
+                            ["excludeAMatterOfLeisure"] = false,
+                            ["excludeNibblesAndBits"] = false,
+                            ["excludeAMatterOfTributes"] = false,
+                            ["excludeMorselsAndPecks"] = false,
+                        },
                         ["NewLifeFestival"] = 
                         {
                             ["excludeRareFish"] = false,
                         },
-                        ["ClockworkCity"] = 
-                        {
-                            ["excludeNibblesAndBits"] = false,
-                            ["excludeMorselsAndPecks"] = false,
-                            ["excludeAMatterOfTributes"] = false,
-                            ["excludeAMatterOfRespect"] = false,
-                            ["excludeAMatterOfLeisure"] = false,
-                        },
                     },
-                    ["KeyBindings"] = 
-                    {
-                        ["enableMarkUnmarkAsPermJunkKeybind"] = false,
-                        ["destroyExcludeUnknownItems"] = true,
-                        ["enableDestroyItemKeybind"] = true,
-                        ["showMarkUnmarkAsPermJunkKeybind"] = true,
-                        ["showMarkUnmarkAsJunkKeybind"] = true,
-                        ["destroyItemQualityThreshold"] = 3,
-                        ["enableMarkUnmarkAsJunkKeybind"] = true,
-                        ["showDestroyItemKeybind"] = false,
-                    },
-                    ["autoSellJunkPirharri"] = false,
                     ["name"] = "Jodina",
-                    ["AutoDestroy"] = 
-                    {
-                        ["destroyMaxQualityThreshold"] = 0,
-                        ["destroyMaxStolenQualityThreshold"] = 0,
-                        ["destroyStolenJunk"] = false,
-                        ["destroyMaxStolenValueThreshold"] = 0,
-                        ["destroyJunk"] = true,
-                        ["destroyMaxValueThreshold"] = 0,
-                    },
                     ["Custom"] = 
                     {
                         ["PAItemIds"] = 
@@ -312,36 +257,91 @@ PersonalAssistantJunk_SavedVariables =
                         },
                         ["customItemsEnabled"] = true,
                     },
-                    ["autoMarkAsJunkEnabled"] = true,
                     ["ignoreCraftedItems"] = true,
-                    ["Jewelry"] = 
+                    ["autoSellJunk"] = true,
+                    ["KeyBindings"] = 
                     {
-                        ["autoMarkIncludingSets"] = false,
-                        ["autoMarkIntricateTrait"] = false,
-                        ["autoMarkQualityThreshold"] = 1,
-                        ["autoMarkKnownTraits"] = true,
-                        ["autoMarkUnknownTraits"] = true,
-                        ["autoMarkOrnate"] = true,
+                        ["destroyExcludeUnknownItems"] = true,
+                        ["enableMarkUnmarkAsPermJunkKeybind"] = false,
+                        ["enableMarkUnmarkAsJunkKeybind"] = true,
+                        ["showDestroyItemKeybind"] = false,
+                        ["destroyItemQualityThreshold"] = 3,
+                        ["enableDestroyItemKeybind"] = true,
+                        ["showMarkUnmarkAsPermJunkKeybind"] = true,
+                        ["showMarkUnmarkAsJunkKeybind"] = true,
                     },
+                    ["Weapons"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = true,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 1,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = true,
+                    },
+                    ["Trash"] = 
+                    {
+                        ["autoMarkTrash"] = true,
+                    },
+                    ["Armor"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = true,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 1,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = true,
+                    },
+                    ["autoSellJunkPirharri"] = false,
+                    ["Miscellaneous"] = 
+                    {
+                        ["autoMarkTreasure"] = true,
+                        ["autoMarkGlyphQualityThreshold"] = 1,
+                    },
+                    ["silentMode"] = false,
+                    ["Collectibles"] = 
+                    {
+                        ["autoMarkSellToMerchant"] = true,
+                    },
+                    ["ignoreMailboxItems"] = true,
                     ["Stolen"] = 
                     {
-                        ["food"] = true,
-                        ["lures"] = true,
-                        ["styleMaterials"] = true,
-                        ["apparels"] = true,
+                        ["trash"] = true,
                         ["drinks"] = true,
-                        ["ingredients"] = true,
                         ["jewelries"] = true,
                         ["weapons"] = true,
                         ["solvents"] = true,
+                        ["ingredients"] = true,
                         ["traitItems"] = true,
-                        ["trash"] = true,
+                        ["lures"] = true,
+                        ["apparels"] = true,
                         ["treasures"] = true,
+                        ["food"] = true,
+                        ["styleMaterials"] = true,
+                    },
+                    ["Jewelry"] = 
+                    {
+                        ["autoMarkIntricateTrait"] = false,
+                        ["autoMarkUnknownTraits"] = true,
+                        ["autoMarkIncludingSets"] = false,
+                        ["autoMarkQualityThreshold"] = 1,
+                        ["autoMarkOrnate"] = true,
+                        ["autoMarkKnownTraits"] = true,
+                    },
+                    ["autoMarkAsJunkEnabled"] = true,
+                    ["AutoDestroy"] = 
+                    {
+                        ["destroyMaxQualityThreshold"] = 0,
+                        ["destroyMaxStolenValueThreshold"] = 0,
+                        ["destroyJunk"] = true,
+                        ["destroyMaxValueThreshold"] = 0,
+                        ["destroyStolenJunk"] = false,
+                        ["destroyMaxStolenQualityThreshold"] = 0,
                     },
                 },
-                ["savedVarsVersion"] = 20511,
-                ["version"] = 2,
                 ["profileCounter"] = 11,
+                ["version"] = 2,
+                ["savedVarsVersion"] = 20511,
             },
         },
     },

@@ -2,14 +2,19 @@ ZO_Pregame_SavedVariables =
 {
     ["Default"] = 
     {
-        ["@BORIZMAN"] = 
+        ["@timelord726"] = 
         {
             ["$AccountWide"] = 
             {
+                ["CharacterSelect_Manager"] = 
+                {
+                    ["version"] = 1,
+                    ["eventBannerLastSeenTimestamp"] = 1645473387,
+                },
                 ["ChapterUpgrade"] = 
                 {
-                    ["chapterUpgradeSeenVersion"] = 0,
                     ["version"] = 1,
+                    ["chapterUpgradeSeenVersion"] = 5,
                 },
             },
         },
@@ -19,24 +24,19 @@ ZO_Pregame_SavedVariables =
             {
                 ["ChapterUpgrade"] = 
                 {
-                    ["chapterUpgradeSeenVersion"] = 0,
                     ["version"] = 1,
+                    ["chapterUpgradeSeenVersion"] = 0,
                 },
             },
         },
-        ["@timelord726"] = 
+        ["@BORIZMAN"] = 
         {
             ["$AccountWide"] = 
             {
-                ["CharacterSelect_Manager"] = 
-                {
-                    ["eventBannerLastSeenTimestamp"] = 1645473387,
-                    ["version"] = 1,
-                },
                 ["ChapterUpgrade"] = 
                 {
-                    ["chapterUpgradeSeenVersion"] = 5,
                     ["version"] = 1,
+                    ["chapterUpgradeSeenVersion"] = 0,
                 },
             },
         },
